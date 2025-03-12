@@ -1,0 +1,790 @@
+﻿## ~eawnt_TEU_overrides_l_english.yml
+## Technology, Equipment, and Unit english string overrides.
+## Apologies for how messy it is.
+
+l_english:
+  #region INFANTRY TECH ##
+  # Titles #
+  INFANTRY_TITLE_WEAPONS:0 "INFANTRY WEAPONS"
+    INFANTRY_TITLE_WEAPONS_TT:0 "Standard issue weapons for the average soldier."
+  INFANTRY_TITLE_MOTORISED:1 "INFANTRY VEHICLES"
+    INFANTRY_TITLE_MOTORISED_TT:0 "Lightly-armored vehicles designed to transport or provide support for our soldiers."
+  INFANTRY_TITLE_SPECIAL:0 "SPECIAL FORCES"
+    INFANTRY_TITLE_SPECIAL_TT:0 "Specialized infantry trained to exploit specific weaknesses in our enemy's defenses."
+
+  ## ANTI-AIR / ANTI-TANK ##
+
+  ## INFANTRY GEAR ##
+  # Infantry Uniforms #
+  infantry_acclimatization:0 "989 Infantry Uniform"
+    infantry_acclimatization_desc:0 "As various empires industrialised in the 10th century, standardized uniforms were adopted to replace the antiquated systems of emblem embroidery on surcoats. This aids in troop identification, along with streamlining the production process."
+  infantry_comms:0 "Distributed Recon & Signals"
+    infantry_comms_desc:0 "With each platoon and vehicle crew having someone carrying binoculars, and another a two-way radio, the entire army can report in and ensure rapid communication."
+
+  # Night Vision #
+  night_vision:0 "Experimental Night Vision"
+  night_vision2:0 "Improved Night Vision"
+
+  ## INFANTRY VEHICLES ##
+  # Motorized #
+  motorized_equipment_0: "989 Truck"
+    motorized_equipment_0_desc:1 "Invented in the later half of the 10th century, trucks began mass production in Equestria and Skyfall and soon spread to the rest of the developed world as many empires industrialised. Evolving militaries would then begin to adopt and use trucks in logistical roles."
+  motorized_equipment_1:1 "1007 Truck"
+  motorized_rocket_equipment_1:0 "1010 Motorized Rocket Artillery"
+  motorized_equipment_2:0 "1014 Truck"
+    motorized_equipment_2_desc:0 "Recent truck models were developed with modularity in mind, as trucks were being increasingly used for specialized roles such as ambulances, signal outposts, and mobile repair bases."
+  motorized_equipment_3:0 "1021 Truck"
+    motorized_equipment_3_desc:0 "A new, stronger engine coupled with an improved suspension system allow our trucks to transport more troops, haul heavier equipment, and travel further off road without getting stuck."
+
+  # Mechanized #
+  mechanized_equipment_1:0 "1010 Mechanized"
+    mechanized_equipment_1_short:0 "1010 Mechanized"
+  mechanized_equipment_2:0 "1012 Mechanized"
+    mechanized_equipment_2_short:0 "1012 Mechanized"
+    mechanized_equipment_2_desc:0 "Initial mechanised infantry sections utilised a myriad of designs such as up-armored wheeled trucks or dedicated tracked vehicles meant to protect their occupants from small arms fire. The halftrack design is something of a compromise between tracked and wheeled vehicles, meant to combine the versatility of the former and the speed of the latter. Field experience also influenced these halftracks to offer more means of self-defense, from the inclusion of mounted machineguns to gun ports for the passengers to fire out from."
+  mechanized_equipment_3:0 "1016 Mechanized"
+    mechanized_equipment_3_short:0 "1016 Mechanized"
+    mechanized_equipment_3_desc:0 "A continuation of existing halftrack designs, these advanced halftracks have been improved with new engines and better protection schemes. Though some believe that the halftrack might be a deadend in terms of infantry personnel carriers, we have done everything to make these new halftrack designs to be the pinnacle of this line of thought."
+  mechanized_equipment_x:0 "1020 Armored Personnel Carrier"
+    mechanized_equipment_x_short:0 "1020 APC"
+    mechanized_equipment_x_desc:0 "As engines grow more powerful and infantry protection gets more effective, nations diverge from established mechanised half-track design and specialize in new designs that are either fully tracked or fully wheeled. These armored personnel carriers carry over the protection of earlier mechanised vehicles while improving in speed and capacity."
+  motorized_rocket_equipment_2:0 "1020 Motorized Rocket Artillery"
+  mechanized_equipment_x_2:0 "1026 Armored Personnel Carrier"
+    mechanized_equipment_x_2_short:0 "1026 APC"
+    mechanized_equipment_x_2_desc:0 "Continued development of the APC concept has led to new designs with mounted turrets capable of supporting infantry after they have dismounted. While lighter than the weaponry seen on AFVs or armored cars, APCs themselves can now provide fire support."
+    # mechanized_equipment_x_2_desc:0 "Significantly different from regular APCs, IFVs are specifically designed to act as a specialised weapons platform intended to provide similar firepower of a heavier combat vehicle. It achieves this with sacrificing some of its passenger capacity and by mounting a turreted heavy weapon, such as a light auto-cannon or a smaller calibre gun. This makes IFVs more suitable for urban combat than tanks, and could possibly revolutionise mechanised warfare."
+
+  # Armored Cars #
+  armored_car1:0 "Armoured Patrol Vehicles"
+    armored_car1_desc:0 "We can retrofit existing patrol vehicles with armour plates and mounted weapons to serve as inexpensive armoured support for our rear-line garrison forces."
+  armored_car2:0 "Dedicated Armoured Cars"
+    armored_car2_desc:0 "Purpose-built armoured cars can be added to our garrison forces to deter certain actions against our forces. Furthermore, armoured cars can be integrated into our mechanized divisions to bring heavy fire support to our dismounted soldiers."
+  armored_car3:0 "Role Specialization"
+    armored_car3_desc:0 "Armoured cars exist in a doctrinal grey area. By designing models around specific tasks such as garrison support, reconnaissance, communication, and fire support, we can further increase the effectiveness of armoured cars."
+  armored_car4:0 "Early IFV Prototypes"
+    armored_car4_desc:0 "Although their role as rear-line support and reconnaissance vehicles is indispensable, front-line armoured cars must be evolved to stay competitive on the battlefield. Testing of the infantry fighting vehicle concept has led to the development of a new generation of armoured vehicles."
+
+  ## INFANTRY WEAPONS ##
+  # Weapons #
+  melee_equipment_0:0 "Medieval Weapons"
+    #Unsure if "Medieval" is really applicable as the Middle Ages mayn't have occurred in the EaW timeline, but its probably the best descriptor for pre-industrial melee weaponry (without saying pre-industrial melee weaponry).
+    melee_equipment_0_short:0 "Medieval Weapons"
+  melee_equipment_1:0 "Muzzle-Loaded Gun"
+    melee_equipment_1_short:0 "Muzzle-Loaded Gun"
+  infantry_equipment_0:0 "Breech-Loaded Rifle"
+    infantry_equipment_0_short:0 "Breech-Loaded Rifle"
+    infantry_equipment_0_desc:0 "Muskets of old have been largely replaced by breech-loaded, rifled firearms. These rifles use smokeless powder and can be reloaded quickly and fired with higher accuracy, increasing our soldiers' effectiveness drastically."
+  infantry_equipment_1:0 "Bolt-Action Rifle"
+    infantry_equipment_1_short:0 "Bolt-Action Rifle"
+    infantry_equipment_1_desc:0 "Bolt-action rifles are replacing older breech-loaded designs thanks to improvements in accuracy and fire rate. Additionally, bullet magazines have been developed to decrease reload times and protect bullets while not in use."
+  infantry_equipment_2:0 "Submachine Gun"
+    infantry_equipment_2_short:0 "Submachine Gun"
+    infantry_equipment_2_desc:0 "Machine guns proved to be powerful weapons but lack mobility. However, submachine guns allow soldiers to maintain high rates of fire even on the move. Newer designs make these firearms particularly effective in close-quarters combat."
+  infantry_equipment_3:0 "Battle Rifle"
+    infantry_equipment_3_short:0 "Battle Rifle"
+    infantry_equipment_3_desc:0 "Battle rifles are specially designed to improve soldiers' firepower by utilising either semi-automatic or fully automatic fire modes. As such, battle rifles combine the stopping power and range of previous service rifles with the close-quarters efficacy of submachine guns."
+  infantry_equipment_x:0 "Assault Rifle"
+    infantry_equipment_x_short:0 "Assault Rifle"
+  infantry_equipment_x_2:0 "Automatic Rifle"
+    infantry_equipment_x_2_short:0 "Automatic Rifle"
+
+  magical_equipment_1:0 "Magical Rifle"
+    magical_equipment_1_short:0 "Magical Rifle"
+  magical_equipment_2:0 "Automatic Magic Rifle"
+    magical_equipment_2_short:0 "Auto-Magic Rifle"
+  magical_equipment_3:0 "Magic Light Machine Gun"
+    magical_equipment_3_short:0 "Magic LMG"
+  magical_equipment_4:0 "Magic Squad Automatic Weapon"
+    magical_equipment_4_short:0 "Magic SAW"
+
+  # Upgrades #
+  infantry_weapons2:0 "Ancillary Infantry Weaponry"
+    infantry_weapons2_desc:0 "Non-standard sidearms have already been in use within our armed forces. By developing a set of standardized ancillary weapons, we can increase our soldiers' effectiveness drastically. This includes weapons such as pistols, revolvers, and combat knives."
+  improved_infantry_weapons_2:0 "Specialized Grenades I"
+    improved_infantry_weapons_2_desc:0 "We can introduce specialized grenades capable of unique effects such as exploding on impact, generating a cloud of smoke, or stunning anything in a small range to supplement our standard infantry grenades. Additionally, anti-tank grenades can be deployed to units that lack more robust anti-tank options."
+  advanced_infantry_weapons2:0 "Ammunition Improvements I"
+    advanced_infantry_weapons2_desc:0 "The latest production techniques and material science innovations have led to new designs for bullet casings, artillery shells, and more. These advancements increase ammunition reliability and reduce the chances of misfiring."
+  advanced_infantry_weapons_a:0 "Advanced Landmines"
+    advanced_infantry_weapons_a_desc:0 "Ensuring our landmines are built with the least amount of metals possible is paramount in slowing minefield clearing. It is also possible to integrate anti-handling devices to larger anti-tank landmines to disable valuable bomb disposal personnel."
+  advanced_infantry_weapons_c:0 "Specialized Grenades II"
+    advanced_infantry_weapons_c_desc:0 "Field experience has shown the need to differentiate standard infantry grenades into offensive and defensive types, the former relying on a shorter-range concussive effect to kill while the latter relies upon shrapnel generation. Offensive grenades are used when advancing to avoid collateral damage to neutral or friendly forces. New types of grenades such as the incendiary grenade have also been developed."
+  advanced_infantry_weapons_d:0 "Ancillary Weapon Modernisation"
+    advanced_infantry_weapons_d_desc:0 "Our rapidly developing weapons program has put the effectiveness of our existing sidearms into question. Modernising our sidearms through extensive modification or through the development of entirely new platforms will improve the combat effectiveness of our soldiers."
+
+  ## SUPPORT WEAPONS ##
+  support_weapons:0 "Heavy Infantry Weapons I"
+    support_weapons_desc:0 "Heavy machine guns (HMGs) and mortars were developed as intermediaries between infantry small arms and towed artillery systems. They bring the firepower of artillery to the frontline and are capable of keeping up with infantry movements to a limited extent."
+  support_weapons2:0 "Specialized Small Arms I"
+    support_weapons2_desc:0 "Non-standard weapons such as shotguns and sniper rifles can be adapted for use in specialized combat roles such as close-quarter battles and long-range engagements where our standard infantry weapons may not perform as well."
+  support_weapons3:0 "Flamethrowers"
+    support_weapons3_desc:0 "Fire has been used as a weapon by dragons for ages. We can put this power into the hands of our soldiers by constructing a specialized flame-throwing weapon that can project a controllable jet of fire. Although highly vulnerable themselves, flamethrowers will become feared on the battlefield just as dragons once were."
+  support_weapons4:0 "Heavy Infantry Weapons II"
+    support_weapons4_desc:0 "Newer HMGs are designed around air cooling rather than bulky water-cooled systems, and are capable of barrel replacements once a high enough temperature is reached. Improved mortar base plate construction and materials allow for better recoil mitigation and lighter weight."
+  support_weapons_a:0 "Specialized Small Arms II"
+    support_weapons_a_desc:0 "Additional specialized ammo types for shotguns can provide more options to operators depending on the scenario, such as slug, flechette, and explosive rounds. Developing adjustable, long-range scopes for sniper rifles will give our snipers an advantage in accuracy."
+  support_weapons_b:0 "Grenade Launchers"
+    support_weapons_b_desc:0 "Previously, rifles acted as makeshift grenade launchers through the use of specialized rifle grenades. By creating a dedicated grenade launcher, we can develop and field new types of grenades that couldn't be used with rifle-launched systems."
+  support_weapons_c:0 "High-Power Crystal Rifles"
+    support_weapons_c_desc:0 "High-power crystal rifles are experimental magical rifles that are capable of penetrating thick, hard materials such as concrete and steel. This is accomplished by discharging entire crystals with every shot. Although wasteful, and cumbersome to reload, it functions as an anti-everything rifle through sheer firepower alone."
+  support_weapons_d:0 "Heavy Infantry Weapons III"
+    support_weapons_d_desc:0 "Further development of HMGs has led to the adoption of larger calibers and refined barrel replacement methods, along with improved belt-feeding systems and ammunition containers. Advanced sights and range adjustment systems have been fitted to existing mortars to improve accuracy among gunners."
+  support_weapons_e:0 "Specialized Small Arms III"
+    support_weapons_e_desc:0 "Semi-automatic shotguns and sniper rifles have been fielded in small numbers to test their efficacy as opposed to traditional pump-action and bolt-action designs. Current evidence shows that a shotgun capable of switching between semi-automatic and pump-action will be necessary as certain types of ammunition lack the power to cycle in semi-automatic mode."
+  support_weapons_f:0 "Molten Crystal Projectors"
+    support_weapons_f_desc:0 "A flamethrower variant, molten crystal projectors (MCPs) store liquid, energized crystals by heavily compressing them within a specialized container. When released, the molten crystal will begin to rapidly cool and lose capacity. At a certain point the crystal will lose capacity faster than it can passively discharge magic, causing it to violently explode."
+  support_weapons_g:0 "General-Purpose Machine Guns"
+    support_weapons_g_desc:0 "General-purpose machine guns (GPMGs) complement HMGs in that they are lighter and can be more easily carried by troops into combat, allowing time for HMGs to move up. They feature similar design and construction, such as air cooling and replacable barrels, and can be adapted for belt-fed ammunition or magazines."
+  support_weapons_h:0 "Crystal Pulse Lasers"
+    support_weapons_h_desc:0 "A derivative of the Spellray cannon concept, crystal pulse lasers (CPLs) project thin beams of magic that are rapidly oscillated on and off. This maintains the effectiveness of Spellrays while conserving the limited power of infantry-carried crystal batteries, allowing for a weapon capable of melting through anything with sufficient time."
+
+  #endregion INFANTRY TECH ##
+
+  #region SUPPORT TECH ##
+  # Titles #
+  SUPPORT_TITLE_TRAINS:0 "LOCOMOTIVES"
+    SUPPORT_TITLE_TRAINS_TT:0 "Large machines capable of traversing our vast railway networks."
+
+  ## HELICOPTERS ##
+  scout_helicopter_equipment_1:0 "1017 Scout Helicopter"
+    scout_helicopter_equipment_1_short:0 "1017 Scout Heli"
+    scout_helicopter_equipment_1_desc:0 "Traditional aerial observation was either conducted by flight-capable troops or through the use of costly planes and vulnerable blimps. The first helicopters developed were found to be more effective than earlier methods, and were quickly adopted for divisional reconnaissance."
+  scout_helicopter_equipment_2:0 "1025 Scout Helicopter"
+    scout_helicopter_equipment_2_short:0 "1025 Scout Heli"
+    scout_helicopter_equipment_2_desc:0 "Lighter-weight composite materials and new turbofan engines have led to the development of hyper-agile scout helicopters with integrated RADAR systems for maximized reconnaissance and minimized visibility."
+  transport_helicopter_equipment_1:0 "1018 Transport Helicopter"
+    transport_helicopter_equipment_1_short:0 "1018 Transport Heli"
+    transport_helicopter_equipment_1_desc:0 "Upsizing early helicopter models and introducing internal storage space would lead to the development of helicopters dedicated to the transportation of soldiers and supplies."
+  transport_helicopter_equipment_2:0 "1025 Transport Helicopter"
+    transport_helicopter_equipment_2_short:0 "1025 Transport Heli"
+    transport_helicopter_equipment_2_desc:0 "Powerful turbofan engines enable larger designs with more space for soldiers and cargo. Along with this, more armor and dedicated weapon hardpoints can be added to improve survivability and allow transport helicopters to provide limited fire support for landed troops."
+  attack_helicopter_equipment_1:0 "1021 Attack Helicopter"
+    attack_helicopter_equipment_1_short:0 "1021 Attack Heli"
+    attack_helicopter_equipment_1_desc:0 "A purpose-built attack helicopter developed after experiments with armed scout and transport helicopter models proved successful. These machines bring the firepower of close-air-support aircraft to individual divisions."
+
+  ## TRAINS ##
+  train_equipment_1:0 "989 Locomotive"
+    train_equipment_1_desc:0 "Taken over by the military from regular civilian freight duty, this train engine is well-suited to move a large amount of supplies over long distances. However, its civilian construction makes it vulnerable."
+  train_equipment_2:0 "War Austerity Train"
+    train_equipment_2_desc:0 "A simplified design that omits many features commonly found on regular freight trains for the sake of cheaper production. It is still every bit as vulnerable as a regular train, but can more easily be replaced."
+  civ_train_equipment_2:0 "1016 Locomotive"
+    civ_train_equipment_2_desc:0 "Improved steam engines coupled with aerodynamic hull designs has led to a figurative arms race in train development to see how fast a locomotive can be designed to go."
+  civ_train_equipment_3:0 "1028 Locomotive"
+    civ_train_equipment_3_desc:0 "The adoption and standardization of diesel-electric locomotives has led to cost reductions across the board due to their cheaper manufacturing and maintenance compared to older steam engine designs. Diesel-electric locomotives can also be operated efficiently by a single person, and worked in multiple to allow for multiple locomotives to chain together."
+
+  train_equipment_3:0 "1010 Armored Train"
+    train_equipment_3_desc:0 "A train engine encased in heavy armor to make it less vulnerable to enemy attack. It can carry as much cargo as any other design, but is more expensive to produce."
+  train_equipment_4:0 "1019 Armored Train"
+    train_equipment_4_desc:0 "Specialized train cars dedicated to anti-air, anti-tank, and anti-personnel duties ensure that this train stays protected from all possible threats. Improvements to the braking system allow it to stop at a moment's notice, deterring potential ambushers."
+
+  tactical_missile_system:0 "Tactical Missile System"
+    tactical_missile_system_desc:0 "Mounting short-range missiles on specialized train cars allows for an increase in range and firepower over traditional railway guns. Additionally, they can be disguised as civilian trains to reduce chances of interception from enemy aircraft."
+  railway_gun_equipment_2:0 "Tactical Missile System"
+    railway_gun_equipment_2_desc:0 "Mounting a few short-range missiles on a railway cart allows for increased firepower and accuracy, a drastic improvement over the traditional railway guns."
+  #endregion SUPPORT TECH ##
+
+  #region LEGACY ARMOUR TECH ##
+  modern_tank_chassis_2_short:0 "1022 MBT"
+  modern_tank_chassis_3_short:0 "1028 MBT"
+  #endregion LEGACY ARMOUR TECH ##
+
+  #region NSB ARMOUR TECH ##
+  # Titles #
+  ARMOUR_TITLE_LIGHT:0 "LIGHT"
+    ARMOUR_TITLE_LIGHT_TT:0 "Small tanks that emphasize speed and manueverability."
+  ARMOUR_TITLE_MEDIUM:0 "MEDIUM"
+    ARMOUR_TITLE_MEDIUM_TT:0 "Tanks that compromise between the speed of light tanks and the protection of heavy tanks."
+  ARMOUR_TITLE_HEAVY:0 "HEAVY"
+    ARMOUR_TITLE_HEAVY_TT:0 "Large tanks that pack heavy armor and big guns."
+
+  ## MODULES ##
+  tank_light_one_man_tank_turret:0 "Light 1-Pony Turret"
+  tank_light_two_man_tank_turret:0 "Light 2-Pony Turret"
+  tank_light_three_man_tank_turret:0 "Light 3-Pony Turret"
+  tank_medium_one_man_tank_turret:0 "Medium 1-Pony Turret"
+  tank_medium_two_man_tank_turret:0 "Medium 2-Pony Turret"
+  tank_medium_three_man_tank_turret:0 "Medium 3-Pony Turret"
+  tank_heavy_two_man_tank_turret:0 "Heavy 2-Pony Turret"
+  tank_heavy_three_man_tank_turret:0 "Heavy 3-Pony Turret"
+  tank_super_heavy_three_man_tank_turret:0 "Super-Heavy 3-Pony Turret"
+  tank_super_heavy_four_man_tank_turret:0 "Super-Heavy 4-Pony Turret"
+  tank_modern_tank_turret:0 "MBT 3-Pony Turret"
+  tank_modern_fixed_superstructure_turret:0 "MBT Fixed Superstructure"
+
+  oscillating_turret:0 "Oscillating Turret"
+  oscillating_turret_desc:0 "Oscillating turrets separate the top half of the turret from the main hull, allowing it to traverse up and down freely. This keeps the gun in place, removing the need for additional gun traversal room and allowing us to easily implement an autoloader and remove the tank's loader. Unfortunately, this comes at the cost of reduced armor due to the fragility of the turret elevation mechanism."
+
+  ## EAW TANKS ##
+  # LIGHT #
+  light_tank_chassis_0:0 "989 Light Tank"
+      light_tank_chassis_0_short:0 "989 Light"
+    light_tank_flame_chassis_0:0 "989 Light Flame Tank"
+    light_tank_amphibious_chassis_0:0 "989 Light Tank (Amphibious)"
+    light_tank_artillery_chassis_0:0 "989 Light SP Artillery"
+    light_tank_destroyer_chassis_0:0 "989 Light Tank Destroyer"
+    light_tank_aa_chassis_0:0 "989 Light SP Anti-Air"
+    light_tank_equipment_0:0 "989 Light Tank"
+    light_tank_flame_equipment_0:0 "989 Light Flame Tank"
+    light_tank_amphibious_equipment_0:0 "989 Light Amphibious Tank"
+    light_tank_aa_equipment_0:0 "989 Light AA Tank"
+    light_tank_destroyer_equipment_0:0 "989 Light Tank Destroyer"
+    light_tank_artillery_equipment_0:0 "989 Light SP Artillery"
+  light_tank_chassis_4:0 "1018 Armored Fighting Vehicle"
+      light_tank_chassis_4_short:0 "1018 AFV"
+    light_tank_artillery_chassis_4:0 "1018 Light SPG"
+    light_tank_destroyer_chassis_4:0 "1018 Mobile Gun System"
+    light_tank_aa_chassis_4:0 "1018 Light SPAA"
+    light_tank_amphibious_chassis_4:0 "1018 AFV (Amphibious)"
+    light_tank_flame_chassis_4:0 "1018 Flame AFV"
+    light_tank_flame_equipment_4:0 "1018 Flame AFV"
+  light_tank_chassis_5:0 "1024 Armored Fighting Vehicle"
+      light_tank_chassis_5_short:0 "1024 AFV"
+    light_tank_artillery_chassis_5:0 "1024 Light SPG"
+    light_tank_destroyer_chassis_5:0 "1024 Mobile Gun System"
+    light_tank_aa_chassis_5:0 "1024 Light SPAA"
+    light_tank_amphibious_chassis_5:0 "1024 AFV (Amphibious)"
+    light_tank_flame_chassis_5:0 "1024 Flame AFV"
+    light_tank_flame_equipment_5:0 "1024 Flame AFV"
+
+  # MEDIUM #
+  # medium_tank_chassis_0:0 "989 Medium Tank"
+  # medium_tank_flame_chassis_0:0 "989 Medium Flame Tank"
+  # medium_tank_amphibious_chassis_0:0 "989 Medium Tank (Amphibious)"
+  # medium_tank_artillery_chassis_0:0 "989 Medium SP Artillery"
+  # medium_tank_destroyer_chassis_0:0 "989 Medium Tank Destroyer"
+  # medium_tank_aa_chassis_0:0 "989 Medium SP Anti-Air"
+  # medium_tank_equipment_0:0 "989 Medium Tank"
+  # medium_tank_flame_equipment_0:0 "989 Medium Flame Tank"
+  # medium_tank_amphibious_equipment_0:0 "989 Medium Amphibious Tank"
+  # medium_tank_aa_equipment_0:0 "989 Medium AA Tank"
+  # medium_tank_destroyer_equipment_0:0 "989 Medium Tank Destroyer"
+  # medium_tank_artillery_equipment_0:0 "989 Medium SP Artillery"
+
+  # HEAVY #
+  heavy_tank_chassis_0:0 "989 Heavy Tank"
+      heavy_tank_chassis_0_short:0 "989 Heavy"
+    heavy_tank_flame_chassis_0:0 "989 Heavy Flame Tank"
+    heavy_tank_amphibious_chassis_0:0 "989 Heavy Tank (Amphibious)"
+    heavy_tank_artillery_chassis_0:0 "989 Heavy SP Artillery"
+    heavy_tank_destroyer_chassis_0:0 "989 Heavy Tank Destroyer"
+    heavy_tank_aa_chassis_0:0 "989 Heavy SP Anti-Air"
+    heavy_tank_equipment_0:0 "989 Heavy Tank"
+    heavy_tank_flame_equipment_0:0 "989 Heavy Flame Tank"
+    heavy_tank_amphibious_equipment_0:0 "989 Heavy Amphibious Tank"
+    heavy_tank_aa_equipment_0:0 "989 Heavy AA Tank"
+    heavy_tank_destroyer_equipment_0:0 "989 Heavy Tank Destroyer"
+    heavy_tank_artillery_equipment_0:0 "989 Heavy SP Artillery"
+
+  # SUPER-HEAVY #
+  super_heavy_tank_chassis_1:0 "1014 Super-Heavy Tank"
+    super_heavy_tank_artillery_chassis_1:0 "1014 Super-Heavy SP Artillery"
+    super_heavy_tank_destroyer_chassis_1:0 "1014 Super-Heavy Tank Destroyer"
+    super_heavy_tank_aa_chassis_1:0 "1014 Super-Heavy SP Anti-Air"
+  super_heavy_tank_chassis_2:0 "1020 Super-Heavy Tank"
+      super_heavy_tank_chassis_2_short:0 "1020 Super-Heavy"
+    super_heavy_tank_artillery_chassis_2:0 "1020 Super-Heavy SP Artillery"
+    super_heavy_tank_destroyer_chassis_2:0 "1020 Super-Heavy Tank Destroyer"
+    super_heavy_tank_aa_chassis_2:0 "1020 Super-Heavy SP Anti-Air"
+  super_heavy_tank_chassis_3:0 "1026 Super-Heavy Tank"
+      super_heavy_tank_chassis_3_short:0 "1026 Super-Heavy"
+    super_heavy_tank_artillery_chassis_3:0 "1026 Super-Heavy SP Artillery"
+    super_heavy_tank_destroyer_chassis_3:0 "1026 Super-Heavy Tank Destroyer"
+    super_heavy_tank_aa_chassis_3:0 "1026 Super-Heavy SP Anti-Air"
+  super_heavy_tank_chassis_a:0 "1014 Super-Heavy Tank"
+      super_heavy_tank_chassis_a_short:0 "1014 Super-Heavy"
+    super_heavy_flame_tank_chassis_1:0 "1014 SH Flame Tank"
+    super_heavy_flame_tank_equipment_1:0 "1014 SH Flame Tank"
+  super_heavy_tank_chassis_b:0 "1020 Super-Heavy Tank"
+      super_heavy_tank_chassis_b_short:0 "1020 Super-Heavy"
+    super_heavy_tank_artillery_chassis_2:0 "1020 Super-Heavy SP Artillery"
+    super_heavy_tank_destroyer_chassis_2:0 "1020 Super-Heavy Tank Destroyer"
+    super_heavy_tank_aa_chassis_2:0 "1020 Super-Heavy SP Anti-Air"
+    super_heavy_flame_tank_chassis_2:0 "1020 SH Flame Tank"
+    super_heavy_flame_tank_chassis_3:0 "Advanced SH Flame Tank"
+    super_heavy_flame_tank_equipment_2:0 "1020 SH Flame Tank"
+  super_heavy_tank_chassis_c:0 "1026 Super-Heavy Tank"
+      super_heavy_tank_chassis_c_short:0 "1026 Super-Heavy"
+    super_heavy_tank_artillery_chassis_3:0 "1026 Super-Heavy SP Artillery"
+    super_heavy_tank_destroyer_chassis_3:0 "1026 Super-Heavy Tank Destroyer"
+    super_heavy_tank_aa_chassis_3:0 "1026 Super-Heavy SP Anti-Air"
+    super_heavy_flame_tank_equipment_3:0 "1026 SH Flame Tank"
+
+  # MBT #
+  main_battle_tank_chassis:0 "1016 Universal Tank"
+    main_battle_tank_chassis_short:0 "1016 Universal"
+  main_battle_tank_chassis_b:0 "1022 Main Battle Tank"
+    main_battle_tank_chassis_b_short:0 "1022 MBT"
+  main_battle_tank_chassis_c:0 "1028 Main Battle Tank"
+    main_battle_tank_chassis_c_short:0 "1028 MBT"
+  modern_tank_chassis_1:0 "1016 Main Battle Tank"
+    modern_tank_artillery_chassis_1:0 "1016 Self-propelled Gun"
+    modern_tank_destroyer_chassis_1:0 "1016 Tank Destroyer"
+    modern_tank_aa_chassis_1:0 "1016 Self-propelled Anti-air"
+  modern_tank_chassis_2:0 "1022 Main Battle Tank"
+    modern_tank_artillery_chassis_2:0 "1022 Self-propelled Gun"
+    modern_tank_destroyer_chassis_2:0 "1022 Tank Destroyer"
+    modern_tank_aa_chassis_2:0 "1022 Self-propelled Anti-air"
+  modern_tank_chassis_3:0 "1028 Main Battle Tank"
+    modern_tank_artillery_chassis_3:0 "1028 Self-propelled Gun"
+    modern_tank_destroyer_chassis_3:0 "1028 Tank Destroyer"
+    modern_tank_aa_chassis_3:0 "1028 Self-propelled Anti-air"
+
+  ## VANILLA TANKS ##
+  # LIGHT #
+  light_tank_chassis_1:0 "1005 Light Tank"
+  basic_light_tank_chassis:0 "1005 Light Tank"
+      basic_light_tank_chassis_short:0 "1005 Light"
+    light_tank_amphibious_chassis_1:0 "1005 Light Tank (Amphibious)"
+    light_tank_artillery_chassis_1:0 "1005 Light SP Artillery"
+    light_tank_destroyer_chassis_1:0 "1005 Light Tank Destroyer"
+    light_tank_aa_chassis_1:0 "1005 Light SP Anti-Air"
+    light_tank_flame_chassis_1:0 "1005 Light Flame Tank"
+  light_tank_chassis_2:0 "1007 Light Tank"
+  improved_light_tank_chassis:0 "1007 Light Tank"
+      improved_light_tank_chassis_short:0 "1007 Light"
+    light_tank_amphibious_chassis_2:0 "1007 Light Tank (Amphibious)"
+    light_tank_artillery_chassis_2:0 "1007 Light SP Artillery"
+    light_tank_destroyer_chassis_2:0 "1007 Light Tank Destroyer"
+    light_tank_aa_chassis_2:0 "1007 Light SP Anti-Air"
+    light_tank_flame_chassis_2:0 "1007 Light Flame Tank"
+  light_tank_chassis_3:0 "1012 Light Tank"
+  advanced_light_tank_chassis:0 "1012 Light Tank"
+      advanced_light_tank_chassis_short:0 "1012 Light"
+    light_tank_amphibious_chassis_3:0 "1012 Light Tank (Amphibious)"
+    light_tank_artillery_chassis_3:0 "1012 Light SP Artillery"
+    light_tank_destroyer_chassis_3:0 "1012 Light Tank Destroyer"
+    light_tank_aa_chassis_3:0 "1012 Light SP Anti-Air"
+    light_tank_flame_chassis_3:0 "1012 Light Flame Tank"
+
+  # MEDIUM #
+  medium_tank_chassis_1:0 "1008 Medium Tank"
+  basic_medium_tank_chassis:0 "1008 Medium Tank"
+      basic_medium_tank_chassis_short:0 "1008 Medium"
+    medium_tank_amphibious_chassis_1:0 "1008 Medium Tank (Amphibious)"
+    medium_tank_artillery_chassis_1:0 "1008 Medium SP Artillery"
+    medium_tank_destroyer_chassis_1:0 "1008 Medium Tank Destroyer"
+    medium_tank_aa_chassis_1:0 "1008 Medium SP Anti-Air"
+    medium_tank_flame_chassis_1:0 "1008 Medium Flame Tank"
+  medium_tank_chassis_2:0 "1011 Medium Tank"
+  improved_medium_tank_chassis:0 "1011 Medium Tank"
+      improved_medium_tank_chassis_short:1 "1011 Medium"
+    medium_tank_amphibious_chassis_2:0 "1011 Medium Tank (Amphibious)"
+    medium_tank_artillery_chassis_2:0 "1011 Medium SP Artillery"
+    medium_tank_destroyer_chassis_2:0 "1011 Medium Tank Destroyer"
+    medium_tank_aa_chassis_2:0 "1011 Medium SP Anti-Air"
+    medium_tank_flame_chassis_2:0 "1011 Medium Flame Tank"
+  medium_tank_chassis_3:0 "1014 Medium Tank"
+  advanced_medium_tank_chassis:0 "1014 Medium Tank"
+      advanced_medium_tank_chassis_short:0 "1014 Medium"
+    medium_tank_amphibious_chassis_3:0 "1014 Medium Tank (Amphibious)"
+    medium_tank_artillery_chassis_3:0 "1014 Medium SP Artillery"
+    medium_tank_destroyer_chassis_3:0 "1014 Medium Tank Destroyer"
+    medium_tank_aa_chassis_3:0 "1014 Medium SP Anti-Air"
+    medium_tank_flame_chassis_3:0 "1014 Medium Flame Tank"
+
+  # HEAVY #
+  heavy_tank_chassis_1:0 "1005 Heavy Tank"
+  basic_heavy_tank_chassis:0 "1005 Heavy Tank"
+      basic_heavy_tank_chassis_short:0 "1005 Heavy"
+    heavy_tank_amphibious_chassis_1:0 "1005 Heavy Tank (Amphibious)"
+    heavy_tank_artillery_chassis_1:0 "1005 Heavy SP Artillery"
+    heavy_tank_destroyer_chassis_1:0 "1005 Heavy Tank Destroyer"
+    heavy_tank_aa_chassis_1:0 "1005 Heavy SP Anti-Air"
+    heavy_tank_flame_chassis_1:0 "1005 Heavy Flame Tank"
+  heavy_tank_chassis_2:0 "1011 Heavy Tank"
+  improved_heavy_tank_chassis:0 "1011 Heavy Tank"
+      improved_heavy_tank_chassis_short:1 "1011 Heavy"
+    heavy_tank_amphibious_chassis_2:0 "1011 Heavy Tank (Amphibious)"
+    heavy_tank_artillery_chassis_2:0 "1011 Heavy SP Artillery"
+    heavy_tank_destroyer_chassis_2:0 "1011 Heavy Tank Destroyer"
+    heavy_tank_aa_chassis_2:0 "1011 Heavy SP Anti-Air"
+    heavy_tank_flame_chassis_2:0 "1011 Heavy Flame Tank"
+  heavy_tank_chassis_3:0 "1014 Heavy Tank"
+  advanced_heavy_tank_chassis:0 "1014 Heavy Tank"
+      advanced_heavy_tank_chassis_short:0 "1014 Heavy"
+    heavy_tank_amphibious_chassis_3:0 "1014 Heavy Tank (Amphibious)"
+    heavy_tank_artillery_chassis_3:0 "1014 Heavy SP Artillery"
+    heavy_tank_destroyer_chassis_3:0 "1014 Heavy Tank Destroyer"
+    heavy_tank_aa_chassis_3:0 "1014 Heavy SP Anti-Air"
+    heavy_tank_flame_chassis_3:0 "1014 Heavy Flame Tank"
+
+  #endregion NSB ARMOUR TECH ##
+
+  #region ARTILLERY TECH ##
+  # Titles #
+  ARTILLERT_TITLE_AA:0 "ANTI-AIR"
+    ARTILLERT_TITLE_AA_TT:0 "Weapon systems designed to shoot down aircraft."
+  ARTILLERY_TITLE_AT:0 "ANTI-TANK"
+    ARTILLERY_TITLE_AT_TT:0 "Towed weapons with the power to penetrate tank armor."
+  ARTILLERY_TITLE_ROCKET:0 "ROCKET\nARTILLERY"
+    ARTILLERY_TITLE_ROCKET_TT:0 "Offensive launcher systems designed to saturate large areas with explosives."
+
+  ## ANTI-AIR ##
+  # Equipment #
+  anti_air_equipment_1:0 "1007 Anti-Air"
+    anti_air_equipment_1_short:0 "1007 Anti-Air"
+  anti_air_equipment_2:0 "1012 Anti-Air"
+    anti_air_equipment_2_short:0 "1012 Anti-Air"
+  anti_air_equipment_3:0 "1018 Anti-Air"
+    anti_air_equipment_3_short:0 "1018 Anti-Air"
+  anti_air_equipment_x:0 "1024 Anti-Air"
+    anti_air_equipment_x_short:0 "1024 Anti-Air"
+  anti_air_equipment_x_2:0 "1030 Surface-to-Air Missile System"
+    anti_air_equipment_x_2_short:0 "1030 SAM System"
+
+
+  ## HOWITZERS ##
+  # Equipment #
+  artillery_equipment_1:0 "1005 Artillery"
+    artillery_equipment_1_short:0 "1005 Artillery"
+  artillery_equipment_2:0 "1010 Artillery"
+    artillery_equipment_2_short:0 "1010 Artillery"
+  artillery_equipment_3:0 "1016 Artillery"
+    artillery_equipment_3_short:0 "1016 Artillery"
+  artillery_equipment_x:0 "1022 Artillery"
+    artillery_equipment_x_short:0 "1022 Artillery"
+  artillery_equipment_x_2:0 "1028 Artillery"
+    artillery_equipment_x_2_short:0 "1028 Artillery"
+
+
+  ## ROCKET ARTILLERY ##
+  # Equipment #
+  rocket_artillery_equipment_1:0 "1012 Rocket Artillery"
+    rocket_artillery_equipment_1_short:0 "1012 Rocket Artillery"
+  rocket_artillery_equipment_2:0 "1018 Rocket Artillery"
+    rocket_artillery_equipment_2_short:0 "1018 Rocket Artillery"
+  rocket_artillery_equipment_x:0 "1024 Rocket Artillery"
+    rocket_artillery_equipment_x_short:0 "1024 Rocket Artillery"
+  rocket_artillery_equipment_x_2:0 "1030 Rocket Artillery"
+    rocket_artillery_equipment_x_2_short:0 "1030 Rocket Artillery"
+
+
+  ## ANTI-TANK ##
+  # Aircraft Modules #
+  tank_buster_1:0 "Anti-Tank Gun Pod I"   #Aircraft Module
+  tank_buster_2:0 "Anti-Tank Gun Pod II"  #Aircraft Module
+  tank_buster_3:0 "Anti-Tank Gun Pod III" #Aircraft Module
+
+  # Equipment #
+  anti_tank_equipment_1:0 "1007 Anti-Tank"
+    anti_tank_equipment_1_short:0 "1007 Anti-Tank"
+  anti_tank_equipment_2:0 "1012 Anti-Tank"
+  anti_tank_equipment_3:0 "1018 Anti-Tank"
+  anti_tank_equipment_x:0 "1024 Anti-Tank"
+    anti_tank_equipment_x_short:0 "1024 Anti-Tank"
+  anti_tank_equipment_x_2:0 "1030 Anti-Tank Guided Missile"
+    anti_tank_equipment_x_2_short:0 "1030 ATGM"
+
+  #endregion ARTILLERY TECH ##
+
+  #region LEGACY NAVAL ##
+  destroyer_1:0 "993 Destroyer"
+  destroyer_2:0 "1007 Destroyer"
+  destroyer_3:0 "1011 Destroyer"
+  destroyer_4:0 "1015 Destroyer"
+  destroyer_5:0 "1019 Destroyer"
+  destroyer_6:0 "1023 Destroyer"
+
+  light_cruiser_1:0 "993 Light Cruiser"
+  light_cruiser_2:0 "1007 Light Cruiser"
+  light_cruiser_3:0 "1011 Light Cruiser"
+  light_cruiser_4:0 "1015 Light Cruiser"
+  light_cruiser_5:0 "1019 Light Cruiser"
+  light_cruiser_6:0 "1023 Light Cruiser"
+
+  heavy_cruiser_1:0 "993 Heavy Cruiser"
+  heavy_cruiser_2:0 "1007 Heavy Cruiser"
+  heavy_cruiser_3:0 "1011 Heavy Cruiser"
+  heavy_cruiser_4:0 "1015 Heavy Cruiser"
+  heavy_cruiser_5:0 "1019 Heavy Cruiser"
+  heavy_cruiser_6:0 "1023 Heavy Cruiser"
+
+  battle_cruiser_1:0 "Fast Battleship"
+  battle_cruiser_2:0 "Battlecruiser"
+  battle_cruiser_3:0 "Modern Battlecruiser"
+
+  battleship_1:0 "993 Dreadnought"
+  battleship_2:0 "1007 Battleship"
+  battleship_3:0 "1011 Battleship"
+  battleship_4:0 "1015 Battleship"
+  battleship_5:0 "1019 Battleship"
+  battleship_6:0 "1023 Battleship"
+
+  SH_battleship_1:0 "1007 Leviathan"
+    ship_hull_super_heavy_1_desc:0 "Dreadnoughts and battleships are the ultimate statements of naval power, and the only way to make a more prominent statement would be to build even larger battleships. Incredibly well armoured, astoundingly large, boasting gigantic guns, and terrifyingly expensive, even the hulls of these ships dwarf other battleships, making them comparable to the leviathans of myth."
+  SH_battleship_2:0 "1019 Leviathan"
+    SH_battleship_2_desc:0 "The newer design of previous leviathans is not necessarily larger than those of before. These new hulls are specially made to carry more armaments, dedicated radar arrays, and faster engines. Their overall armour schematics remain the same, but these super heavy battleships are an even greater force multiplier in the seas. The only concern is the exuberant build costs, lengthy build times, and, perhaps, the possibility of diminishing returns."
+
+  carrier_1:0 "Hippogriffian-Style Carrier"
+  carrier_2:0 "Escort Carrier"
+  carrier_3:0 "Fleet Carrier"
+  carrier_4:0 "Strike Carrier"
+
+  submarine_1:0 "Modernised Coastal Submarine"
+  submarine_2:0 "Fleet Submarine"
+  submarine_3:0 "Diesel-Electric Submarine"
+  submarine_4:0 "Hunter-Killer Submarine"
+
+  #endregion LEGACY NAVAL ##
+
+  #region MTG NAVAL ##
+  # Titles #
+  NAVAL_TITLE_ARMAMENT:0 "NAVAL WEAPONS"
+    NAVAL_TITLE_ARMAMENT_TT:0 "Weapon systems designed for naval warfare."
+  NAVAL_SUPPORT_SUPPORT:0 "NAVAL SUPPORT"
+    NAVAL_SUPPORT_SUPPORT_TT:0 "Naval warfare theory and troop support."
+  NAVAL_TITLE_MINES:0 "SEAMINE WARFARE"
+    NAVAL_TITLE_MINES_TT:0 "Seamine development, deployment, and removal methods."
+
+  ## HULLS ##
+  ship_hull_light_1:2 "993 Destroyer Hull"
+    ship_hull_light_1_short:2 "993 Destroyer Hull"
+  ship_hull_light_2:2 "1007 Destroyer Hull"
+    ship_hull_light_2_short:2 "1007 Destroyer Hull"
+  ship_hull_light_3:2 "1011 Destroyer Hull"
+    ship_hull_light_3_short:2 "1011 Destroyer Hull"
+  ship_hull_light_4:2 "1015 Destroyer Hull"
+    ship_hull_light_4_short:2 "1015 Destroyer Hull"
+  ship_hull_light_5:0 "1019 Destroyer Hull"
+    ship_hull_light_5_short:0 "1019 Destroyer Hull"
+  ship_hull_light_6:0 "1023 Destroyer Hull"
+    ship_hull_light_6_short:0 "1023 Destroyer Hull"
+
+  ship_hull_cruiser_1:1 "993 Cruiser Hull"
+    ship_hull_cruiser_1_short:1 "993 Cruiser Hull"
+  ship_hull_cruiser_2:1 "1007 Cruiser Hull"
+    ship_hull_cruiser_2_short:1 "1007 Cruiser Hull"
+  ship_hull_cruiser_3:1 "1011 Cruiser Hull"
+    ship_hull_cruiser_3_short:1 "1011 Cruiser Hull"
+  ship_hull_cruiser_4:1 "1015 Cruiser Hull"
+    ship_hull_cruiser_4_short:1 "1015 Cruiser Hull"
+  ship_hull_cruiser_5:0 "1019 Cruiser Hull"
+    ship_hull_cruiser_5_short:0 "1019 Cruiser Hull"
+  ship_hull_cruiser_6:0 "1023 Cruiser Hull"
+    ship_hull_cruiser_6_short:0 "1023 Cruiser Hull"
+
+  ship_hull_heavy_1:1 "993 Dreadnought Hull"
+    ship_hull_heavy_1_short:1 "993 Dreadnought Hull"
+  ship_hull_heavy_2:1 "1007 Battleship Hull"
+    ship_hull_heavy_2_short:1 "1007 Battleship Hull"
+  ship_hull_heavy_3:1 "1011 Battleship Hull"
+    ship_hull_heavy_3_short:1 "1011 Battleship Hull"
+  ship_hull_heavy_4:1 "1015 Battleship Hull"
+    ship_hull_heavy_4_short:1 "1015 Battleship Hull"
+  ship_hull_heavy_5:0 "1019 Battleship Hull"
+    ship_hull_heavy_5_short:0 "1019 Battleship Hull"
+  ship_hull_heavy_6:0 "1023 Battleship Hull"
+    ship_hull_heavy_6_short:0 "1023 Battleship Hull"
+
+  ship_hull_super_heavy_1:0 "1007 Leviathan Hull"
+    ship_hull_super_heavy_1_desc:0 "Dreadnoughts and battleships are the ultimate statements of naval power, and the only way to make a more prominent statement would be to build even larger battleships. Incredibly well armoured, astoundingly large, boasting gigantic guns, and terrifyingly expensive, even the hulls of these ships dwarf other battleships, making them comparable to the leviathans of myth."
+  ship_hull_super_heavy_2:0 "1019 Leviathan Hull"
+    ship_hull_super_heavy_2_desc:0 "The newer design of previous leviathans is not necessarily larger than those of before. These new hulls are specially made to carry more armaments, dedicated radar arrays, and stronger engines. Their overall armour schematics remain the same, but these super heavy battleships are an even greater force multiplier in the seas. The only concern is the exuberant build costs, lengthy build times, and, perhaps, the possibility of diminishing returns."
+
+  early_ship_hull_carrier:0 "Converted Deck Hull"
+    ship_hull_carrier_conversion_ca:1 "Converted Cruiser Hull"
+    ship_hull_carrier_conversion_bb:1 "Converted Dreadnought Hull"
+
+  ship_hull_carrier_1:1 "1007 Carrier Hull"
+    ship_hull_carrier_1_short:1 "1007 Carrier Hull"
+  ship_hull_carrier_2:1 "1011 Carrier Hull"
+    ship_hull_carrier_2_short:1 "1011 Carrier Hull"
+  ship_hull_carrier_3:1 "1015 Carrier Hull"
+    ship_hull_carrier_3_short:1 "1015 Carrier Hull"
+  ship_hull_carrier_4:0 "1019 Carrier Hull"
+    ship_hull_carrier_4_short:0 "1019 Carrier Hull"
+  ship_hull_carrier_5:0 "1023 Carrier Hull"
+    ship_hull_carrier_5_short:0 "1023 Carrier Hull"
+
+  ship_hull_supercarrier_1:0 "1023 Supercarrier Hull"
+
+  ship_hull_submarine_1:1 "993 Submarine Hull"
+    ship_hull_submarine_1_short:1 "993 Submarine Hull"
+  ship_hull_submarine_2:1 "1007 Submarine Hull"
+    ship_hull_submarine_2_short:1 "1007 Submarine Hull"
+  ship_hull_submarine_3:1 "1011 Submarine Hull"
+    ship_hull_submarine_3_short:1 "1011 Submarine Hull"
+  ship_hull_submarine_4:1 "1015 Submarine Hull"
+    ship_hull_submarine_4_short:1 "1015 Submarine Hull"
+  ship_hull_submarine_5:0 "1019 Submarine Hull"
+    ship_hull_submarine_5_short:0 "1019 Submarine Hull"
+  ship_hull_submarine_6:0 "1023 Submarine Hull"
+    ship_hull_submarine_6_short:0 "1023 Submarine Hull"
+
+  ship_hull_missile_submarine_1:0 "1023 Missile Submarine Hull"
+    ship_hull_missile_submarine_1_short:0 "1023 Missile Submarine Hull"
+
+  #endregion MTG NAVAL ##
+
+  #region AIR TECH ##
+  # Titles #
+  AIR_TITLE_AIRFRAME:0 "AIRFRAMES"
+    AIR_TITLE_AIRFRAME_TT:0 "Aircraft chassis that can be modified and specialized to fit your air force."
+  AIR_TITLE_ENGINES:0 "ENGINES & DESIGN"
+    AIR_TITLE_ENGINES_TT:0 "Engines that propel your aircraft and technologies that improve aspects of your air force."
+  AIR_TITLE_WEAPONS:0 "ARMAMENTS"
+    AIR_TITLE_WEAPONS_TT:0 "Weapons and equipment that can be fitted onto aircraft."
+
+  ## AIRCRAFT ##
+  transport_plane_equipment_1:0 "1003 Transport Plane"
+    transport_plane_equipment_1_short:0 "1003 Transport"
+    transport_plane_equipment_1_desc:0 "$transport_plane_equipment_desc$"
+  transport_plane_equipment_2:0 "1015 Transport Plane"
+    transport_plane_equipment_2_short:0 "1015 Transport"
+    transport_plane_equipment_2_desc:0 "Advancements in aircraft construction have allowed us to design bigger, more durable transport aircraft capable of carrying increased payloads over longer distances."
+  transport_plane_equipment_3:0 "1025 Transport Plane"
+    transport_plane_equipment_3_short:0 "1025 Transport"
+    transport_plane_equipment_3_desc:0 "Utilizing turbofans and an all-metal construction, we can construct even larger transport aircraft capable of carrying more supplies or paratroopers over longer distances while staying protected from interceptors."
+
+  small_plane_airframe_0:0 "999 Small Airframe"
+  small_plane_airframe_1:0 "1007 Small Airframe"
+  small_plane_airframe_2:0 "1011 Small Airframe"
+  small_plane_airframe_3:0 "1015 Small Airframe"
+  small_plane_airframe_4:0 "1017 Small Airframe"
+  small_plane_airframe_5:0 "1025 Small Airframe"
+
+  small_plane_cas_airframe_0:0 "999 Close Air Support Airframe"
+  small_plane_cas_airframe_1:0 "1007 Close Air Support Airframe"
+  small_plane_cas_airframe_2:0 "1011 Close Air Support Airframe"
+  small_plane_cas_airframe_3:0 "1015 Close Air Support Airframe"
+  small_plane_cas_airframe_4:0 "1017 Close Air Support Airframe"
+  small_plane_cas_airframe_5:0 "1025 Close Air Support Airframe"
+
+  small_plane_naval_bomber_airframe_0:0 "999 Naval Bomber Airframe"
+  small_plane_naval_bomber_airframe_1:0 "1007 Naval Bomber Airframe"
+  small_plane_naval_bomber_airframe_2:0 "1011 Naval Bomber Airframe"
+  small_plane_naval_bomber_airframe_3:0 "1015 Naval Bomber Airframe"
+  small_plane_naval_bomber_airframe_4:0 "1017 Naval Bomber Airframe"
+  small_plane_naval_bomber_airframe_5:0 "1025 Naval Bomber Airframe"
+
+  cv_small_plane_airframe_0:0 "999 Carrier Airframe"
+  cv_small_plane_airframe_1:0 "1007 Carrier Airframe"
+  cv_small_plane_airframe_2:0 "1011 Carrier Airframe"
+  cv_small_plane_airframe_3:0 "1015 Carrier Airframe"
+  cv_small_plane_airframe_4:0 "1017 Carrier Airframe"
+  cv_small_plane_airframe_5:0 "1025 Carrier Airframe"
+
+  cv_small_plane_cas_airframe_0:0 "999 Carrier Close Air Support Airframe"
+  cv_small_plane_cas_airframe_1:0 "1007 Carrier Close Air Support Airframe"
+  cv_small_plane_cas_airframe_2:0 "1011 Carrier Close Air Support Airframe"
+  cv_small_plane_cas_airframe_3:0 "1015 Carrier Close Air Support Airframe"
+  cv_small_plane_cas_airframe_4:0 "1017 Carrier Close Air Support Airframe"
+  cv_small_plane_cas_airframe_5:0 "1025 Carrier Close Air Support Airframe"
+
+  cv_small_plane_naval_bomber_airframe_0:0 "999 Carrier Naval Bomber Airframe"
+  cv_small_plane_naval_bomber_airframe_1:0 "1007 Carrier Naval Bomber Airframe"
+  cv_small_plane_naval_bomber_airframe_2:0 "1011 Carrier Naval Bomber Airframe"
+  cv_small_plane_naval_bomber_airframe_3:0 "1015 Carrier Naval Bomber Airframe"
+  cv_small_plane_naval_bomber_airframe_4:0 "1017 Carrier Naval Bomber Airframe"
+  cv_small_plane_naval_bomber_airframe_5:0 "1025 Carrier Naval Bomber Airframe"
+
+
+  medium_plane_airframe_0:0 "999 Medium Airframe"
+  medium_plane_airframe_1:0 "1007 Medium Airframe"
+  medium_plane_airframe_2:0 "1011 Medium Airframe"
+  medium_plane_airframe_3:0 "1015 Medium Airframe"
+  medium_plane_airframe_4:0 "1019 Medium Airframe"
+  medium_plane_airframe_5:0 "1027 Medium Airframe"
+
+  medium_plane_fighter_airframe_0:0 "999 Heavy Fighter Airframe"
+  medium_plane_fighter_airframe_1:0 "1007 Heavy Fighter Airframe"
+  medium_plane_fighter_airframe_2:0 "1011 Heavy Fighter Airframe"
+  medium_plane_fighter_airframe_3:0 "1015 Heavy Fighter Airframe"
+  medium_plane_fighter_airframe_4:0 "1019 Heavy Fighter Airframe"
+  medium_plane_fighter_airframe_5:0 "1027 Heavy Fighter Airframe"
+
+  medium_plane_scout_plane_airframe_0:0 "999 Scout Plane Airframe"
+  medium_plane_scout_plane_airframe_1:0 "1007 Scout Plane Airframe"
+  medium_plane_scout_plane_airframe_2:0 "1011 Scout Plane Airframe"
+  medium_plane_scout_plane_airframe_3:0 "1015 Scout Plane Airframe"
+  medium_plane_scout_plane_airframe_4:0 "1019 Scout Plane Airframe"
+  medium_plane_scout_plane_airframe_5:0 "1027 Scout Plane Airframe"
+
+
+  large_plane_airframe_0:0 "999 Large Airframe"
+  large_plane_airframe_1:0 "1007 Large Airframe"
+  large_plane_airframe_2:0 "1011 Large Airframe"
+  large_plane_airframe_3:0 "1015 Large Airframe"
+  large_plane_airframe_4:0 "1021 Large Airframe"
+  large_plane_airframe_5:0 "1029 Large Airframe"
+  super_large_plane_airframe_1:0 "Super Large Airframe"
+
+  large_plane_maritime_patrol_plane_airframe_0:0 "999 Maritime Patrol Airframe"
+  large_plane_maritime_patrol_plane_airframe_1:0 "1007 Maritime Patrol Airframe"
+  large_plane_maritime_patrol_plane_airframe_2:0 "1011 Maritime Patrol Airframe"
+  large_plane_maritime_patrol_plane_airframe_3:0 "1015 Maritime Patrol Airframe"
+  large_plane_maritime_patrol_plane_airframe_4:0 "1021 Maritime Patrol Airframe"
+  large_plane_maritime_patrol_plane_airframe_5:0 "1029 Maritime Patrol Airframe"
+
+
+  ## MODULES ##
+  electronic_countermeasures_large:0 "Electronic Countermeasure System"
+    electronic_countermeasures_large_desc:0 "An electronic warfare system designed to disrupt air-to-air and ground-to-air RADAR systems or other detection systems such as infrared and lasers. It can be used offensively by jamming enemy communications and detection, or defensively by manipulating our RADAR signature and disrupting guided missiles."
+  decoy_flare_small:0 "Light Chaff Launcher"
+    decoy_flare_small_desc:0 "A RADAR countermeasure that disperses a cloud of metal strips to blind and disrupt RADAR and guidance systems. It has proven effective at disrupting guided air-to-air and ground-to-air missiles, and will improve the survivability of our pilots."
+  decoy_flare_medium:0 "Medium Chaff Launcher"
+  decoy_flare_large:0 "Heavy Chaff Launcher"
+  exotic_wing_design_small:0 "Advanced Light Airframe Design"
+    exotic_wing_design_small_desc:0 "New developments in material science and wind tunnel simulation have allowed us to design airframes optimized for their operating speeds while incorporating newer, heavier technologies. This comes at a much greater cost due to increased R&D expenditures."
+  exotic_wing_design_medium:0 "Advanced Medium Airframe Design"
+  exotic_wing_design_large:0 "Advanced Heavy Airframe Design"
+
+  electronic_countermeasures_desc:0 "$electronic_countermeasures_large_desc$"
+
+  advanced_aircraft_construction:0 "Advanced Aircraft Construction"
+    advanced_aircraft_construction_desc:0 "We can apply advanced fuselage designs to newer jet aircraft such as variable sweep wings and diverterless supersonic inlets to maximize their performance at various speeds. However, this will lead to an increase in costs due to the materials and marepower needed to facilitate more advanced designs."
+
+  general_purpose_bombs:0 "General-Purpose Bombs"
+    general_purpose_bombs_desc:0 "General-purpose bombs (GPBs) are a modern compromise in traditional, specialized bomb design. Instead of focusing on blast damage, penetration, or fragmentation, GPBs have a standardized payload that balances out all three factors. Instead, the bombs themselves can be modified by swapping out fuzes and fins to specialize GPBs for roles such as ground attack, bunker-busting, and foliage clearing."
+
+  light_mg_2x:0 "2x Aircraft LMGs"
+  light_mg_4x:0 "4x Aircraft LMGs"
+  heavy_mg_2x:0 "2x Aircraft HMGs"
+  heavy_mg_4x:0 "4x Aircraft HMGs"
+
+  aircraft_cannon_1_1x:0 "1x Aircraft Cannon"
+  aircraft_cannon_1_2x:0 "2x Aircraft Cannons"
+  aircraft_cannon_2_1x:0 "1x Heavy Cannon"
+  aircraft_cannon_2_2x:0 "2x Heavy Cannons"
+
+  aircraft_cannon_3_1x:0 "1x Autocannon"
+  aircraft_cannon_3_2x:0 "2x Autocannons"
+  aircraft_cannon_4_1x:0 "1x Rotary Cannon"
+  aircraft_cannon_4_2x:0 "2x Rotary Cannons"
+
+  lmg_defense_turret:0 "1x LMG Turret"
+  lmg_defense_turret_2x:0 "2x LMG Turrets"
+  hmg_defense_turret:0 "1x HMG Turret"
+  hmg_defense_turret_2x:0 "2x HMG Turrets"
+  cannon_defense_turret:0 "1x Cannon Turret"
+  cannon_defense_turret_2x:0 "2x Cannon Turrets"
+  cannon_defense_turret_2:0 "1x Rotary Cannon Turret"
+  cannon_defense_turret_2_2x:0 "2x Rotary Cannon Turrets"
+
+  ## AIRSHIPS ##
+  airship_airframes:0 "999 Airship Airframes"
+    airship_airframes_desc:0 "Popularized during the Storm King's conquest of Zebrica, airships are large aircraft that utilize heavier-than-air floatation to carry munitions at high altitude for long distances. Their massive size, low speed, and vulnerability to incendiary ammunition make them easy targets for opponents with interceptors or sufficient anti-air. Although outdated by modern standards, they perform well against opponents that lack the industry to produce aircraft or anti-air."
+  #endregion AIR TECH ##
+
+  #region ENGINEERING TECH ##
+  # Titles #
+  TITLE_ELECTRONIC_SUBTITLE:0 "ELECTRONIC\nENGINEERING"
+    TITLE_ELECTRONIC_SUBTITLE_TT:0 "Advanced computing and detection technologies."
+  TITLE_ATOMIC_RESEARCH_SUBTITLE:0 "ATOMIC\nRESEARCH"
+    TITLE_ATOMIC_RESEARCH_SUBTITLE_TT:0 "Experimental research into the most basic building block of reality: the Atom."
+  TITLE_EXP_ROCKETS_SUBTITLE:0 "EXPERIMENTAL\nPROPULSION"
+    TITLE_EXP_ROCKETS_SUBTITLE_TT:0 "Experimental research into new methods of propulsion."
+
+  #endregion ENGINEERING TECH ##
+
+  #region INDUSTRY TECH ##
+  # Titles #
+  INDUSTRY_TITLE_PRODUCTION:0 "PRODUCTION"
+    INDUSTRY_TITLE_PRODUCTION_TT:0 "The means of production."
+  INDUSTRY_TITLE:0 "INDUSTRY"
+    INDUSTRY_TITLE_TT:0 "The theory and technology behind the industrial complex."
+  INDUSTRY_TITLE_CONSTRUCTION:0 "CONSTRUCTION\n& EXTRACTION"
+    INDUSTRY_TITLE_CONSTRUCTION_TT:0 "Tools and systems for developing industrial infrastructure and extracting raw resources."
+  INDUSTRY_TITLE_OIL:0 "OIL\nEXTRACTION"
+    INDUSTRY_TITLE_OIL_TT:0 "Technology for improving the production of oil and creation of synthetic oils."
+
+  #endregion INDUSTRY TECH ##

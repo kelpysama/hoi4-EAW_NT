@@ -1,0 +1,45 @@
+## infantry_gear.txt
+## Defines infantry gear equipment (uniforms).
+## Not real equipment, used to display medium tech container image.
+
+equipments = {
+    # infantry_acclimatization (infantry_uniform_1)
+	infantry_uniform_89 = {
+		can_be_produced = {
+			always = no
+		}
+		year = 989
+	}
+
+    # infantry_uniform_2
+	infantry_uniform_09 = {
+		can_be_produced = {
+			always = no
+		}
+		year = 1009
+	}
+
+    # infantry_uniform_3
+	infantry_uniform_14 = {
+		can_be_produced = {
+			always = no
+		}
+		year = 1014
+	}
+
+    # infantry_uniform_4
+	infantry_uniform_20 = {
+		can_be_produced = {
+			always = no
+		}
+		year = 1020
+	}
+
+    # infantry_uniform_5
+    infantry_uniform_26 = {
+		can_be_produced = {
+			always = no
+		}
+		year = 1026
+	}
+}

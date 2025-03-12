@@ -1,0 +1,99 @@
+## ~eawnt_countrytechtreeview.gfx
+## Defines the sprites for the tech folders/windows/backgrounds.
+
+spriteTypes = {
+    ## 🤓 <(technology stuff)
+
+    #region TechProgressBar
+	spriteType = {
+		name = "GFX_technology_progress_bar_frame"
+		textureFile = "gfx/interface/techtree/progress_bar/tech_progress_bar_frame.dds"
+	}
+	progressbartype = {
+		name = "GFX_technology_progress_bar"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/techtree/progress_bar/tech_progress_bar.dds"
+		textureFile2 = "gfx/interface/techtree/progress_bar/tech_progress_bar_bg.dds"
+		size = { x = 292 y = 24 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+    #region TechBackgroundStripe
+	corneredTileSpriteType = {
+		name = "GFX_techtree_stripes_vertical"
+		size = { x = 422 y = 120 }
+		textureFile = "gfx/interface/techtree/techtree_stripes_vertical.dds"
+		borderSize = { x = 0 y = 0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_techtree_stripes_vertical_large"
+		size = { x = 770 y = 120 }
+		textureFile = "gfx/interface/techtree/techtree_stripes_vertical_large.dds"
+		borderSize = { x = 0 y = 0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
+
+    #region ResearchItemIcon
+	spriteType = {
+		name = "GFX_vertical_branch_xor"
+		texturefile = "gfx/interface/techtree/techtree_xor_branches.dds"
+	}
+	spriteType = {
+		name = "GFX_design_team_icon_corner"
+		texturefile = "gfx/interface/techtree/design_team_icon_corner.dds"
+	}
+
+    #region InfantryFolderBackground
+	spriteType = {
+		name = "GFX_infantry_folder_background"
+		texturefile = "gfx/interface/techtree/infantry_folder0.dds"
+	}
+	spriteType = {
+		name = "GFX_infantry_folder_specops_background"
+		texturefile = "gfx/interface/techtree/infantry_folder1.dds"
+	}
+
+    #region SupportFolderBackground
+	spriteType = {
+		name = "GFX_support_folder_train_1_background"
+		texturefile = "gfx/interface/techtree/support_folder0.dds"
+	}
+
+    #region ArmourFolderBackground
+	spriteType = {
+		name = "GFX_armour_folder_background"
+		texturefile = "gfx/interface/techtree/armour_folder0.dds"
+	}
+	spriteType = {
+		name = "GFX_armour_folder_bottom_background"
+		texturefile = "gfx/interface/techtree/armour_folder1.dds"
+	}
+
+    #region ArtilleryFolderBackground
+	spriteType = {
+		name = "GFX_artillery_folder_bottom_background"
+		texturefile = "gfx/interface/techtree/artillery_folder0.dds"
+	}
+
+    #region NavalFolderBackground
+	spriteType = {
+		name = "GFX_naval_folder_background"
+		texturefile = "gfx/interface/techtree/naval_folder0.dds"
+	}
+
+    #region AircraftFolderBackground
+	spriteType = {
+		name = "GFX_aircraft_folder_background"
+		texturefile = "gfx/interface/techtree/aircraft_folder0.dds"
+	}
+
+    #region ElectronicsFolderBackground
+
+    #region IndustryFolderBackground
+}

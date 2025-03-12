@@ -1,0 +1,770 @@
+## ~eawnt_technologies.gfx
+## Defines generic technology sprites.
+
+spriteTypes = {
+    ## 🤓 <(technology stuff)
+
+    #region InfantryFolder
+	## ANTI-TANK / ANTI-AIR
+	SpriteType = {	#Anti-tank Rifle
+		name = "GFX_infantry_anti_tank_0_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_1.dds"
+	}
+	SpriteType = {	#Bazooka
+		name = "GFX_infantry_anti_tank_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_2.dds"
+	}
+	SpriteType = {	#RPG-7
+		name = "GFX_infantry_anti_tank_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_3.dds"
+	}
+	SpriteType = {	#LAWS
+		name = "GFX_infantry_anti_tank_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_4.dds"
+	}
+	SpriteType = {	#MAREPADS
+		name = "GFX_infantry_anti_air_0_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_marepads.dds"
+	}
+	## ICON OVERRIDES
+	SpriteType = {
+		name = "GFX_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_a_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_b_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_anti_tank_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_aa_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_marepads.dds"
+	}
+	## AT/AA UPGRADES
+	SpriteType = {
+		name = "GFX_infantry_at_upgrade_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/anti_tank_rifle_upgrade.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at2_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/rpg_upgrade0.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at2_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/rpg_upgrade1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_a_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/rpg_upgrade2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_a_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/rpg_upgrade3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_b_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/rpg_upgrade4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at_b_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/rpg_upgrade5.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_aa_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/marepads_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_aa_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/marepads_upgrade_1.dds"
+	}
+    ## INFANTRY GEAR ##
+	# Uniforms
+	SpriteType = {	#Victorian Era Uniform
+		name = "GFX_infantry_acclimatization_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_1.dds"
+	}
+	SpriteType = {	#WW1 Era Uniform
+		name = "GFX_infantry_uniform_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_2.dds"
+	}
+	SpriteType = {	#WW2 Era Uniform
+		name = "GFX_infantry_uniform_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_3.dds"
+	}
+	SpriteType = {	#Post War Era Uniform
+		name = "GFX_infantry_uniform_4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_4.dds"
+	}
+	SpriteType = {	#Cold War Era Uniform
+		name = "GFX_infantry_uniform_5_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_5.dds"
+	}
+	spriteType = {	#Uniform Texticon Overlays
+		name = "GFX_infantry_uniform_1_overlay"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_1_overlay.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_uniform_2_overlay"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_2_overlay.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_uniform_3_overlay"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_3_overlay.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_uniform_4_overlay"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_4_overlay.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_infantry_uniform_5_overlay"
+		texturefile = "gfx/interface/technologies/infantry_folder/infantry_gear/generic_uniform_5_overlay.dds"
+		legacy_lazy_load = no
+	}
+	# Upgrades
+	SpriteType = {	#Basic Inf. Equipment
+		name = "GFX_equipment_upgrade_0_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/gup_1.dds"
+	}
+	SpriteType = {	#Ammo Storage & Gas Masks
+		name = "GFX_equipment_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/gup_2.dds"
+	}
+	SpriteType = {	#Infantry Surviv.
+		name = "GFX_equipment_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/gup_4.dds"
+	}
+	SpriteType = {	#Ration Modern.
+		name = "GFX_equipment_upgrade_4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/gup_5.dds"
+	}
+	# Night Vision Equipment
+	SpriteType = {	#Flare Guns
+		name = "GFX_pre_night_vision_0_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/night_vision_upgrade_1.dds"
+	}
+	SpriteType = {	#Flashlights
+		name = "GFX_pre_night_vision_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/night_vision_upgrade_2.dds"
+	}
+	SpriteType = {	#1st Generation Night Vision
+		##OK I KNOW that NVGs aren't 1st gen BUT...
+
+		name = "GFX_night_vision3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/night_vision_upgrade_5.dds"
+	}
+	## INFANTRY VEHICLES
+	# Motorized
+	### Holy FUCK why is the equipment spelled "motorized" and the techs spelled "motorised" I spent 3 hours debugging this shit bruh.
+	SpriteType = { # Motorised 4
+		name = "GFX_motorised_infantry_4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_motorized_4.dds"
+	}
+	SpriteType = { # Motorised Upgrade 1
+		name = "GFX_motorised_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/motorized_upgrade_0.dds"
+	}
+	SpriteType = { # Motorised Upgrade 2
+		name = "GFX_motorised_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/motorized_upgrade_1.dds"
+	}
+	SpriteType = { # Motorised Upgrade 3
+		name = "GFX_motorised_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/motorized_upgrade_2.dds"
+	}
+	# Mechanized
+	SpriteType = { #APC2
+		name = "GFX_mechanised_infantry_b_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_apc_2.dds"
+	}
+    SpriteType = { #IFV
+    	name = "GFX_infantry_fighting_vehicles_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_ifv.dds"
+    }
+	## INFANTRY WEAPONS
+	# Upgrades
+	SpriteType = {	#Ancillary Infantry Weapons
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_0.dds"
+	}
+	SpriteType = {	#Specialized Grenades I
+		name = "GFX_improved_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_1.dds"
+	}
+	SpriteType = {	#Ammunition Improvements I
+		name = "GFX_advanced_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_2.dds"
+	}
+	SpriteType = {	#Advanced Landmines
+		name = "GFX_advanced_infantry_weapons_a_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_3.dds"
+	}
+	SpriteType = {	#Specialized Grenades II
+		name = "GFX_advanced_infantry_weapons_c_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_4.dds"
+	}
+	SpriteType = {	#Ancillary Weapon Modernisation
+		name = "GFX_advanced_infantry_weapons_d_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_5.dds"
+	}
+	SpriteType = {	#Ammunition Improvements II
+		name = "GFX_advanced_infantry_weapons_f_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_6.dds"
+	}
+	SpriteType = {	#Underbarrel Weaponry
+		name = "GFX_advanced_infantry_weapons_g_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/wup_7.dds"
+	}
+	# Heavy Magic
+	SpriteType = {
+		name = "GFX_magic_tank_weapon_nsb0_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_magic_tank_weapon_nsb1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_magic_tank_weapon_nsb2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_magic_tank_weapon_nsb3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_magic_tank_weapon0_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_magic_tank_weapon1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_magic_tank_weapon2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_magic_tank_weapon3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_magic_3.dds"
+	}
+	## SUPPORT WEAPONS
+	SpriteType = {
+		name = "GFX_support_weapons_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_inf_weapons_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/specialized_small_arms_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/flamethrower_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_inf_weapons_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_a_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/specialized_small_arms_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_b_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/grenade_launcher.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_c_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/high_power_crystal_rifle.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_d_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/heavy_inf_weapons_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_e_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/specialized_small_arms_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_f_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/flamethrower_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_g_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/general_purpose_machine_gun.dds"
+	}
+	SpriteType = {
+		name = "GFX_support_weapons_h_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/crystal_pulse_laser.dds"
+	}
+
+
+
+    #region SupportFolder
+    ## ENGINEERS
+	SpriteType = {
+		name = "GFX_tech_engineers8_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_engineers8.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_engineers9_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_engineers9.dds"
+	}
+	## RECON
+	SpriteType = {
+		name = "GFX_tech_recon8_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_recon8.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_recon9_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_recon9.dds"
+	}
+	## MP
+	SpriteType = {
+		name = "GFX_tech_military_police8_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_military_police8.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_military_police9_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_military_police9.dds"
+	}
+	## MAINTENANCE
+	SpriteType = {
+		name = "GFX_tech_maintenance_company8_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_maintenance_company8.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_maintenance_company9_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_maintenance_company9.dds"
+	}
+	## HOSPITAL
+	SpriteType = {
+		name = "GFX_tech_field_hospital8_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_field_hospital8.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_field_hospital9_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_field_hospital9.dds"
+	}
+	## LOGI
+	SpriteType = {
+		name = "GFX_tech_logistics_company8_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_logistics_company8.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_logistics_company9_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_logistics_company9.dds"
+	}
+	## SIGNAL
+	SpriteType = {
+		name = "GFX_tech_signal_company8_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_signal_company8.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_signal_company9_medium"
+		texturefile = "gfx/interface/technologies/support_folder/tech_signal_company9.dds"
+	}
+	## TRAINS
+	SpriteType = {	#Missile Train
+		name = "GFX_tactical_missile_system_medium"
+		texturefile = "gfx/interface/technologies/support_folder/generic_missile_train.dds"
+	}
+	SpriteType = {	#Civ Trains 2
+		name = "GFX_civilian_train_2_medium"
+		texturefile = "gfx/interface/technologies/support_folder/generic_train_5.dds"
+	}
+	SpriteType = {	#Civ Trains 2 Eqpt.
+		name = "GFX_civ_train_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/support_folder/generic_train_5.dds"
+	}
+	SpriteType = {	#Civ Trains 3
+		name = "GFX_civilian_train_3_medium"
+		texturefile = "gfx/interface/technologies/support_folder/generic_train_6.dds"
+	}
+	SpriteType = {	#Civ Trains 3 Eqpt.
+		name = "GFX_civ_train_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/support_folder/generic_train_6.dds"
+	}
+
+
+
+    #region ArmourFolder
+	## UPGRADES
+	SpriteType = {
+		name = "GFX_nsb_upgrade_crew_heater_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/upgrade_crew_heater.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_upgrade_fire_suppressor_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/upgrade_fire_suppressor.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_upgrade_boiling_vessel_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/upgrade_boiling_vessel.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_upgrade_spall_liner_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/upgrade_spall_liner.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_upgrade_era_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/upgrade_era.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_upgrade_nbc_protection_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/upgrade_nbc_protection.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_upgrade_rcws_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/upgrade_rcws.dds"
+	}
+	# BBA OVERWRITE
+	SpriteType = {
+		name = "GFX_amphibious_drive_medium"
+		texturefile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_amphibious_drive.dds"
+	}
+	## ENGINES
+	SpriteType = {
+		name = "GFX_engine_tech_1_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_engine_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_2_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_engine_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_3_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_engine_tech_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_4_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_engine_tech_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_5_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_engine_tech_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine_tech_6_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_engine_tech_6.dds"
+	}
+	## ARMORS
+	SpriteType = {
+		name = "GFX_armor_tech_1_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_armor_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_tech_2_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_armor_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_tech_3_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_armor_tech_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_tech_4_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_armor_tech_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_tech_5_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_armor_tech_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_tech_6_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/nsb_armor_tech_6.dds"
+	}
+
+
+
+    #region ArtilleryFolder
+	## NSB Modules ##
+    # SPG
+	SpriteType = {
+		name = "GFX_nsb_tank_spg_0_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spg_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_spg_1_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spg_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_spg_2_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spg_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_spg_3_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spg_3.dds"
+	}
+    # RA
+	SpriteType = {
+		name = "GFX_nsb_tank_ra_0_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_ra_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_ra_1_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_ra_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_ra_2_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_ra_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_ra_3_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_ra_3.dds"
+	}
+    # SPAA
+	SpriteType = {
+		name = "GFX_nsb_tank_spaa_0_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spaa_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_spaa_1_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spaa_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_spaa_2_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spaa_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_spaa_3_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spaa_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_spaa_4_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_spaa_4.dds"
+	}
+    # TD
+	SpriteType = {
+		name = "GFX_nsb_tank_at_0_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_at_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_at_1_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_at_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_at_2_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_at_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_at_3_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_at_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_nsb_tank_at_4_medium"
+		texturefile = "gfx/interface/technologies/artillery_folder/nsb_tank_at_4.dds"
+	}
+
+
+
+    #region NavalFolder
+    ## NAVAL UPGRADES / TECH / MODULES
+	SpriteType = {	#Revisit Capital Ship Doctrine
+		name = "GFX_rescind_battleship_carrier_choice_medium"
+		texturefile = "gfx/interface/technologies/naval_folder/revisit_capital_ship.dds"
+	}
+	spriteType = {	#Revisit Capital Ship Doctrine Overlay
+		name = "GFX_rescind_battleship_carrier_choice_overlay"
+		texturefile = "gfx/interface/technologies/naval_folder/revisit_capital_ship_overlay.dds"
+		legacy_lazy_load = no
+	}
+
+
+
+    #region AirFolder
+	## AIRPLANES
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_early_transport_medium"
+		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_improved_transport_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_transport_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_3.dds"
+	}
+	## AIRSHIPS
+	SpriteType = {
+		name = "GFX_mechanical_telekinesis_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/mechanical_telekinesis.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_airship_airframes_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_modern_airship_airframes_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_airship_airframe_0_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_light_airship_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_light_airship_airframe_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_light_airship_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_airship_airframe_0_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_airship_airframe_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_airship_airframe_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_2.dds"
+	}
+	## AIRCRAFT UPGRADES / TECH / MODULES
+	SpriteType = {
+		name = "GFX_precision_guided_munitions_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/modules/airplane_air_to_surface_missile_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_to_air_missile_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/modules/airplane_air_to_air_missile_icon.dds"
+	}
+	# BBA Overwrite
+	SpriteType = {
+		name = "GFX_jet_engines_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/jet_engines.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_lmg_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_aa_mg_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_hmg_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_aa_mg_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_cannon_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_aa_cannon_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_cannon_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_aa_cannon_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_aa_cannon_3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_aa_cannon_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_survivability_studies_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_survivability_studies.dds"
+	}
+	SpriteType = {
+		name = "GFX_early_bombs_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_early_bombs.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavy_bombs_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_heavy_bombs.dds"
+	}
+	SpriteType = {
+		name = "GFX_armor_piercing_bombs_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_armor_piercing_bombs.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_torpedoe_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/basic_torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_torpedoe_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_air_torpedoe_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_torpedoe_3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/electric_torpedo.dds"
+	}
+	SpriteType = {
+		name = "GFX_air_torpedoe_4_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_air_torpedoe_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_photo_reconnaisance_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_photo_reconnaisance.dds"
+	}
+	SpriteType = {
+		name = "GFX_engines_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_engines_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_engines_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_engines_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_engines_3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_engines_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_engines_4_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_engines_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_range_improvements_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_range_improvements.dds"
+	}
+	SpriteType = {
+		name = "GFX_aircraft_construction_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_aircraft_construction.dds"
+	}
+
+
+
+    #region ElectronicsFolder
+	SpriteType = {
+		name = "GFX_iff_detection_medium"
+		texturefile = "gfx/interface/technologies/engineering_folder/iff_detection.dds"
+	}
+
+
+
+    #region IndustryFolder
+    ## RAILWAYS
+	SpriteType = {
+		name = "GFX_railway_upgrade_0_medium"
+		texturefile = "gfx/interface/technologies/industry_folder/railway_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_railway_upgrade_1_medium"
+		texturefile = "gfx/interface/technologies/industry_folder/railway_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_railway_upgrade_2_medium"
+		texturefile = "gfx/interface/technologies/industry_folder/railway_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_railway_upgrade_3_medium"
+		texturefile = "gfx/interface/technologies/industry_folder/railway_upgrade_3.dds"
+	}
+
+
+
+    #region RacialFolder
+}

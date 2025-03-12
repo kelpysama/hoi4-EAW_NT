@@ -1,0 +1,27 @@
+## ~eawnt_fonts.gfx
+## Defines game fonts.
+
+bitmapfonts = {
+    bitmapfont = {
+        name = "dacik_push_36"
+        fontfiles = {
+            "gfx/fonts/dacik_push_36"
+        }
+        color = 0xff282623
+    }
+    bitmapfont = {
+        name = "dacik_push_36_opaque"
+        fontfiles = {
+            "gfx/fonts/dacik_push_36_outline"
+        }
+		color = 0x45ffffff
+
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			H = { 238 201 35 }
+			T = { 255 255 255 }
+		}
+    }
+}

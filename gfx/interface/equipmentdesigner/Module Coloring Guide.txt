@@ -1,0 +1,44 @@
+I used Photoshop 2023 with a DDS plugin to automate a colorized hue shift:
+
+DDS Plugin: https://developer.nvidia.com/texture-tools-exporter
+
+Steps:
+1. Open module DDS image in Photoshop.
+
+2. Load Transparency as Alpha channel.
+
+3. [Top-bar] Image -> Adjustments -> Hue/Saturation
+	A new window should pop up with Hue/Saturation options.
+
+4. Toggle 'Colorize' checkbox in bottom right.
+
+5.1 For Aircraft Modules (Red):
+	Hue = +360 (or all the way to the right)
+	Saturation = +50
+	Lightness = 0
+
+5.2 For Tank Modules (Green):
+	Hue = +125
+	Saturation = +25
+	Lightness = 0
+
+5.3 Naval Modules are unchanged (still Blue)
+
+5.4 If an icon seems a bit dark after changing its color, increase its Brightness by 25 and its Contrast by 20.
+
+6. Click OK to apply the Hue/Saturation change.
+
+7. [Top-bar] File -> Save
+	A new window should pop up with save options.
+
+8. Save Options:
+	Format: 8.8.8.8 BGRA 32 bpp | unsigned
+	Texture Type: 2D Texture (Note: this may not show up, don't worry .)
+	Image Type: Color Map
+	...
+	Generate Mipmaps: YES
+	... Don't touch anything else.
+
+9. Click Save to save.
+
+10. DONE!

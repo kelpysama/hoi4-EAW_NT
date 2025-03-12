@@ -1,0 +1,2 @@
+# For ensuring the VSCode workspace file doesn't get pushed.
+*.code-workspace

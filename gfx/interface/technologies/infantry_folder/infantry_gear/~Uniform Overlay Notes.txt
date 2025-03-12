@@ -1,0 +1,13 @@
+Currently, the default EAWNT uniforms have descriptions consisting of 5 lines (1009 and 1014 Uniforms) and 4 lines (989, 1020, and 1026 Uniforms) of text. I sized the overlays to fit with the biggest one (i.e. 5 lines).
+
+If the description is 5 lines long:
+1. Add two '\n' to the beginning
+2. Add one '\n' to the end
+3. Add the texticon for the overlay (i.e. '£infantry_uniform_5_overlay') after the end '\n'
+
+If the description is 4 lines long:
+1. Add two '\n' to the beginning
+2. Add two '\n' to the end
+3. Add the texticon for the overlay (i.e. '£infantry_uniform_5_overlay') after the end '\n'
+
+If (description < 4 || description > 5 ): change the FREAKING description.
