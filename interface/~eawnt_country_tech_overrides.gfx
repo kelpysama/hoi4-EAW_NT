@@ -1,0 +1,177 @@
+## ~eawnt_country_tech_overrides.gfx
+## Defines/overwrites country-specific technology sprites.
+
+spriteTypes = {
+    ## 🤓 <(technology stuff)
+
+    #region ArmouredCars
+    ## Changelings
+	SpriteType = {
+		name = "GFX_CHN_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHN_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHN_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHN_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_NCH_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+
+    ## Ponies
+	SpriteType = {
+		name = "GFX_commonwealth_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_commonwealth_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_commonwealth_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_commonwealth_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_river_federation_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_river_federation_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_river_federation_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_river_federation_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_stalliongrad_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_stalliongrad_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_stalliongrad_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_stalliongrad_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+
+    ## Griffons
+	SpriteType = {
+		name = "GFX_griffonian_empire_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_griffonian_empire_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_griffonian_empire_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_griffonian_empire_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_aquileia_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_aquileia_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_aquileia_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_aquileia_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_wingbardy_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_wingbardy_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_wingbardy_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_wingbardy_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+
+    ## Hippogriffs
+	SpriteType = {
+		name = "GFX_hippogriff_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_hippogriff_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_hippogriff_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_hippogriff_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+
+    ## Bears
+	SpriteType = {
+		name = "GFX_polar_bear_2d_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_polar_bear_2d_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_polar_bear_2d_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_polar_bear_2d_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
+}

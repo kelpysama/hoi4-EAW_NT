@@ -707,6 +707,7 @@ spriteTypes = {
 
 
     #region WW/GTD SpecialProjects
+	##NOTE: Also modified in 'eaw_countrytechtreeview.gfx', any changes here must also be made there to avoid overwrite issues.
 	# INFANTRY
 	spriteType = {
 		name = "GFX_technology_infantry_folder_special_project_small_available_item_bg"

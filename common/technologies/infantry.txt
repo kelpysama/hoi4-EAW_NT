@@ -3143,7 +3143,7 @@ technologies = {
 			factor = 1
 			modifier = { factor = 2 date > "1008.1.1" }
 			modifier = { factor = 2 date > "1009.1.1" }
-			modifier = { num_of_military_factories < 10 factor = 0 }
+			modifier = { num_of_military_factories < 10 factor = 0.5 }
 		}
 	}
 	armored_car2 = {	#"Dedicated Armoured Cars"
@@ -3172,7 +3172,7 @@ technologies = {
 			factor = 1
 			modifier = { factor = 2 date > "1014.1.1" }
 			modifier = { factor = 2 date > "1015.1.1" }
-			modifier = { num_of_military_factories < 20 factor = 0 }
+			modifier = { num_of_military_factories < 20 factor = 0.5 }
 		}
 	}
 	armored_car3 = {	#"Role Specialization"
@@ -3202,7 +3202,7 @@ technologies = {
 			factor = 1
 			modifier = { factor = 2 date > "1019.1.1" }
 			modifier = { factor = 2 date > "1020.1.1" }
-			modifier = { num_of_military_factories < 20 factor = 0 }
+			modifier = { num_of_military_factories < 20 factor = 0.5 }
 		}
 	}
 	armored_car4 = {	#"Early IFV Prototypes"
@@ -3232,7 +3232,7 @@ technologies = {
 			factor = 1
 			modifier = { factor = 2 date > "1024.1.1" }
 			modifier = { factor = 2 date > "1025.1.1" }
-			modifier = { num_of_military_factories < 10 factor = 0 }
+			modifier = { num_of_military_factories < 10 factor = 0.5 }
 		}
 	}
 

@@ -32,19 +32,21 @@ technologies = {
 	@1029 = 25
 	@1030 = 26
 	## Horizontal positions (X)
-	@gw_tank = 3
-	@medium = 0
-	@mbt = 3
-	@light_afv = -3
+
 	@amphibious = -6
+	@light_afv = -3
+    	@upgrade_light = -2
+	@medium = 0
+	@gw_tank = 3
+	@mbt = 3
+		@upgrade_mbt_l = 2
+		@upgrade_mbt_r = 4
 	@heavy = 6
 	@super_heavy = 9
-    @armor = 3
-    @engine = 2
-    @upgrade_light = -2
-    @upgrade_mbt = 4
-    @upgrade_hbt_l = 8
-    @upgrade_hbt_r = 10
+		@upgrade_hbt_l = 8
+		@upgrade_hbt_r = 10
+    @armor = 12
+    @engine = 14
 
 
 
@@ -104,7 +106,7 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1018
-		folder = { name = nsb_armour_folder position = { x = @upgrade_mbt y = @1018 } }
+		folder = { name = nsb_armour_folder position = { x = @upgrade_mbt_l y = @1018 } }
 
 		categories = {
 			armor
@@ -125,9 +127,34 @@ technologies = {
 
 		category_tanks = { reliability = 0.025 defense = 0.05 }
 
+		path = { leads_to_tech = nsb_upgrade_nbc_protection research_cost_coeff = 0.5 }
+
 		research_cost = 1.5
-		start_year = 1024
-		folder = { name = nsb_armour_folder position = { x = @upgrade_mbt y = @1024 } }
+		start_year = 1020
+		folder = { name = nsb_armour_folder position = { x = @upgrade_mbt_r y = @1020 } }
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = { factor = 2 date > "1025.1.1" }
+			modifier = { factor = 2 date > "1026.1.1" }
+			modifier = { factor = 2 date > "1027.1.1" }
+		}
+	}
+	nsb_upgrade_nbc_protection = { #NEW
+		#Req. super_heavy_tank_chassis_b
+
+		category_tanks = { reliability = 0.05 defense = 0.1 }
+
+		research_cost = 1.5
+		start_year = 1020
+		folder = { name = nsb_armour_folder position = { x = @heavy y = @1020 } }
 
 		categories = {
 			armor
@@ -150,7 +177,7 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1030
-		folder = { name = nsb_armour_folder position = { x = @upgrade_mbt y = @1030 } }
+		folder = { name = nsb_armour_folder position = { x = @upgrade_mbt_r y = @1030 } }
 
 		categories = {
 			armor
@@ -164,29 +191,6 @@ technologies = {
 			modifier = { factor = 2 date > "1031.1.1" }
 			modifier = { factor = 2 date > "1032.1.1" }
 			modifier = { factor = 2 date > "1033.1.1" }
-		}
-	}
-	nsb_upgrade_nbc_protection = { #NEW
-		#Req. super_heavy_tank_chassis_b
-
-		category_tanks = { reliability = 0.05 defense = 0.1 }
-
-		research_cost = 1.5
-		start_year = 1024
-		folder = { name = nsb_armour_folder position = { x = @heavy y = @1024 } }
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = { factor = 2 date > "1025.1.1" }
-			modifier = { factor = 2 date > "1026.1.1" }
-			modifier = { factor = 2 date > "1027.1.1" }
 		}
 	}
 	nsb_upgrade_rcws = { #NEW
@@ -226,7 +230,7 @@ technologies = {
 
 		path = { leads_to_tech = armor_tech_2 research_cost_coeff = 1 }
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1005
 		folder = { name = nsb_armour_folder position = { x = @armor y = @1005 } }
 
@@ -429,7 +433,7 @@ technologies = {
 
 		path = { leads_to_tech = engine_tech_2 research_cost_coeff = 1 }
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 1005
 		folder = { name = nsb_armour_folder position = { x = @engine y = @1005 } }
 
@@ -708,6 +712,8 @@ technologies = {
 		path = { leads_to_tech = basic_heavy_tank_chassis research_cost_coeff = 1 }
 		path = { leads_to_tech = basic_medium_tank_chassis research_cost_coeff = 1 }
 		path = { leads_to_tech = nsb_upgrade_crew_heater research_cost_coeff = 1 }
+		path = { leads_to_tech = armor_tech_1 research_cost_coeff = 1 }
+		path = { leads_to_tech = engine_tech_1 research_cost_coeff = 1 }
 
 		research_cost = 2
 		start_year = 989
@@ -1398,6 +1404,7 @@ technologies = {
 
         path = { leads_to_tech = main_battle_tank_chassis_b research_cost_coeff = 1 }
 		path = { leads_to_tech = nsb_upgrade_boiling_vessel research_cost_coeff = 1 }
+		path = { leads_to_tech = nsb_upgrade_spall_liner research_cost_coeff = 1 }
 
 		research_cost = 2.5
 		start_year = 1016
@@ -1441,8 +1448,6 @@ technologies = {
 		}
 
 		path = { leads_to_tech = main_battle_tank_chassis_c research_cost_coeff = 1 }
-		path = { leads_to_tech = nsb_upgrade_spall_liner research_cost_coeff = 1 }
-		path = { leads_to_tech = nsb_upgrade_nbc_protection research_cost_coeff = 0.5 }
 
         research_cost = 2.5
 		start_year = 1022

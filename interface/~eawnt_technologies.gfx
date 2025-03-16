@@ -500,6 +500,27 @@ spriteTypes = {
 		name = "GFX_armor_tech_6_medium"
 		texturefile = "gfx/interface/technologies/armour_folder/nsb_armor_tech_6.dds"
 	}
+	## LANDCRUISER
+	SpriteType = {
+		name = "GFX_sp_armored_lc_naval_engine_conversion_tech_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/sp_armored_lc_naval_engine_conversion.dds"
+	}
+	SpriteType = {
+		name = "GFX_sp_armored_lc_transmission_improvements_tech_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/sp_armored_lc_transmission_improvements.dds"
+	}
+	SpriteType = {
+		name = "GFX_sp_armored_lc_specialized_field_manuals_tech_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/sp_armored_lc_specialized_field_manuals.dds"
+	}
+	SpriteType = {
+		name = "GFX_sp_armored_lc_high_impact_obliterator_cannon_tech_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/sp_armored_lc_high_impact_obliterator_cannon.dds"
+	}
+	SpriteType = {
+		name = "GFX_sp_armored_lc_weapon_fire_control_tech_medium"
+		texturefile = "gfx/interface/technologies/armour_folder/sp_armored_lc_weapon_fire_control.dds"
+	}
 
 
 

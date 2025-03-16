@@ -86,6 +86,14 @@ spriteTypes = {
 		name = "GFX_naval_folder_background"
 		texturefile = "gfx/interface/techtree/naval_folder0.dds"
 	}
+	spriteType = {
+		name = "GFX_naval_folder_background1"
+		texturefile = "gfx/interface/techtree/naval_folder1.dds"
+	}
+	spriteType = {
+		name = "GFX_naval_sup_folder_background"
+		texturefile = "gfx/interface/techtree/naval_support0.dds"
+	}
 
     #region AircraftFolderBackground
 	spriteType = {
@@ -96,4 +104,10 @@ spriteTypes = {
     #region ElectronicsFolderBackground
 
     #region IndustryFolderBackground
+
+	#region Doctrines
+	spriteType = {
+		name = "GFX_advanced_naval_doc_background"
+		texturefile = "gfx/interface/techtree/adv_naval_doctrine0.dds"
+	}
 }
