@@ -1,6 +1,6 @@
-## OVERWRITE: Organized file and adjusted tech positions.
-
-##### Original mod by Sig "Greatexperiment" Altre!
+## support.txt
+## Defines support technologies and positions
+## Original mod by Sig "Greatexperiment" Altre!
 
 technologies = {
 	## Horizontal positions (Y)
@@ -3793,9 +3793,9 @@ technologies = {
 
 		categories = {
 			support_tech
-			helicopter_tech
-			mio_cat_tech_all_helicopters_and_modules
-			mio_cat_tech_attack_helicopters_and_modules
+			# helicopter_tech
+			# mio_cat_tech_all_helicopters_and_modules
+			# mio_cat_tech_attack_helicopters_and_modules
 		}
 		ai_will_do = {
 			factor = 1

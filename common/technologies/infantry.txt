@@ -1,9 +1,6 @@
-## OVERWRITE, Adds new technologies:
-### Expanded MANPADS (Marepads, Creaturepads, IDK.)
-### Expanded Infantry Kits
-### TNO-lite experience
-
-##### Original mod by Sig "Greatexperiment" Altre!
+## infantry.txt
+## Defines infantry technologies and positions
+## Original mod by Sig "Greatexperiment" Altre!
 
 technologies = {
 	## Horizontal positions (Y)

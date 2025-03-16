@@ -1,0 +1,48 @@
+## ~eawnt_tank_modules_icons.gfx
+## Redefines some tank module sprites.
+
+spriteTypes = {
+    ## Spellblast
+	spriteType = {
+		name = "GFX_EMI_tank_magic_medium_cannon"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellblast_cannon_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_magic_medium_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellblast_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_magic_medium_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellblast_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_magic_medium_cannon_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellblast_cannon_4.dds"
+		legacy_lazy_load = no
+	}
+
+    ## Spellray
+    spriteType = {
+		name = "GFX_EMI_tank_magic_high_velocity_cannon"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellray_cannon_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_magic_high_velocity_cannon_2"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellray_cannon_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_magic_high_velocity_cannon_3"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellray_cannon_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_EMI_tank_magic_high_velocity_cannon_4"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/tank_module_spellray_cannon_4.dds"
+		legacy_lazy_load = no
+	}
+}

@@ -1,5 +1,5 @@
 ## ~eawnt_technologies.gfx
-## Defines generic technology sprites.
+## Defines/overwrites technology sprites.
 
 spriteTypes = {
     ## 🤓 <(technology stuff)
@@ -191,6 +191,23 @@ spriteTypes = {
     	name = "GFX_infantry_fighting_vehicles_medium"
 		texturefile = "gfx/interface/technologies/infantry_folder/generic_ifv.dds"
     }
+	# Armoured Cars
+    SpriteType = {
+		name = "GFX_armored_car1_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car3_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
+	}
 	## INFANTRY WEAPONS
 	# Upgrades
 	SpriteType = {	#Ancillary Infantry Weapons
