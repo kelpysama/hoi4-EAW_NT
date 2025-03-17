@@ -96,6 +96,9 @@ technologies = {
 		enable_equipments = {
 			melee_equipment_1
 		}
+		dependencies = {
+			pre_gw_artillery = 1
+		}
 
 		research_cost = 1
 		start_year = 950 # was 800, moved for license reasons
@@ -136,7 +139,6 @@ technologies = {
 
 		dependencies = {
 			melee_weapons1 = 1
-			pre_gw_artillery = 1
 		}
 
 		path = {

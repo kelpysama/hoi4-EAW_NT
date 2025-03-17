@@ -45,7 +45,6 @@ technologies = {
 	pre_gw_artillery = {
 
 		enable_equipments = { artillery_equipment_0 }
-		dependencies = { melee_weapons1 = 1 }
 
 		path = { leads_to_tech = gw_artillery research_cost_coeff = 1 }
 
@@ -83,7 +82,7 @@ technologies = {
 			secondary_turret_small_cannon
 		}
 		enable_equipments = { artillery_equipment_1 }
-		dependencies = { infantry_weapons = 1 }
+		dependencies = { basic_machine_tools = 1 }
 
 		path = { leads_to_tech = artillery1 research_cost_coeff = 1 }
 		path = { leads_to_tech = interwar_artillery research_cost_coeff = 1 }

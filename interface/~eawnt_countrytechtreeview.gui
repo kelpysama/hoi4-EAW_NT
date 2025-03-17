@@ -2746,7 +2746,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
-				text = "1011"
+				text = "1013"
 				maxWidth = 170
 				maxHeight = 32
 				format = center
@@ -2758,7 +2758,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
-				text = "1015"
+				text = "1019"
 				maxWidth = 170
 				maxHeight = 32
 				format = center
@@ -2770,7 +2770,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
-				text = "1019"
+				text = "1025"
 				maxWidth = 170
 				maxHeight = 32
 				format = center
@@ -2782,7 +2782,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
-				text = "1023"
+				text = "1031"
 				maxWidth = 170
 				maxHeight = 32
 				format = center
@@ -2794,7 +2794,7 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_36header"
 				borderSize = {x = 0 y = 0}
-				text = "1026"
+				text = "1037"
 				maxWidth = 170
 				maxHeight = 32
 				format = center
@@ -2895,7 +2895,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "naval_subtitle_carrier"
-				position = { x = 60 y = 1260 }
+				position = { x = 585 y = 1260 }
 				textureFile = ""
 				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
