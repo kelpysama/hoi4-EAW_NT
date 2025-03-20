@@ -1329,7 +1329,7 @@ guiTypes = {
 				iconType = {
 					name ="armortech_bg"
 					spriteType = "GFX_armour_folder_background"
-					position = { x=0 y=0 }
+					position = { x=-55 y=0 }
 					alwaystransparent = yes
 				}
 				iconType = {
@@ -2691,7 +2691,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 3000 height = 1750
+					width = 2700 height = 1900
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -2710,7 +2710,7 @@ guiTypes = {
 				iconType = {
 					name ="mtgnavaltechtree_bg_bottom"
 					spriteType = "GFX_naval_folder_background1"
-					position = { x=0 y=1050 }
+					position = { x=0 y=1160 }
 					alwaystransparent = yes
 				}
 			}
@@ -2788,18 +2788,18 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
-			instantTextBoxType = {
-				name = "naval_year7"
-				position = { x = 2770 y = 50 }
-				textureFile = ""
-				font = "hoi_36header"
-				borderSize = {x = 0 y = 0}
-				text = "1037"
-				maxWidth = 170
-				maxHeight = 32
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
+			# instantTextBoxType = {
+			# 	name = "naval_year7"
+			# 	position = { x = 2770 y = 50 }
+			# 	textureFile = ""
+			# 	font = "hoi_36header"
+			# 	borderSize = {x = 0 y = 0}
+			# 	text = "1037"
+			# 	maxWidth = 170
+			# 	maxHeight = 32
+			# 	format = center
+			# 	Orientation = "UPPER_LEFT"
+			# }
 
 			## SUBTITLES ##
 			instantTextBoxType = {
@@ -2990,7 +2990,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 3000 height = 1800
+					width = 2650 height = 1800
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -3009,7 +3009,7 @@ guiTypes = {
 				iconType = {
 					name ="mtgnavalsupporttechtree_bg_right"
 					spriteType = "GFX_naval_sup_folder_background"
-					position = { x=2340 y=0 }
+					position = { x=1650 y=0 }
 					alwaystransparent = yes
 				}
 
@@ -3057,7 +3057,7 @@ guiTypes = {
 					position = { x = 760 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1009"
+					text = "1010"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3069,7 +3069,7 @@ guiTypes = {
 					position = { x = 970 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1011"
+					text = "1013"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3081,7 +3081,7 @@ guiTypes = {
 					position = { x = 1180 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1013"
+					text = "1016"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3093,7 +3093,7 @@ guiTypes = {
 					position = { x = 1390 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1015"
+					text = "1019"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3105,7 +3105,7 @@ guiTypes = {
 					position = { x = 1600 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1017"
+					text = "1022"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3117,7 +3117,7 @@ guiTypes = {
 					position = { x = 1810 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1019"
+					text = "1025"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3129,7 +3129,7 @@ guiTypes = {
 					position = { x = 2020 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1021"
+					text = "1028"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3141,7 +3141,7 @@ guiTypes = {
 					position = { x = 2230 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1023"
+					text = "1031"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3153,31 +3153,7 @@ guiTypes = {
 					position = { x = 2440 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
-					text = "1025"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year15"
-					position = { x = 2650 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1027"
-					maxWidth = 170
-					maxHeight = 32
-					format = left
-					Orientation = "UPPER_LEFT"
-				}
-
-				instantTextBoxType = {
-					name = "infantry_year16"
-					position = { x = 2860 y = 50 }
-					font = "hoi_36header"
-					borderSize = { x = 0 y = 0}
-					text = "1029"
+					text = "1034"
 					maxWidth = 170
 					maxHeight = 32
 					format = left
@@ -3188,8 +3164,8 @@ guiTypes = {
 			## ICBM REQ OUTLINE ##
 			containerWindowType = {
 				name = "tiled_research_bg_icbm"
-				position = { x=1465 y=190 }
-				size = { width = 1485 height = 370 }
+				position = { x=1675 y=190 }
+				size = { width = 950 height = 370 }
 				clipping = no
 
 				background = {
