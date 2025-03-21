@@ -309,30 +309,14 @@ l_english:
   ## AIRFRAMES ##
 
   ## AIRSHIPS ##
-  mechanical_telekinesis:0 "Mechanical Telekinesis"
-    mechanical_telekinesis_desc:0 "New advancements in material science allow for the automation of telekinetic-based spells. Experimental Heavier-than-air-telekinetic (HTAK) lift methods have been developed that offer exponentially more lift than hydrogen and helium gases with less volatility and vulnerability to threats such as incendiary anti-air attacks."
-
-  advanced_airship_airframes:0 "1015 Airship Airframes"
-    advanced_airship_airframes_desc:0 "With a much higher lift capacity, engineers have been able to successfully fly large ships derived from naval destroyers. The new generation of airships are full-metal flying warships capable of denying entire airspaces to adversaries."
-
-  light_airship_airframe_0:0 "999 Light Airship Airframe"
-    light_airship_airframe_0_short:0 "999 Light Airship Airframe"
-  light_airship_airframe_1:0 "1015 Light Airship Airframe"
-    light_airship_airframe_1_short:0 "1015 Light Airship Airframe"
-
-  heavy_airship_airframe_0:0 "999 Heavy Airship Airframe"
-    heavy_airship_airframe_0_short:0 "999 Heavy Airship Airframe"
-  heavy_airship_airframe_1:0 "1015 Heavy Airship Airframe"
-    heavy_airship_airframe_1_short:0 "1015 Heavy Airship Airframe"
-  heavy_airship_airframe_2:0 "1025 Airship Airframe"
-    heavy_airship_airframe_2_short:0 "1025 Airship Airframe"
-    heavy_airship_airframe_2_desc:0 "TODO"
+  mothership_equipment_1:0 "1015 Heavy Airship"
+    mothership_equipment_1_short:0 "1015 Heavy Airship"
+    mothership_equipment_1_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
+  mothership_equipment_2:0 "1025 Heavy Airship"
+    mothership_equipment_2_short:0 "1025 Heavy Airship"
+    mothership_equipment_2_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
 
   ## MODULES / UPGRADES ##
-  precision_guided_munitions:0 "Precision Guided Munitions"
-    precision_guided_munitions_desc:0 "Guided bombs were developed to increase effectiveness against small, hard-to-hit targets. This also had the side effect of minimizing collateral damage. Precision Guided Munitions (PGMs) typically carry a smaller payload than their unguided counterparts to make room for guidance electronics, however, no decrease in lethality has been observed."
-  air_to_air_missile:0 "Air-to-air Missiles"
-    air_to_air_missile_desc:0 "Guided missiles made for destroying opposing aircraft. Although a simple objective in theory, missiles are specialized to fit into two range categories: Short range (within visual range), and Long range (beyond visual range). The former are used in dogfighting and optimized for agility and self-homing ability, while the latter rely on RADAR guidance from ground support or from integrated systems."
 
   #endregion AIR TECH ##
 

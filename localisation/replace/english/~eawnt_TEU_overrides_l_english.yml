@@ -760,9 +760,45 @@ l_english:
   cannon_defense_turret_2:0 "1x Rotary Cannon Turret"
   cannon_defense_turret_2_2x:0 "2x Rotary Cannon Turrets"
 
-  ## AIRSHIPS ##
+  ## AIRSHIPS / MOTHERSHIPS ##
   airship_airframes:0 "999 Airship Airframes"
     airship_airframes_desc:0 "Popularized during the Storm King's conquest of Zebrica, airships are large aircraft that utilize heavier-than-air floatation to carry munitions at high altitude for long distances. Their massive size, low speed, and vulnerability to incendiary ammunition make them easy targets for opponents with interceptors or sufficient anti-air. Although outdated by modern standards, they perform well against opponents that lack the industry to produce aircraft or anti-air."
+  heavy_airship:0 "Large Airship"
+    heavy_airship_equipment:0 "Large Airship"
+    heavy_airship_equipment_0:0 "Storm-Era Large Airship"
+    heavy_airship_equipment_0_short:0 "Early Large Airship"
+  large_airship_airframe_0:0 "Storm-Era Large Airship Airframe"
+    large_airship_airframe_0_short:0 "Early Large Airship Airframe"
+
+  mothership_equipment: "Heavy Airship"
+    mothership_equipment_short: "Heavy Airship"
+    mothership_equipment_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
+  mothership_equipment_0:  "1007 Heavy Airship"
+    mothership_equipment_0_short: "Heavy Airship"
+    mothership_equipment_0_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
+
+  AIR_TITLE_MOTHERSHIP: "Heavy Airship"
+    AIR_TITLE_MOTHERSHIP_DESC: "Heavy Airships are full-metal derivatives of the fragile airships seen during the Storm King's campaign. They're kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
+
+  mothership:0 "Heavy Airship"
+  reinforced_wings_mothership:0 "Angled Armour Belts"
+    reinforced_wings_mothership_desc:0 "While traditional naval armour layouts focus the armour to the sides and top, airship armour must deviate from this doctrine. The biggest threats to airships are heavy ground batteries and dive bombers, meaning we can improve the effectiveness of airship armour by angling it to increase armour thickness when attacking from above or below."
+  miniature_fighters:0 "Dedicated Aerial Batteries"
+    miniature_fighters_desc:0 "Previous gun batteries were directly taken from existing naval designs. Newer models designed specifically for use on heavy airships are lighter, allowing us to mount them on the bottom of the hull. This increases the firing angles available to our airships, preventing aircraft from exploiting the weak underbelly of our airships whilst also allowing airships to provide better ground support through direct bombardment."
+  aerial_hangars:0 "Telekinetic Efficiency"
+    aerial_hangars_desc:0 "New refinements to the automated Heavier-than-air-telekinetic casting systems reduce the number of spells active at once whilst increasing their duration. This increases the overall efficiency of the system, cutting down on crystal fuel use and improving the overall handling of our airships."
+
+  sp_air_mothership_aircraft_speed_factor: "Heavy Airship Research Speed"
+  sp_air_mothership_aircraft: "Heavy Airship"
+    sp_air_mothership_aircraft_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
+  sp_air_mothership_unique_reward: "Peak Airship Performance"
+    sp_air_mothership_unique_reward_desc: "In order to get peak performance from our heavy airships, we could try to specialize them and increase their capabilities in certain aspects. The question is - which aspect should we focus on?"
+    sp_air_mothership_preference_speed_agility: "Engines and Aerodynamics"
+    sp_air_mothership_preference_reliability: "Safety and Lift System Reliability"
+    sp_air_mothership_preference_strength: "Armour and Gun Batteries"
+    sp_air_mothership_speed_agility: "Heavy Airship - Speed and Handling Improvements"
+    sp_air_mothership_balanced: "Heavy Airship - Safety and Reliability Improvements"
+    sp_air_mothership_strength: "Heavy Airship - Armour and Gun Battery Improvements"
   #endregion AIR TECH ##
 
   #region ENGINEERING TECH ##

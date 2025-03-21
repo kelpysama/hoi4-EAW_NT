@@ -403,6 +403,13 @@ technologies = {
 
 		on_research_complete = {
 			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_magical_telekinetic_fields
+				}
+			}
+			if = {
 				limit = {
 					NOT = {	has_template_containing_unit = magical_infantry }
 				}
@@ -530,10 +537,10 @@ technologies = {
 		}
 
 		on_research_complete = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_magical_telekinetic_fields
-			}
+			# custom_effect_tooltip = {
+			# 	localization_key = SP_UNLOCK_PROJECT
+			# 	PROJECT = sp_magical_telekinetic_fields
+			# }
 
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT_WITH_EXTRA_TECH

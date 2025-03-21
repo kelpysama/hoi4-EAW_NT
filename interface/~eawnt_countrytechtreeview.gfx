@@ -55,6 +55,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/techtree/infantry_folder0.dds"
 	}
 	spriteType = {
+		name = "GFX_infantry_folder_background1"
+		texturefile = "gfx/interface/techtree/infantry_folder2.dds"
+	}
+	spriteType = {
 		name = "GFX_infantry_folder_specops_background"
 		texturefile = "gfx/interface/techtree/infantry_folder1.dds"
 	}
@@ -100,8 +104,20 @@ spriteTypes = {
 		name = "GFX_aircraft_folder_background"
 		texturefile = "gfx/interface/techtree/aircraft_folder0.dds"
 	}
+	spriteType = {
+		name = "GFX_aircraft_folder_background1"
+		texturefile = "gfx/interface/techtree/aircraft_folder1.dds"
+	}
 
     #region ElectronicsFolderBackground
+	spriteType = {
+		name = "GFX_electronics_folder_background0"
+		texturefile = "gfx/interface/techtree/electronics_folder0.dds"
+	}
+	spriteType = {
+		name = "GFX_electronics_folder_background1"
+		texturefile = "gfx/interface/techtree/electronics_folder1.dds"
+	}
 
     #region IndustryFolderBackground
 

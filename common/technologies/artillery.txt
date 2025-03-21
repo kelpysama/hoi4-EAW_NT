@@ -64,6 +64,8 @@ technologies = {
 	}
 	gw_artillery = {
 
+		dependencies = { basic_machine_tools = 1 }
+
 		on_research_complete = {
 			if = {
 				limit = {
@@ -82,7 +84,6 @@ technologies = {
 			secondary_turret_small_cannon
 		}
 		enable_equipments = { artillery_equipment_1 }
-		dependencies = { basic_machine_tools = 1 }
 
 		path = { leads_to_tech = artillery1 research_cost_coeff = 1 }
 		path = { leads_to_tech = interwar_artillery research_cost_coeff = 1 }

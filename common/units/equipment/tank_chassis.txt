@@ -1,3 +1,4 @@
+## tank_chassis.txt
 ## OVERWRITE: I balanced the chassis reliability cause it gets kinda crazy late game.
 
 equipments = {

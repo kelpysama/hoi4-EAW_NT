@@ -647,36 +647,36 @@ spriteTypes = {
 	}
 	## AIRSHIPS
 	SpriteType = {
-		name = "GFX_mechanical_telekinesis_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/mechanical_telekinesis.dds"
-	}
-	SpriteType = {
 		name = "GFX_advanced_airship_airframes_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_1.dds"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_mothership_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_modern_airship_airframes_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_2.dds"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_mothership_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_light_airship_airframe_0_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_light_airship_0.dds"
+		name = "GFX_mothership_equipment_0_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_mothership.dds"
 	}
 	SpriteType = {
-		name = "GFX_light_airship_airframe_1_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_light_airship_1.dds"
+		name = "GFX_mothership_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_mothership_1.dds"
 	}
 	SpriteType = {
-		name = "GFX_heavy_airship_airframe_0_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_0.dds"
+		name = "GFX_mothership_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_mothership_2.dds"
 	}
 	SpriteType = {
-		name = "GFX_heavy_airship_airframe_1_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_1.dds"
+		name = "GFX_reinforced_wings_mothership_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/sp_mothership_up_0.dds"
 	}
 	SpriteType = {
-		name = "GFX_heavy_airship_airframe_2_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heavy_airship_2.dds"
+		name = "GFX_miniature_fighters_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/sp_mothership_up_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_aerial_hangars_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/sp_mothership_up_2.dds"
 	}
 	## AIRCRAFT UPGRADES / TECH / MODULES
 	SpriteType = {
