@@ -17,6 +17,7 @@ script_enum_advisor_slot_type = {
 	air_chief
 	political_advisor
 }
+
 script_enum_equipment_stat = {
 								#Viktors note for modders and future CDs: If you want to use a stat in the MIOs it has to be in the equipment category itself, not on the battalion level. So stuff like defense works because its contained within the equipment, but stuff like recon will not work because its owned by the battalion. Adding stuff like recon will not throw an error, but it will _not_ work. Moving stats to the equipment level from the bat-level might fix this if you are brave enough, but it is very risk and might break other stuff. Ive commented what is currently on the battalion level below and should not be used with MIOs.
 
@@ -106,8 +107,6 @@ script_enum_production_stat = {
 	production_resource_penalty_factor
 	production_conversion_speed_factor
 }
-
-
 
 script_enum_equipment_category = {
 	convoy
@@ -205,10 +204,6 @@ script_enum_equipment_bonus_type = {
 	armored_support_vehicle_1
 	helicopter_equipment
 	helicopter_equipment_1
-	mothership_equipment
-	mothership_equipment_0
-	mothership_equipment_1
-	mothership_equipment_2
 	strat_bomber_intercontinental_equipment
 	strat_bomber_intercontinental_equipment_1
 	motorbike_equipment
@@ -951,4 +946,35 @@ script_enum_equipment_bonus_type = {
 	intercontinental_maritime_patrol_plane_airframe_1
 	intercontinental_maritime_patrol_plane_airframeairframe_1
 	intercontinental_maritime_patrol_plane_airframeuper_large_plane_airframe_1
+
+	# EAW: NEW TECHNOLOGY
+	## MODIFIED
+	mothership_equipment
+	mothership_equipment_0
+	mothership_equipment_1
+	mothership_equipment_2
+
+	## NEW
+	infantry_uniform_89
+	infantry_uniform_09
+	infantry_uniform_14
+	infantry_uniform_20
+	infantry_uniform_26
+
+	infantry_anti_tank
+	infantry_anti_tank_0
+	infantry_anti_tank_1
+	infantry_anti_tank_2
+	infantry_anti_tank_3
+
+	infantry_anti_air
+	infantry_anti_air_0
+
+	motorized_equipment_4
+
+	ifv_equipment
+	ifv_equipment_0
+
+	civ_train_equipment_2
+	civ_train_equipment_3
 }
