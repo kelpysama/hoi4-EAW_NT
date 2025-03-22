@@ -622,27 +622,7 @@ spriteTypes = {
     #region AirFolder
 	## AIRPLANES
 	SpriteType = {
-		name = "GFX_transport_plane_equipment_1_medium"
-		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
-	}
-	SpriteType = {
-		name = "GFX_early_transport_medium"
-		texturefile = "gfx/interface/technologies/transport_plane_equipment.dds"
-	}
-	SpriteType = {
-		name = "GFX_transport_plane_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_2.dds"
-	}
-	SpriteType = {
-		name = "GFX_improved_transport_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_2.dds"
-	}
-	SpriteType = {
 		name = "GFX_transport_plane_equipment_3_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_3.dds"
-	}
-	SpriteType = {
-		name = "GFX_advanced_transport_medium"
 		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_3.dds"
 	}
 	## AIRSHIPS
@@ -686,6 +666,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_air_to_air_missile_medium"
 		texturefile = "gfx/interface/equipmentdesigner/planes/modules/airplane_air_to_air_missile_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_sp_centrifugal_jet_tech_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/sp_aircraft_centrifugal_jet.dds"
 	}
 	# BBA Overwrite
 	SpriteType = {
@@ -778,7 +762,7 @@ spriteTypes = {
     #region ElectronicsFolder
 	SpriteType = {
 		name = "GFX_iff_detection_medium"
-		texturefile = "gfx/interface/technologies/engineering_folder/iff_detection.dds"
+		texturefile = "gfx/interface/technologies/electronics_folder/iff_detection.dds"
 	}
 
 

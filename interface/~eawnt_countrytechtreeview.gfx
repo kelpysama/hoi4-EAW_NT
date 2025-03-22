@@ -112,11 +112,7 @@ spriteTypes = {
     #region ElectronicsFolderBackground
 	spriteType = {
 		name = "GFX_electronics_folder_background0"
-		texturefile = "gfx/interface/techtree/electronics_folder0.dds"
-	}
-	spriteType = {
-		name = "GFX_electronics_folder_background1"
-		texturefile = "gfx/interface/techtree/electronics_folder1.dds"
+		texturefile = "gfx/interface/techtree/electronics_wonderweapons.dds"
 	}
 
     #region IndustryFolderBackground

@@ -1913,6 +1913,9 @@ technologies = {
 		#Victorian Era
 		#MODIFIED: Fake equipment, real bonuses
 
+		#Simulated economic impact
+		consumer_goods_factor = 0.01
+
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.025
 		acclimatization_hot_climate_gain_factor = 0.025
@@ -1944,6 +1947,9 @@ technologies = {
 		#WW1 Era
 		#MODIFIED: Fake equipment, real bonuses
 
+		#Simulated economic impact
+		consumer_goods_factor = 0.01
+
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.025
 		acclimatization_hot_climate_gain_factor = 0.025
@@ -1973,6 +1979,9 @@ technologies = {
 	infantry_uniform_3 = {	#NEW "1014 Infantry Uniform"
 		#WW2 Era
 		#MODIFIED: Fake equipment, real bonuses
+
+		#Simulated economic impact
+		consumer_goods_factor = 0.01
 
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.05
@@ -2004,6 +2013,9 @@ technologies = {
 		#Postwar Era
 		#MODIFIED: Fake equipment, real bonuses
 
+		#Simulated economic impact
+		consumer_goods_factor = 0.01
+
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.05
 		acclimatization_hot_climate_gain_factor = 0.05
@@ -2032,6 +2044,9 @@ technologies = {
 	infantry_uniform_5 = {	#NEW "1026 Infantry Uniform"
 		#Coldwar Era
 		#MODIFIED: Fake equipment, real bonuses
+
+		#Simulated economic impact
+		consumer_goods_factor = 0.01
 
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.05
@@ -3774,7 +3789,12 @@ technologies = {
 		}
 	}
 
+	#Erm... paratroopers banned.
 	paratroopers = {
+
+		allow = {
+			always = no
+		}
 
 		dependencies = {
 			infantry_weapons = 1

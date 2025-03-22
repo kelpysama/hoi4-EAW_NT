@@ -305,6 +305,10 @@ l_english:
     AIR_TITLE_TRANSPORT_TT:0 "Aircraft specialized for transporting airborne troops and supplies."
   AIR_TITLE_AIRSHIP:0 "AIRSHIPS"
     AIR_TITLE_AIRSHIP_TT:0 "Heavier-than-air aircraft that are expensive to construct but bring a lot of firepower."
+  AIR_TITLE_AXIAL:0 "AXIAL"
+    AIR_TITLE_AXIAL_TT:0 "Jet aircraft requiring Axial jet engines."
+  AIR_TITLE_TURBOFAN:0 "TURBOFAN"
+    AIR_TITLE_TURBOFAN_TT:0 "Jet aircraft requiring Turbofan jet engines."
 
   ## AIRFRAMES ##
 
@@ -321,6 +325,9 @@ l_english:
   #endregion AIR TECH ##
 
   #region ENGINEERING TECH ##
+  TITLE_FORT_SUBTITLE:0 "FORTIFICATIONS"
+    TITLE_FORT_SUBTITLE_TT:0 "Static fortifications that increase the effectiveness of defensive operations."
+
   iff_detection:0 "IFF Detection"
     iff_detection_desc:0 "Identification friend or foe (IFF), a combat identification system, is achieved by responding to specific interrogation signals with a response signal that identifies your allegiance. This system is only capable of postively identifying aircraft that have a known signal (friendly or allied aircraft) and marks others as unknown."
   #endregion ENGINEERING TECH ##
