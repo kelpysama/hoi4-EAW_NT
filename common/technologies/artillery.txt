@@ -21,22 +21,19 @@ technologies = {
 	@1030 = 24
 	## Horizontal positions (X)
 	@aa = -8
-		@aa_nsb = -10
-		@aa_upgrades = -7
+	@aa_sp = -9
+	@aa_upgrades = -7
 
 	@arty = -3
-		@arty_nsb = -5
-		@arty_upgrades = -2
+	@arty_upgrades = -2
 
 	@gw_artillery = 0
 
 	@rarty = 3
-		@rarty_nsb = 5
-		@rarty_upgrades = 4
+	@rarty_upgrades = 4
 
 	@at = 8
-		@at_nsb = 10
-		@at_upgrades = 9
+	@at_upgrades = 9
 
 
 
@@ -1648,7 +1645,7 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1014
-		folder = { name = artillery_folder position = { x = @aa_nsb y = @1014 } }
+		folder = { name = artillery_folder position = { x = @aa_sp y = @1014 } }
 
 		categories = {
 			artillery
@@ -1681,7 +1678,7 @@ technologies = {
 
 		research_cost = 1.5
 		start_year = 1016
-		folder = { name = artillery_folder position = { x = @aa_nsb y = @1016 } }
+		folder = { name = artillery_folder position = { x = @aa_sp y = @1016 } }
 
 		categories = {
 			artillery

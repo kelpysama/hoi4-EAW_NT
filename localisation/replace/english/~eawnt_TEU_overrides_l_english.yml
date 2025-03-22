@@ -820,8 +820,8 @@ l_english:
     INDUSTRY_TITLE_TT:0 "The theory and technology behind the industrial complex."
   INDUSTRY_TITLE_CONSTRUCTION:0 "CONSTRUCTION\n& EXTRACTION"
     INDUSTRY_TITLE_CONSTRUCTION_TT:0 "Tools and systems for developing industrial infrastructure and extracting raw resources."
-  INDUSTRY_TITLE_OIL:0 "OIL\nEXTRACTION"
-    INDUSTRY_TITLE_OIL_TT:0 "Technology for improving the production of oil and creation of synthetic oils."
+  INDUSTRY_TITLE_OIL:0 "SYNTHETIC\nRESOURCES"
+    INDUSTRY_TITLE_OIL_TT:0 "Technology for unlocking and improving the production of synthetic resources."
 
   #endregion INDUSTRY TECH ##
 

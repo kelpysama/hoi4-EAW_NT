@@ -1913,9 +1913,6 @@ technologies = {
 		#Victorian Era
 		#MODIFIED: Fake equipment, real bonuses
 
-		#Simulated economic impact
-		consumer_goods_factor = 0.01
-
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.025
 		acclimatization_hot_climate_gain_factor = 0.025
@@ -1948,7 +1945,7 @@ technologies = {
 		#MODIFIED: Fake equipment, real bonuses
 
 		#Simulated economic impact
-		consumer_goods_factor = 0.01
+		consumer_goods_factor = 0.002
 
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.025
@@ -1981,7 +1978,7 @@ technologies = {
 		#MODIFIED: Fake equipment, real bonuses
 
 		#Simulated economic impact
-		consumer_goods_factor = 0.01
+		consumer_goods_factor = 0.002
 
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.05
@@ -2014,7 +2011,7 @@ technologies = {
 		#MODIFIED: Fake equipment, real bonuses
 
 		#Simulated economic impact
-		consumer_goods_factor = 0.01
+		consumer_goods_factor = 0.002
 
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.05
@@ -2046,7 +2043,7 @@ technologies = {
 		#MODIFIED: Fake equipment, real bonuses
 
 		#Simulated economic impact
-		consumer_goods_factor = 0.01
+		consumer_goods_factor = 0.002
 
 		#Attrition Bonuses
 		acclimatization_cold_climate_gain_factor = 0.05
