@@ -1210,6 +1210,9 @@ technologies = {
 			leads_to_tech = dispersed_industry_d
 			research_cost_coeff = 1
 		}
+		XOR = {
+			concentrated_industry_c
+		}
 
 		research_cost = 2
 		start_year = 1031

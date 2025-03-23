@@ -1,2 +1,5 @@
+# For ensuring the preview folder doesn't get modified.
+~preview/
+
 # For ensuring the VSCode workspace file doesn't get pushed.
 *.code-workspace
