@@ -313,6 +313,8 @@ l_english:
   ## AIRFRAMES ##
 
   ## AIRSHIPS ##
+  advanced_airship_airframes:0 "1015 Heavy Airship"
+  modern_airship_airframes:0 "1025 Heavy Airship"
   mothership_equipment_1:0 "1015 Heavy Airship"
     mothership_equipment_1_short:0 "1015 Heavy Airship"
     mothership_equipment_1_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."

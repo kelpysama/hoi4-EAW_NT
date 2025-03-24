@@ -3786,12 +3786,12 @@ technologies = {
 		}
 	}
 
-	#Erm... paratroopers banned.
 	paratroopers = {
 
-		allow = {
-			always = no
-		}
+		# Ban later?
+		# allow = {
+		# 	always = no
+		# }
 
 		dependencies = {
 			infantry_weapons = 1
