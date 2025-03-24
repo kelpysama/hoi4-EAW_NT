@@ -291,8 +291,8 @@ l_english:
   rescind_battleship_carrier_choice:0 "Revisit Capital Ship Doctrine"
     rescind_battleship_carrier_choice_desc:0 "\nOur previous decision to stick with a single type of capital ship may have been made with insufficient information. We must conduct an in-depth study into our theory on capital ships and reform our navy into a force where Battleships and Carriers can rule the waves in harmony.\n\n§GResearching this will allow you to continue research on Battleships§! §YAND§! §GCarriers.§!\n£rescind_battleship_carrier_choice_overlay"
     RESCIND_BB_CV_TOOLTIP:0 "§GResearching this will allow you to continue research on Battleships§! §YAND§! §GCarriers.§!"
-  improved_ship_hull_heavy:0 "1011 Battleship Hull"
-  improved_ship_hull_carrier:0 "1011 Carrier Hull"
+  improved_ship_hull_heavy:0 "1013 Battleship Hull"
+  improved_ship_hull_carrier:0 "1013 Carrier Hull"
   #endregion MTG NAVY TECH ##
   #region MTG NAVY SUPPORT TECH ##
 
