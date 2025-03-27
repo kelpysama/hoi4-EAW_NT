@@ -108,6 +108,10 @@ spriteTypes = {
 		name = "GFX_aircraft_folder_background1"
 		texturefile = "gfx/interface/techtree/aircraft_folder1.dds"
 	}
+	spriteType = {
+		name = "GFX_aircraft_folder_background2"
+		texturefile = "gfx/interface/techtree/aircraft_folder2.dds"
+	}
 
     #region ElectronicsFolderBackground
 	spriteType = {
@@ -116,10 +120,34 @@ spriteTypes = {
 	}
 
     #region IndustryFolderBackground
+	spriteType = {
+		name = "GFX_industry_folder_background1"
+		texturefile = "gfx/interface/techtree/industry_folder1.dds"
+	}
 
 	#region Doctrines
 	spriteType = {
-		name = "GFX_advanced_naval_doc_background"
-		texturefile = "gfx/interface/techtree/adv_naval_doctrine0.dds"
+		name = "GFX_modern_naval_doc_bg"
+		texturefile = "gfx/interface/techtree/naval_doc_bg_3.dds"
+	}
+	spriteType = {
+		name = "GFX_air_doc_bg_0"
+		texturefile = "gfx/interface/techtree/air_doc_bg_0.dds"
+	}
+	spriteType = {
+		name = "GFX_air_doc_bg_1"
+		texturefile = "gfx/interface/techtree/air_doc_bg_1.dds"
+	}
+	spriteType = {
+		name = "GFX_air_doc_bg_2"
+		texturefile = "gfx/interface/techtree/air_doc_bg_2.dds"
+	}
+	spriteType = {
+		name = "GFX_air_doc_bg_3"
+		texturefile = "gfx/interface/techtree/air_doc_bg_3.dds"
+	}
+	spriteType = {
+		name = "GFX_air_doc_bg_4"
+		texturefile = "gfx/interface/techtree/air_doc_bg_4.dds"
 	}
 }

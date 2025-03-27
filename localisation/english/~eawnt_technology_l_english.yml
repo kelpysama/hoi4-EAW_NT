@@ -3,13 +3,14 @@
 
 l_english:
   #region INFANTRY TECH ##
-  # Titles #
+  # Titles
   INFANTRY_TITLE_SUPPORT:0 "SUPPORT WEAPONS"
     INFANTRY_TITLE_SUPPORT_TT:0 "Heavy or specialized infantry weapons that are fielded in fewer numbers."
   INFANTRY_TITLE_GEAR:0 "INFANTRY GEAR"
     INFANTRY_TITLE_GEAR_TT:0 "Standard issue infantry uniforms and utility equipment."
 
-  ## ANTI-AIR / ANTI-TANK ##
+  # Infantry Anti-air/Anti-Tank
+  ## Anti-tank
   infantry_anti_tank:0 "Infantry Anti-Tank"
   infantry_anti_tank_0:0 "1009 Anti-Tank Rifle"
     infantry_anti_tank_0_desc:0 "The advent of armored vehicles such as tanks would start the development of a new class of infantry-carried weapons capable of disabling these vehicles. One of the first designs proposed was an upsized rifle capable of firing high-caliber rounds that could penetrate armor plates."
@@ -20,14 +21,14 @@ l_english:
     infantry_anti_tank_2_desc:0 "Improvements in rocket design design have allowed us to specialize them into dedicated armor-piercing and high-explosive ammunition. This gives our troops greater flexibility in engagements as the rocket launcher can be used to engage both hard and soft targets."
   infantry_anti_tank_3:0 "1025 Rocket Launcher"
     infantry_anti_tank_3_desc:0 "Newer rocket launchers not only see use as anti-tank weapons, but are able to use specialized munitions to attack and destroy bunkers or other fortifications."
-
+  ## Anti-air
   infantry_anti_air:0 "Infantry Anti-Air"
   infantry_anti_air_0:0 "1026 Mare-Portable Air Defense System"
     ## Mare is used here as it implies that if the most basic creature can carry it, you can too. Also, it rolls off the tongue better than "Being-Portable" or "Creature-Portable".
     infantry_anti_air_0_short:0 "1026 MAREPADS"
     infantry_anti_air_0_desc:0 "A specialized missile launcher that is capable of locking onto aircraft and firing a heat-seeking missile to neutralize it. The launcher itself utilizes experimental thaumaturgically-produced components and wiring to minimize their size and weight, making it as portable as current rocket launchers."
     INFANTRY_AA_TOOLTIP:0 "\n£unit_infantry_icon_small All Infantry will require an additional §Y8§! §Y$infantry_anti_air$.§!"
-
+  ## Upgrades
   infantry_at_upgrade:0 "Larger Calibers"
     infantry_at_upgrade_desc:0 "We can further improve armor penetration of anti-tank rifles by upscaling their ammunition."
   infantry_at2_upgrade_1:0 "Improved Launch System"
@@ -47,29 +48,27 @@ l_english:
   infantry_aa_upgrade_2:0 "IFF Integration"
     infantry_aa_upgrade_2_desc:0 "Built-in extendable antennas on MAREPADS allow them to send out interrogator signals to identify nearby aircraft. This will reduce chances of friendly-fire on allied aircraft."
 
-  ## INFANTRY GEAR ##
-  # Infantry Uniforms #
+  # Infantry Gear
+  ## Infantry Uniforms
   infantry_uniform_89:0 "989 Infantry Uniform"
     infantry_uniform_89_desc:0 "\n\nAs various empires industrialised in the 10th century, standardized uniforms were adopted to replace the antiquated systems of emblem embroidery on surcoats. This aided in troop identification, along with streamlining the production processes of the time.\n\n£infantry_uniform_1_overlay"
   infantry_uniform_09:0 "1009 Infantry Uniform"
     infantry_uniform_09_desc:0 "\n\nAdvancements in fabric allowed for weather-resistant uniforms to better protect soldiers from the elements, while steel helmets were made to deflect shrapnel from artillery strikes. Bright-coloured uniforms would be phased out as battles switched from line formations to trench warfare.\n\n£infantry_uniform_2_overlay"
-  infantry_uniform_14:0 "1014 Infantry Uniform"
-    infantry_uniform_14_desc:0 "\n\nThe importance of personal camouflage was slowly realized as time passed. Infantry visibility could be minimized by designing uniforms with patterns specific to the expected combat environment, increasing their chances of survival. Along with this, innovations in helmet design reduced the chances of head injury while still deflecting shrapnel.\n£infantry_uniform_3_overlay"
-  infantry_uniform_20:0 "1020 Infantry Uniform"
-    infantry_uniform_20_desc:0 "\n\nThe introduction of synthetic fibers has led to new uniform designs that are more durable and allow moisture to escape, minimizing infantry discomfort. Research on ballistic armor, an alternative to the traditional flak jacket, has resulted in a lightweight vest that offers protection against enemy small arms fire.\n\n£infantry_uniform_4_overlay"
-  infantry_uniform_26:0 "1026 Infantry Uniform"
-    infantry_uniform_26_desc:0 "\n\nUniforms can be specialized for different environments by improving camouflage patterns and designing around temperature and potential hazards. New developments in armor protection have enhanced existing helmet designs and spurred the development of newer, stronger ballistic vests.\n\n£infantry_uniform_5_overlay"
-
   infantry_uniform_2:0 "1009 Infantry Uniform"
     infantry_uniform_2_desc:0 "Advancements in fabric allowed for weather-resistant uniforms to better protect soldiers from the elements, while steel helmets were made to deflect shrapnel from artillery strikes. Bright-coloured uniforms would be phased out as battles switched from line formations to trench warfare."
+  infantry_uniform_14:0 "1014 Infantry Uniform"
+    infantry_uniform_14_desc:0 "\n\nThe importance of personal camouflage was slowly realized as time passed. Infantry visibility could be minimized by designing uniforms with patterns specific to the expected combat environment, increasing their chances of survival. Along with this, innovations in helmet design reduced the chances of head injury while still deflecting shrapnel.\n£infantry_uniform_3_overlay"
   infantry_uniform_3:0 "1014 Infantry Uniform"
     infantry_uniform_3_desc:0 "The importance of personal camouflage was slowly realized as time passed. Infantry visibility could be minimized by designing uniforms with patterns specific to the expected combat environment, increasing their chances of survival. Along with this, innovations in helmet design reduced the chances of head injury while still deflecting shrapnel."
+  infantry_uniform_20:0 "1020 Infantry Uniform"
+    infantry_uniform_20_desc:0 "\n\nThe introduction of synthetic fibers has led to new uniform designs that are more durable and allow moisture to escape, minimizing infantry discomfort. Research on ballistic armor, an alternative to the traditional flak jacket, has resulted in a lightweight vest that offers protection against enemy small arms fire.\n\n£infantry_uniform_4_overlay"
   infantry_uniform_4:0 "1020 Infantry Uniform"
     infantry_uniform_4_desc:0 "The introduction of synthetic fibers has led to new uniform designs that are more durable and allow moisture to escape, minimizing infantry discomfort. Research on ballistic armor, an alternative to the traditional flak jacket, has resulted in a lightweight vest that offers limited protection against enemy small arms fire."
+  infantry_uniform_26:0 "1026 Infantry Uniform"
+    infantry_uniform_26_desc:0 "\n\nUniforms can be specialized for different environments by improving camouflage patterns and designing around temperature and potential hazards. New developments in armor protection have enhanced existing helmet designs and spurred the development of newer, stronger ballistic vests.\n\n£infantry_uniform_5_overlay"
   infantry_uniform_5:0 "1026 Infantry Uniform"
     infantry_uniform_5_desc:0 "Uniforms can be specialized for different environments by improving camouflage patterns and designing around temperature and potential hazards. New developments in armor protection have enhanced existing helmet designs and spurred the development of newer, stronger ballistic vests."
-
-  # Upgrades #
+  ## Upgrades
   equipment_upgrade_0:0 "Basic Infantry Equipment"
     equipment_upgrade_0_desc:0 "Providing our infantry with basic equipment such as mess kits, entrenching tools, and medical supplies will improve their effectiveness in the field."
   equipment_upgrade_1:0 "Ammo Storage and Gas Masks"
@@ -78,8 +77,7 @@ l_english:
     equipment_upgrade_3_desc:0 "Experimental rations with multiple menus are expected to increase soldier morale and assist in fatigue recovery. Along with this, new advancements in healthcare have led to the development of smaller and more effective forms of battlefield medicine."
   equipment_upgrade_4:0 "Ration Modernisation"
     equipment_upgrade_4_desc:0 "Previous experiments with multi-menu rations proved successful. Further development into lightweight, durable rations with more menus will improve troop recovery."
-
-  # Night Vision #
+  ## Night Vision
   pre_night_vision_0:0 "Flare Guns"
     pre_night_vision_0_desc:0 "Specialized firearms capable of firing flare cartridges high into the sky and illuminating large areas at night."
   pre_night_vision_1:0 "Military Flashlights"
@@ -87,7 +85,7 @@ l_english:
   night_vision3:0 "1st Gen Night Vision"
     night_vision3_desc:0 "Helmet-mounted night vision goggles provide sight into the dark by amplifying ambient light with a built-in light source invisible to normal creatures."
 
-  ## INFANTRY WEAPONS ##
+  # Infantry Weapons
   advanced_infantry_weapons_f:0 "Ammunition Improvements II"
     advanced_infantry_weapons_f_desc:0 "Experimental types of ammunition such as caseless, non-metal cased, and microjets have given insight into current research on ammunition improvement. By adopting and standardizing one of these options, or using the results to improve our current ammunition, we can increase the effectiveness of our weaponry."
   advanced_infantry_weapons_g:0 "Underbarrel Weaponry"
@@ -112,8 +110,8 @@ l_english:
     magic_tank_weapon3_desc:0 "Further refinement of the liquid-crystal-charging method has led to reductions in volume through fluid substitutes that increase the density of liquid crystals, shrinking the size of the storage vat which in turn minimizes overall vulnerability. These substitutes also speed up magic charging by allowing crystals to discharge faster when within the magic cannon interface."
 
 
-  ## INFANTRY VEHICLES ##
-  # Motorized #
+  # Infantry Vehicles
+  ## Motorized
   motorized_equipment_4:0 "1028 Truck"
     motorized_equipment_4_desc:0 "Innovations in material science and automobile design paved the way for newer truck models that are resistant to a limited amount of small-arms fire and capable of transporting our largest artillery pieces."
   motorised_upgrade_1:0 "Improved Chassis Design"
@@ -122,8 +120,7 @@ l_english:
     motorised_upgrade_2_desc:0 "Integrating basic radio systems into our trucks will allow them to communicate with other trucks and with their supply targets, reducing chances of getting lost en route."
   motorised_upgrade_3:0 "Bullet-proof Chassis"
     motorised_upgrade_3_desc:0 "New metal composites allow us to build trucks with bullet-proof materials that will improve motorized troop survivability and reduce the amount of supplies lost to attrition."
-
-  # Mechanized #
+  ## Mechanized
   ifv_equipment:0 "IFVs"
   EQUIPMENT_IFV:0 "IFVs"
   ifv_equipment_0:0 "1030 Infantry Fighting Vehicle"
@@ -131,23 +128,23 @@ l_english:
     ifv_equipment_0_desc:0 "Although APCs were versatile, it was not possible to mount heavier weaponry on them without sacrificing crew capacity. Newer designs, called infantry fighting vehicles, carry less infantry but mount heavier weaponry. IFVs are not complete replacements for APCs, and are meant to assist them in supporting dismounted infantry."
     APC_IFV_TOOLTIP:0 "\n£unit_mechanized_icon_small Mechanized Brigades will require an additional §Y20§! §Y$ifv_equipment$.§!"
 
-  ## INFANTRY WEAPONS ##
+  # Infantry Weapons
 
 
-  ## SUPPORT WEAPONS ##
+  # Support Weapons
 
 
-  #endregion INFANTRY TECH ##
+  #endregion INFANTRY TECH
 
-  #region SUPPORT TECH ##
-  # Titles #
+  #region SUPPORT TECH
+  # Titles
   SUPPORT_TITLE_COMPANIES:0 "SUPPORT COMPANIES"
     SUPPORT_TITLE_COMPANIES_TT:0 "Small, specialized groups that assist larger divisions in various ways."
   SUPPORT_TITLE_HELICOPTERS:0 "HELICOPTERS"
     SUPPORT_TITLE_HELICOPTERS_TT:0 "Advanced rotorcraft capable of vertical take off and landing."
 
-  ## SUPPORT COMPANIES ##
-  # My ass is not going to write 12 lines of gibber-jabber that players aren't going to read! (support tech descs)
+  # Support Companies
+  ## My ass is not going to write 12 lines of gibber-jabber that players aren't going to read! (support tech descs)
   tech_engineers8:0 "Engineer Company VIII"
     tech_engineers8_desc:0 ""
   tech_engineers9:0 "Engineer Company IX"
@@ -183,7 +180,7 @@ l_english:
   tech_signal_company9:0 "Signal Company IX"
     tech_signal_company9_desc:0 ""
 
-  ## HELICOPTERS ##
+  # Helicopters
   scout_helicopter_upgrade_1:0 "Light Helicoper Armaments"
     scout_helicopter_upgrade_1_desc:0 "Scout helicopters can be equipped with dedicated close-air support equipment to serve as light attack helicopters. While not as effective regular attack helicopters, their manueverability allows them to perform quick hit-and-run strikes and disrupt hostile forces."
   scout_helicopter_upgrade_2:0 "Embedded RADAR Systems"
@@ -197,15 +194,15 @@ l_english:
     attack_helicopter_equipment_2_short:0 "1025 Attack Heli"
     attack_helicopter_equipment_2_desc:0 "A flying weapons platform built around advanced turbofan engines that allow it to carry large amounts of ordnance including rocket pods and wire-guided munitions. It also features a dedicated, remotely-operated rotary cannon."
 
-  ## TRAINS ##
+  # Trains
 
-  #endregion SUPPORT TECH ##
+  #endregion SUPPORT TECH
 
-  #region LEGACY ARMOUR TECH ##
-  #endregion LEGACY ARMOUR TECH ##
+  #region LEGACY ARMOUR TECH
+  #endregion LEGACY ARMOUR TECH
 
-  #region NSB ARMOUR TECH ##
-  # Titles #
+  #region NSB ARMOUR TECH
+  # Titles
   ARMOUR_TITLE_MBT:0 "MBT"
     ARMOUR_TITLE_MBT_TT:0 "Advanced tanks that combine the mobility of medium tanks with the firepower and durability of heavy tanks."
   ARMOUR_TITLE_SUPERHEAVY:0 "SUPER\nHEAVY"
@@ -213,7 +210,7 @@ l_english:
   ARMOUR_TITLE_ARMGINE:0 "ARMOR &\nENGINES"
     ARMOUR_TITLE_ARMGINE_TT:0 "Engines that propel your tanks and armor that protects them from damage."
 
-  ## Upgrades ##
+  # Upgrades
   nsb_upgrade_crew_heater:0 "Crew Heaters"
     ## Never knew about these (Kampfraumheizung), more info here: https://www.britmodeller.com/forums/index.php?/topic/235093273-panther-crew-heater/
     nsb_upgrade_crew_heater_desc:0 "We can warm the crew compartment by diverting air heated by the engine radiators. This is done by placing a fan over the radiator that blows the air through ductwork and into the fighting compartment."
@@ -230,57 +227,18 @@ l_english:
   nsb_upgrade_rcws:0 "Remote Control Weapon Systems"
     ## I wanna talk to each and every single military contractor that decided we should have more than 1 name for this type of weapon. "What do you mean there's three different names for the same type of weapon system???" Yes and their incompetence will lead to eternal suffering.
     nsb_upgrade_rcws_desc:0 "Remotely operated guns can be controlled by the crew from within the tank, reducing the chances of the crew being directly engaged by enemies and increasing the effectiveness of previously manually-aimed guns."
-  #endregion NSB ARMOUR TECH ##
+  #endregion NSB ARMOUR TECH
 
-  #region ARTILLERY TECH ##
-  # Titles #
+  #region ARTILLERY TECH
+  # Titles
   ARTILLERY_TITLE_ARTILLERY:0 "CANNONS"
     ARTILLERY_TITLE_ARTILLERY_TT:0 "Large guns designed to hit enemies with explosive shells."
+  #endregion ARTILLERY TECH
 
-  # NSB Modules #
-  nsb_tank_spg_0:0 "Howitzer-derived Modules I"
-    nsb_tank_spg_0_desc:0 "$artillery_equipment_2_desc$"
-  nsb_tank_spg_1:0 "Howitzer-derived Modules II"
-    nsb_tank_spg_1_desc:0 "$artillery_equipment_3_desc$"
-  nsb_tank_spg_2:0 "Howitzer-derived Modules III"
-    nsb_tank_spg_2_desc:0 "$artillery_equipment_x_desc$"
-  nsb_tank_spg_3:0 "Howitzer-derived Modules IV"
-    nsb_tank_spg_3_desc:0 "$artillery_equipment_x_2_desc$"
+  #region LEGACY NAVAL TECH
+  #endregion LEGACY NAVAL TECH
 
-  nsb_tank_ra_0:0 "Rocket Artillery-derived Modules I"
-    nsb_tank_ra_0_desc:0 "$rocket_artillery_equipment_1_desc$"
-  nsb_tank_ra_1:0 "Rocket Artillery-derived Modules II"
-    nsb_tank_ra_1_desc:0 "$rocket_artillery_equipment_2_desc$"
-  nsb_tank_ra_2:0 "Rocket Artillery-derived Modules III"
-    nsb_tank_ra_2_desc:0 "$rocket_artillery_equipment_x_desc$"
-  nsb_tank_ra_3:0 "Rocket Artillery-derived Modules IV"
-    nsb_tank_ra_3_desc:0 "$rocket_artillery_equipment_x_2_desc$"
-
-  nsb_tank_spaa_0:0 "Anti-Air-derived Modules I"
-    nsb_tank_spaa_0_desc:0 "$anti_air_equipment_1_desc$"
-  nsb_tank_spaa_1:0 "Anti-Air-derived Modules II"
-    nsb_tank_spaa_1_desc:0 "$anti_air_equipment_2_desc$"
-  nsb_tank_spaa_2:0 "Anti-Air-derived Modules III"
-    nsb_tank_spaa_2_desc:0 "$anti_air_equipment_3_desc$"
-  nsb_tank_spaa_3:0 "Anti-Air-derived Modules IV"
-    nsb_tank_spaa_3_desc:0 "$anti_air_equipment_x_desc$"
-  nsb_tank_spaa_4:0 "Anti-Air-derived Modules V"
-    nsb_tank_spaa_4_desc:0 "$anti_air_equipment_x_2_desc$"
-
-  nsb_tank_at_0:0 "Anti-Tank-derived Modules I"
-    nsb_tank_at_0_desc:0 "$anti_tank_equipment_1_desc$"
-  nsb_tank_at_1:0 "Anti-Tank-derived Modules II"
-    nsb_tank_at_1_desc:0 "$anti_tank_equipment_2_desc$"
-  nsb_tank_at_2:0 "Anti-Tank-derived Modules III"
-    nsb_tank_at_2_desc:0 "$anti_tank_equipment_3_desc$"
-  nsb_tank_at_3:0 "Anti-Tank-derived Modules IV"
-    nsb_tank_at_3_desc:0 "$anti_tank_equipment_x_desc$"
-  nsb_tank_at_4:0 "Anti-Tank-derived Modules V"
-    nsb_tank_at_4_desc:0 "$anti_tank_equipment_x_2_desc$"
-  #endregion ARTILLERY TECH ##
-
-  ## legacy navy
-  #region MTG NAVY TECH ##
+  #region MTG NAVY TECH
   NAVAL_TITLE_SONAR:0 "SONAR EQUIPMENT"
     NAVAL_TITLE_SONAR_TT:0 "Acoustic equipment designed to locate and track submarines underwater."
   NAVAL_TITLE_ANTI_SUB:0 "ANTI-SUBMARINE WEAPONS"
@@ -293,14 +251,15 @@ l_english:
     RESCIND_BB_CV_TOOLTIP:0 "§GResearching this will allow you to continue research on Battleships§! §YAND§! §GCarriers.§!"
   improved_ship_hull_heavy:0 "1013 Battleship Hull"
   improved_ship_hull_carrier:0 "1013 Carrier Hull"
-  #endregion MTG NAVY TECH ##
-  #region MTG NAVY SUPPORT TECH ##
+  #endregion MTG NAVY TECH
+
+  #region MTG NAVY SUPPORT TECH
 
 
-  #endregion MTG NAVY SUPPORT TECH ##
+  #endregion MTG NAVY SUPPORT TECH
 
-  #region AIR TECH ##
-  # Titles #
+  #region AIR TECH
+  # Titles
   AIR_TITLE_TRANSPORT:0 "TRANSPORT"
     AIR_TITLE_TRANSPORT_TT:0 "Aircraft specialized for transporting airborne troops and supplies."
   AIR_TITLE_AIRSHIP:0 "AIRSHIPS"
@@ -310,9 +269,9 @@ l_english:
   AIR_TITLE_TURBOFAN:0 "TURBOFAN"
     AIR_TITLE_TURBOFAN_TT:0 "Jet aircraft requiring Turbofan jet engines."
 
-  ## AIRFRAMES ##
+  # Airframes
 
-  ## AIRSHIPS ##
+  # Airships
   advanced_airship_airframes:0 "1015 Heavy Airship"
   modern_airship_airframes:0 "1025 Heavy Airship"
   mothership_equipment_1:0 "1015 Heavy Airship"
@@ -322,24 +281,24 @@ l_english:
     mothership_equipment_2_short:0 "1025 Heavy Airship"
     mothership_equipment_2_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
 
-  ## MODULES / UPGRADES ##
+  # Modules
 
-  #endregion AIR TECH ##
+  #endregion AIR TECH
 
-  #region ENGINEERING TECH ##
+  #region ELECTRONICS
   TITLE_FORT_SUBTITLE:0 "FORTIFICATIONS"
     TITLE_FORT_SUBTITLE_TT:0 "Static fortifications that increase the effectiveness of defensive operations."
 
   iff_detection:0 "IFF Detection"
     iff_detection_desc:0 "Identification friend or foe (IFF), a combat identification system, is achieved by responding to specific interrogation signals with a response signal that identifies your allegiance. This system is only capable of postively identifying aircraft that have a known signal (friendly or allied aircraft) and marks others as unknown."
-  #endregion ENGINEERING TECH ##
+  #endregion ELECTRONICS
 
-  #region INDUSTRY TECH ##
-  # Titles #
+  #region INDUSTRY
+  # Titles
   INDUSTRY_TITLE_RAILWAYS:0 "RAILWAYS"
     INDUSTRY_TITLE_RAILWAYS_TT:0 "Infrastructure for trains that connect our various industrial sectors together."
 
-  ## RAILWAYS ##
+  # Railways
   railway_upgrade_0:0 "Steel Railway Tracks"
     railway_upgrade_0_desc:0 "Steel railway tracks have proven to be much more durable and easier to install than traditional cast-iron railway tracks. This will allow heavier and faster trains to be run along our railway network."
   railway_upgrade_1:0 "Railway Signaling Systems"
@@ -348,7 +307,12 @@ l_english:
     railway_upgrade_2_desc:0 "We can replace maintenance-heavy railway joints by welding the tracks together. This not only reduces maintenance of the tracks, but provides a much smoother surface for trains to ride on."
   railway_upgrade_3:0 "Diesel and Electrification"
     railway_upgrade_3_desc:0 "By transitioning away from expensive steam power into more efficient diesel locomotives and electrified railways, we can enhance the transportation of resources, materials, and people."
-  #endregion INDUSTRY TECH ##
+  #endregion INDUSTRY
 
-  #region INFECTED RACE TECH ##
-  #endregion INFECTED RACE TECH ##
+  #region INFECTED RACE TECH
+  #endregion INFECTED RACE TECH
+
+  #region DOCTRINES
+  precision_bombing:0 "Precision Bombing"
+    precision_bombing_desc:0 "New bombing strategems can be devised due to the increased speed, agility, and bomb loads that jet-bomber designs allow."
+  #endregion DOCTRINES

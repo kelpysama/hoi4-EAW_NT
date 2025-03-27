@@ -164,17 +164,6 @@ If you have any questions on sources, either comment it on the steam workshop pa
 - Generic Artillery
 	- Pre-Industrial Cannon
 		- "12 Pound Cannon" (https://skfb.ly/6WPWp) by iedalton is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-- Tank Variant (SPAA, SPG, RA, TD) Icons
-	- Self-propelled Anti-air
-		- (Early) By Balcer - Own work, CC BY 2.5 - https://commons.wikimedia.org/w/index.php?curid=11971480
-		- (Late) By Unknown author - https://nimh-beeldbank.defensie.nl/foto-s/detail/e7750b80-37d4-43d6-747d-f76930190bd8/media/f60a8096-efa2-7eb5-0849-2727f35f588b?mode=detail&view=horizontal&q=PRTL&rows=1&page=106, CC0 - https://commons.wikimedia.org/w/index.php?curid=130672687
-	- Self-propelled Gun
-		- (Early) By Alf van Beem - Own work, CC0 - https://commons.wikimedia.org/w/index.php?curid=28924235
-		- (Late) By los688 - Own work, Public Domain - https://commons.wikimedia.org/w/index.php?curid=3874091
-	- Rocket Artillery
-		- "M4A2 Sherman & T34 Calliope" (https://skfb.ly/oBtvS) by barking_dogo is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-	- Tank Destroyer
-		- By Alan Wilson from Stilton, Peterborough, Cambs, UK - SU-85 - Central Armed Forces Museum, Moscow, CC BY-SA 2.0 - https://commons.wikimedia.org/w/index.php?curid=64644376
 
 
 ##### 3.5 NAVAL FOLDER(S)
@@ -200,6 +189,9 @@ If you have any questions on sources, either comment it on the steam workshop pa
 ##### 3.9 RACIAL FOLDER(S)
 
 
+##### 3.10 DOCTRINES
+- Air Doctrine, Precision Bombing, First Tech
+	- By U.S. Navy - U.S. Navy National Museum of Naval Aviation photo No. 1996.253.7279.006, Public Domain, https://commons.wikimedia.org/w/index.php?curid=14680148
 
 
 ---
@@ -229,8 +221,6 @@ If you have any questions on sources, either comment it on the steam workshop pa
 	- By Unknown author or not provided - U.S. National Archives and Records Administration, Public Domain, https://commons.wikimedia.org/w/index.php?curid=16524741
 
 ##### 4.7 ELECTRONICS FOLDER
-- Little Boy Nuclear Bomb
-	- By United States Army - RG-77-BT collection in the Still Photo collection of the National Archives II building in College Park, MD., Public Domain, https://commons.wikimedia.org/w/index.php?curid=50992059
 - Hiroshima Ruins
 	- By US government, Post-Work: User:W.wolny - ibiblio.org a collaboration of the centerforthepublicdomain.org, Public Domain, https://commons.wikimedia.org/w/index.php?curid=256170
 
@@ -241,5 +231,18 @@ If you have any questions on sources, either comment it on the steam workshop pa
 
 
 ##### 4.10 DOCTRINE FOLDER(S)
-- Advanced Naval Doctrine
-	- By USN - U.S. Navy photo [1] from the USS Saratoga (CV-60) 1990-1991 cruise book available at Navysite.de, Public Domain, https://commons.wikimedia.org/w/index.php?curid=42566536
+- Naval Doctrines
+	- Modern Naval Doctrine
+		- By USN - U.S. Navy photo [1] from the USS Saratoga (CV-60) 1990-1991 cruise book available at Navysite.de, Public Domain, https://commons.wikimedia.org/w/index.php?curid=42566536
+- Air Doctrines
+	- Strategic Destruction
+		- By United States Army Air Forces - This image was released by the United States Air Force with the ID 070803-F-0000A-001 (next).This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing, Public Domain, https://commons.wikimedia.org/w/index.php?curid=38175238
+	- Battlefield Support
+		- By RIA Novosti archive, image #225 / Fyodor Levshin / CC-BY-SA 3.0, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15577237
+	- Operational Integrity
+		- By Anonymous - Birmingham Museums Trust, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=39738458
+	- Precision Bombing
+		- By USAF - National Museum of the U.S. Air Force photo 110323-F-DW547-008, Public Domain, https://commons.wikimedia.org/w/index.php?curid=14844460
+		- By USAF - National Museum of the U.S. Air Force photo 061128-F-1234S-004, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1671379
+	- Jet Operations
+		- By U.S. Air Force - This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing., Public Domain, https://commons.wikimedia.org/w/index.php?curid=10551568

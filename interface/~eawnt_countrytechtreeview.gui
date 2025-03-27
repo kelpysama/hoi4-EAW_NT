@@ -3713,9 +3713,15 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 				iconType = {
-					name ="aircraft_techtree_bg_bottom"
+					name ="aircraft_techtree_bg_bottom0"
 					spriteType = "GFX_aircraft_folder_background1"
 					position = { x=0 y=959 }
+					alwaystransparent = yes
+				}
+				iconType = {
+					name ="aircraft_techtree_bg_bottom1"
+					spriteType = "GFX_aircraft_folder_background2"
+					position = { x=1500 y=748 }
 					alwaystransparent = yes
 				}
 
@@ -4921,7 +4927,7 @@ guiTypes = {
 				# Bottomright BG
 				iconType = {
 					name ="GFX_industry_techtree_bg_bottom"
-					spriteType = "GFX_industry_folder_railway_background"
+					spriteType = "GFX_industry_folder_background1"
 					position = { x=770 y=1162 }
 					alwaystransparent = yes
 				}

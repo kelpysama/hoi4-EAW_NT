@@ -826,14 +826,38 @@ l_english:
   #endregion INDUSTRY TECH ##
 
   #region DOCTRINES ##
-  # mobile_warfare_desc:0 "Mobile Warfare is a focus on speed and maneuver to cut off and disorganize enemy forces.\n\n"
-  # superior_firepower_desc:0 "This doctrine focuses on throwing shells, not men, at the enemy. Our manpower is precious, bullets are cheap.\n\n"
-  # grand_battle_plan_desc:0 "Extensive planning and preparation before engaging in battle is the key to success.\n\n"
-  # mass_assault_desc:0 "'Perfect' weapons are overrated, a large number of 'good enough' weapons is the path to victory!\n\n"
-  mobile_warfare_desc:0 "An offensive doctrine with a focus on using speed to outmanuever and encircle enemy forces.\n\n"
-  superior_firepower_desc:0 "A balanced doctrine with a focus on using sheer industrial output to protect our soldiers.\n\n"
-  grand_battle_plan_desc:0 "A defensive doctrine with a focus on attritioning the enemy before launching counterattacks.\n\n"
-  mass_assault_desc:0 "A balanced doctrine with a focus on using ponypower as a resource in offensive and defensive actions.\n\n"
+  # Land Doctrines
+  MOBILE_WARFARE_DOCTRINE_LABEL:0 "MOBILE WARFARE"
+    MOBILE_WARFARE_DOCTRINE_DESC:0 "A doctrine focused on using speed as power.\nIf enemies are slow to react, then they face the risk of encirclement."
+  SUPERIOR_FIREPOWER_DOCTRINE_LABEL:0 "SUPERIOR FIREPOWER"
+    SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "A doctrine focused on multiplying power with industry.\nLosing a tank means nothing if you have ten more on the way."
+  GRAND_BATTLEPLAN_DOCTRINE_LABEL:0 "GRAND BATTLEPLAN"
+    GRAND_BATTLEPLAN_DOCTRINE_DESC:0 "A doctrine focused on trading time for power.\nActions must be thoroughly planned out before they can be executed."
+  MASS_ASSAULT_DOCTRINE_LABEL:0 "MASS ASSAULT"
+    MASS_ASSAULT_DOCTRINE_DESC:0 "A doctrine focused on buying power with lives.\nApplying sustained pressure will inevitably break the enemy."
+  BERLIN_PATH_LABEL:0 "MANUEVER WARFARE"
+  BRUSSELS_PATH_LABEL:0 "FULL SPECTRUM OPS"
+  GLOBAL_PATH_LABEL:0 "STRATEGIC WARFARE"
+  WARSAW_PATH_LABEL:0 "OPERATIONAL DEPTH"
 
+  # Naval Doctrines
+  TITLE_FLEET_IN_BEING:0 "FLEET IN BEING"
+  TITLE_TRADE_INTERDICTION:0 "TRADE INTERDICTION"
+  TITLE_BASE_STRIKE:0 "BASE STRIKE"
+  TITLE_MODERN_THEORY:0 "MODERN NAVAL THEORY"
+
+  # Air Doctrines
+  TITLE_STRATEGIC_DESTRUCTION:0 "STRATEGIC DESTRUCTION"
+    STRATEGIC_DESTRUCTION_DESC:0 "A doctrine focused on disrupting enemy industry and logistics through strategic bombing."
+  TITLE_BATTLEFIELD_SUPPORT:0 "BATTLEFIELD SUPPORT"
+    BATTLEFIELD_SUPPORT_DESC:0 "A doctrine focused on supporting army operations through close air support."
+  TITLE_OPERATIONAL_INTEGRITY:0 "OPERATIONAL INTEGRITY"
+    OPERATIONAL_INTEGRITY_DESC:0 "A doctrine focused on securing air superiority and using it to our advantage."
+  JET_CAS_DOCTRINES_TITLE:0 "PRECISION BOMBING"
+  JET_FIGHTER_DOCTRINES_TITLE:0 "JET OPERATIONS"
+  MOUNTAINEERS_DOCTRINE_LABEL:0 "MOUNTAINEERS"
+  MARINES_DOCTRINE_LABEL:0 "MARINES"
+  PARATROOPERS_DOCTRINE_LABEL:0 "PARATROOPERS"
+  RACIAL_SPECFORCE_DOCTRINE_LABEL:0 "RACIAL FORCES"
 
   #endregion DOCTRINES ##
