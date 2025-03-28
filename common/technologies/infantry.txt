@@ -47,8 +47,8 @@ technologies = {
 
 	@motorized = -2
 	@mechanized = 0
-	@amtrac = 100		##Fuck yuo
-	@armored_car = 2
+	@amtrac = 2	## perhaps I treated you too harshly
+	@armored_car = 4
 
 
 
@@ -122,7 +122,6 @@ technologies = {
 			factor = 1000
 		}
 	}
-
 	## Conventional Weapons
 	infantry_weapons = {			#"Breech-Loaded Rifle"
 		#MODIFIED: No longer unlocks hmg, 2nd turret, extra mgs for armour
@@ -362,7 +361,6 @@ technologies = {
 			factor = 1
 		}
 	}
-
 	## Magical Weapons (∩^o^)⊃━☆
 	magical_weapons = {		#"Magical Rifle"
 		#Req. infantry_weapons2
@@ -741,7 +739,6 @@ technologies = {
 			}
 		}
 	}
-
 	## Weapon Upgrades
 	infantry_weapons2 = {			#"Ancillary Infantry Weaponry"
 
@@ -1018,7 +1015,6 @@ technologies = {
 			factor = 1
 		}
 	}
-
 	## Heavy Magic Weapons ( ‵□′)⊃━━━☆ (NSB/VANILLA)
 	magic_tank_weapon_nsb0 = {	#NEW "Heavy Magic Weaponry I"
 		allow_branch = {
@@ -1326,7 +1322,6 @@ technologies = {
 	}
 
 
-
 	#region InfantrySupport
 	## Support Weapon Upgrades
 	support_weapons = {		#"Heavy Infantry Weapons I"
@@ -1589,7 +1584,6 @@ technologies = {
 			modifier = { has_war = yes factor = 2 }
 		}
 	}
-
 	## Infantry Anti-tank
 	infantry_at = {		#"1009 Anti-Tank Rifle"
 		#MODIFIED: Now gives anti-tank equipment.
@@ -1838,11 +1832,14 @@ technologies = {
 			modifier = { factor = 2 date > "1032.1.1" }
 		}
 	}
-
 	## Infantry Anti-air
 	infantry_aa = {				#"1026 Mare-Portable Air Defense System"
 		#MODIFIED: Now gives anti-air equipment.
 
+		allow = {
+			ROOT = { is_special_project_completed = sp:sp_land_manpads }
+		}
+		is_special_project_tech = yes
 		show_equipment_icon = yes
 		enable_equipments = { infantry_anti_air_0 }
 
@@ -1867,8 +1864,12 @@ technologies = {
 	}
 	infantry_aa_upgrade_1 = {	#NEW "New Missile Trackers"
 
-		category_all_infantry = { air_attack = 0.10 }
+		allow = {
+			ROOT = { is_special_project_completed = sp:sp_land_manpads }
+		}
+		is_special_project_tech = yes
 
+		category_all_infantry = { air_attack = 0.10 }
 		on_research_complete = {
 			custom_effect_tooltip = INFANTRY_AA_TOOLTIP
 			hidden_effect = { fix_weapon_techs = yes }
@@ -1891,8 +1892,12 @@ technologies = {
 	}
 	infantry_aa_upgrade_2 = {	#NEW "IFF Integration"
 
-		category_all_infantry = { air_attack = 0.15 }
+		allow = {
+			ROOT = { is_special_project_completed = sp:sp_land_manpads }
+		}
+		is_special_project_tech = yes
 
+		category_all_infantry = { air_attack = 0.15 }
 		enemy_army_bonus_air_superiority_factor = -0.06
 
 		research_cost = 2
@@ -1904,7 +1909,6 @@ technologies = {
 
 		ai_will_do = { factor = 2 }
 	}
-
 
 
 	#region InfantryGear
@@ -2178,7 +2182,6 @@ technologies = {
 			modifier = { factor = 2 date > "1031.1.1" }
 		}
 	}
-
 	## Night Vision
 	pre_night_vision_0 = {	#NEW "Flare Guns"
 
@@ -2280,7 +2283,6 @@ technologies = {
 			modifier = { has_war = yes factor = 2 }
 		}
 	}
-
 
 
 	#region InfantryVehicles
@@ -2577,7 +2579,6 @@ technologies = {
 			modifier = { factor = 2 date > "1026.1.1" }
 		}
 	}
-
 	## Mechanized
 	mechanised_infantry = {		#"1010 Mechanized"
 		#MODIFIED: Removed amphib branch
@@ -2595,8 +2596,8 @@ technologies = {
 		motorized_rocket_brigade = { hardness = 1.0 }
 
 		path = { leads_to_tech = mechanised_infantry2 research_cost_coeff = 1 }
+		path = { leads_to_tech = amphibious_mechanized_infantry research_cost_coeff = 1 }
 		# path = { leads_to_tech = motorised_infantry_2 research_cost_coeff = 1 }
-		# path = { leads_to_tech = amphibious_mechanized_infantry research_cost_coeff = 1 }
 		# path = { leads_to_tech = experimental_helicopter research_cost_coeff = 1 }
 
 		research_cost = 2
@@ -2641,7 +2642,7 @@ technologies = {
 			modifier = { factor = 2 date > "1013.1.1" }
 		}
 	}
-	mechanised_infantry2 = {	#"1012 Mechanized"
+	mechanised_infantry2 = {	#"1013 Mechanized"
 
 		enable_equipments = { mechanized_equipment_2 }
 
@@ -2656,11 +2657,11 @@ technologies = {
 			}
 		}
 
-		path = { leads_to_tech = armored_car2 research_cost_coeff = 1 }
+		path = { leads_to_tech = mechanised_infantry3 research_cost_coeff = 1 }
 
 		research_cost = 2
-		start_year = 1012
-		folder = { name = infantry_folder position = { x = @mechanized y = @1012 } }
+		start_year = 1013
+		folder = { name = infantry_folder position = { x = @mechanized y = @1013 } }
 
 		categories = {
 			motorized_equipment
@@ -2673,8 +2674,8 @@ technologies = {
 		ai_will_do = {
 			factor = 0.5
 			modifier = { factor = 4 num_of_military_factories > 40 }
-			modifier = { factor = 2 date > "1013.1.1" }
 			modifier = { factor = 2 date > "1014.1.1" }
+			modifier = { factor = 2 date > "1015.1.1" }
 		}
 	}
 	mechanised_infantry3 = {	#"1016 Mechanized"
@@ -2695,7 +2696,7 @@ technologies = {
 			}
 		}
 
-		path = { leads_to_tech = armored_car3 research_cost_coeff = 1 }
+		path = { leads_to_tech = mechanised_infantry_a research_cost_coeff = 1 }
 
 		research_cost = 3
 		start_year = 1016
@@ -2720,7 +2721,7 @@ technologies = {
 
 		enable_equipments = { mechanized_equipment_x }
 
-		path = { leads_to_tech = armored_car4 research_cost_coeff = 1 }
+		path = { leads_to_tech = mechanised_infantry_b research_cost_coeff = 1 }
 		sub_technologies = { mechanized_rocket_unit }
 
 		on_research_complete_limit = { is_ai = yes }
@@ -3139,19 +3140,364 @@ technologies = {
 			modifier = { factor = 2 date > "1032.1.1" }
 		}
 	}
-	armored_car1 = {	#"Armoured Patrol Vehicles"
-		#MODIFIED: No armored car equipment/units, only upgrades
+	## Amphibious Mechanized
+	amphibious_mechanized_infantry = {
 
-		# allow_branch = { has_dlc = "La Resistance" }
-		# enable_subunits = { armored_car }
-		# enable_equipments = { gw_armored_car_equipment }
-		military_police = { suppression_factor = 0.1 }
+		allow_branch = {
+			has_dlc = "Man the Guns"
+		}
+		dependencies = {
+			marines = 1
+		}
 
-		path = { leads_to_tech = mechanised_infantry research_cost_coeff = 1 }
+		enable_subunits = {
+			amphibious_mechanized
+		}
+		enable_equipments = {
+			amphibious_mechanized_equipment_1
+		}
+		on_research_complete = {
+			if = {
+				limit = {
+					is_ai = yes
+					OR = { has_tech = amphibious_tank has_tech = amphibious_tank_chassis }
+				}
+				hidden_effect = {
+					unlock_amtrac = yes
+
+				}
+			}
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1012
+		folder = {
+			name = infantry_folder
+			position = { x = @amtrac y = @1012 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+			marine_tech
+			special_forces_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				num_of_military_factories > 40
+				factor = 2
+			}
+			modifier = {
+				any_controlled_state_is_coastal = no
+				factor = 0
+			}
+
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+			}
+
+			modifier = {
+				factor = 2
+				original_tag = HIP
+			}
+		}
+	}
+	amphibious_mechanized_infantry_2 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_2
+		}
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1015
+		folder = {
+			name = infantry_folder
+			position = { x = @amtrac y = @1015 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+			marine_tech
+			special_forces_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 0.5
+			modifier = {
+				NOT = {
+					has_template_containing_unit = amphibious_mechanized
+				}
+				factor = 0
+			}
+
+			modifier = {
+				num_of_military_factories > 40
+				factor = 2
+			}
+			modifier = {
+				any_controlled_state_is_coastal = no
+				factor = 0
+			}
+
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+			}
+
+			modifier = {
+				factor = 2
+				original_tag = HIP
+			}
+		}
+	}
+	amphibious_mechanized_infantry_3 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_3
+		}
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+		amphibious_mechanized = {
+			soft_attack = 0.15
+			hard_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1019
+		folder = {
+			name = infantry_folder
+			position = { x = @amtrac y = @1019 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+			marine_tech
+			special_forces_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+
+			modifier = {
+				NOT = {
+					has_template_containing_unit = amphibious_mechanized
+				}
+				factor = 0
+			}
+
+			modifier = {
+				any_controlled_state_is_coastal = no
+				factor = 0
+			}
+
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+			}
+
+			modifier = {
+				factor = 2
+				original_tag = HIP
+			}
+		}
+	}
+	amphibious_mechanized_infantry_4 = {
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_4
+		}
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		path = {
+			leads_to_tech = amphibious_mechanized_infantry_5
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1023
+		folder = {
+			name = infantry_folder
+			position = { x = @amtrac y = @1023 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+			marine_tech
+			special_forces_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				NOT = {
+					has_template_containing_unit = amphibious_mechanized
+				}
+				factor = 0
+			}
+
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+			modifier = {
+				any_controlled_state_is_coastal = no
+				factor = 0
+			}
+
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+			}
+
+			modifier = {
+				factor = 2
+				original_tag = HIP
+			}
+		}
+	}
+	amphibious_mechanized_infantry_5 = {
+
+		# allow = {
+		# 	ROOT = {
+		# 		   is_special_project_completed = sp:sp_land_infantry_fighting_vehicles
+		#    	}
+	   	# }
+		# is_special_project_tech = yes
+
+		enable_equipments = {
+			amphibious_mechanized_equipment_5
+		}
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+
+		path = {
+			leads_to_tech = mechanised_infantry_c
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1027
+		folder = {
+			name = infantry_folder
+			position = { x = @amtrac y = @1027 }
+		}
+
+		categories = {
+			motorized_equipment
+			mio_cat_tech_all_motorized_mechanized
+			infantry_tech
+			cat_mechanized_equipment
+			tp_tech
+			marine_tech
+			special_forces_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				NOT = {
+					has_template_containing_unit = amphibious_mechanized
+				}
+				factor = 0
+			}
+
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+			modifier = {
+				any_controlled_state_is_coastal = no
+				factor = 0
+			}
+
+			modifier = {
+				factor = 2
+				naval_focused_nation = yes
+			}
+
+			modifier = {
+				factor = 2
+				original_tag = HIP
+			}
+		}
+	}
+	## Armoured Cars
+	armored_car1 = {
+
+		show_equipment_icon = yes
+
+		allow_branch = { has_dlc = "La Resistance" }
+
+		enable_subunits = { armored_car }
+		enable_equipments = { gw_armored_car_equipment }
+
+		path = { leads_to_tech = armored_car2 research_cost_coeff = 1 }
 
 		research_cost = 1
 		start_year = 1007
-		folder = { name = infantry_folder position = { x = @mechanized y = @1007 } }
+		folder = { name = infantry_folder position = { x = @armored_car y = @1007 } }
 
 		categories = {
 			motorized_equipment
@@ -3167,20 +3513,45 @@ technologies = {
 			modifier = { num_of_military_factories < 10 factor = 0.5 }
 		}
 	}
-	armored_car2 = {	#"Dedicated Armoured Cars"
-		#MODIFIED: No armored car equipment/units, only upgrades
+	armored_car2 = {	#UPGRADE
+		#MODIFIED: No new armored car equipment, only upgrade
 
 		# enable_equipments = { armored_car_equipment_1 }
+		armored_car = { suppression_factor = 0.25 defense = 0.25 }
 
-		military_police = { suppression_factor = 0.05 }
-		mechanized = { soft_attack = 0.05 hard_attack = 0.05 }
-		magical_mechanized = { soft_attack = 0.05 hard_attack = 0.05 }
+		path = { leads_to_tech = armored_car3 research_cost_coeff = 1 }
 
-		path = { leads_to_tech = mechanised_infantry3 research_cost_coeff = 1 }
+		research_cost = 2
+		start_year = 1011
+		folder = { name = infantry_folder position = { x = @armored_car y = @1011 } }
+
+		categories = {
+			motorized_equipment
+			armor
+			cat_armored_cars
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 date > "1012.1.1" }
+			modifier = { factor = 2 date > "1013.1.1" }
+			modifier = { num_of_military_factories < 20 factor = 0.5 }
+		}
+	}
+	armored_car3 = {
+
+		show_equipment_icon = yes
+
+		enable_equipments = { armored_car_equipment_1 }
+		# enable_equipments = { armored_car_equipment_2 }
+		# sub_technologies = { armored_car_at_upgrade }
+
+		path = { leads_to_tech = armored_car4 research_cost_coeff = 1 }
 
 		research_cost = 2
 		start_year = 1013
-		folder = { name = infantry_folder position = { x = @mechanized y = @1013 } }
+		folder = { name = infantry_folder position = { x = @armored_car y = @1013 } }
 
 		categories = {
 			motorized_equipment
@@ -3196,21 +3567,17 @@ technologies = {
 			modifier = { num_of_military_factories < 20 factor = 0.5 }
 		}
 	}
-	armored_car3 = {	#"Role Specialization"
-		#MODIFIED: No armored car equipment/units, only upgrades
+	armored_car4 = {	#UPGRADE
+		#MODIFIED: No new armored car equipment, only upgrade
 
-		# enable_equipments = { armored_car_equipment_2 }
-		# sub_technologies = { armored_car_at_upgrade }
+		# enable_equipments = { armored_car_equipment_3 }
+		armored_car = { suppression_factor = 0.25 soft_attack = 0.25 hard_attack = 0.25 }
 
-		military_police = { suppression_factor = 0.05 }
-		mechanized = { soft_attack = 0.05 hard_attack = 0.05 }
-		magical_mechanized = { soft_attack = 0.05 hard_attack = 0.05 }
+		path = { leads_to_tech = armored_car5 research_cost_coeff = 1 }
 
-		path = { leads_to_tech = mechanised_infantry_a research_cost_coeff = 1 }
-
-		research_cost = 2
-		start_year = 1018
-		folder = { name = infantry_folder position = { x = @mechanized y = @1018 } }
+		research_cost = 3
+		start_year = 1016
+		folder = { name = infantry_folder position = { x = @armored_car y = @1016 } }
 
 		categories = {
 			motorized_equipment
@@ -3221,26 +3588,27 @@ technologies = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = { factor = 2 date > "1019.1.1" }
-			modifier = { factor = 2 date > "1020.1.1" }
+			modifier = { factor = 2 date > "1017.1.1" }
+			modifier = { factor = 2 date > "1018.1.1" }
 			modifier = { num_of_military_factories < 20 factor = 0.5 }
 		}
 	}
-	armored_car4 = {	#"Early IFV Prototypes"
-		#MODIFIED: No armored car equipment/units, only upgrades
+	armored_car5 = {
 
-		# enable_equipments = { armored_car_equipment_3 }
-		# armored_car = { soft_attack = 0.15 hard_attack = 0.15 suppression = 1 }
+		show_equipment_icon = yes
 
-		military_police = { suppression_factor = 0.05 }
-		mechanized = { soft_attack = 0.05 hard_attack = 0.05 }
-		magical_mechanized = { soft_attack = 0.05 hard_attack = 0.05 }
+		# sub_technologies = {
+		# 	armored_car_at_upgrade2
+		# }
 
-		path = { leads_to_tech = mechanised_infantry_b research_cost_coeff = 1 }
+		# enable_equipments = { armored_car_equipment_4 }
+		enable_equipments = { armored_car_equipment_2 }
 
-		research_cost = 3
-		start_year = 1023
-		folder = { name = infantry_folder position = { x = @mechanized y = @1023 } }
+		path = { leads_to_tech = armored_car6 research_cost_coeff = 1 }
+
+		research_cost = 2
+		start_year = 1018
+		folder = { name = infantry_folder position = { x = @armored_car y = @1018 } }
 
 		categories = {
 			motorized_equipment
@@ -3250,13 +3618,74 @@ technologies = {
 		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
-			factor = 1
-			modifier = { factor = 2 date > "1024.1.1" }
-			modifier = { factor = 2 date > "1025.1.1" }
-			modifier = { num_of_military_factories < 10 factor = 0.5 }
+			factor = 0.5
 		}
 	}
+	armored_car6 = {	#NEW, UPGRADE
+		#MODIFIED: No new armored car equipment, only upgrade
 
+		armored_car = { suppression_factor = 0.25 soft_attack = 0.25 hard_attack = 0.25 }
+
+		path = { leads_to_tech = armored_car7 research_cost_coeff = 1 }
+
+		research_cost = 3
+		start_year = 1022
+		folder = { name = infantry_folder position = { x = @armored_car y = @1022 } }
+
+		categories = {
+			motorized_equipment
+			armor
+			cat_armored_cars
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	armored_car7 = {	#NEW
+
+		show_equipment_icon = yes
+
+		enable_equipments = { armored_car_equipment_3 }
+
+		path = { leads_to_tech = armored_car8 research_cost_coeff = 1 }
+
+		research_cost = 2
+		start_year = 1024
+		folder = { name = infantry_folder position = { x = @armored_car y = @1024 } }
+
+		categories = {
+			motorized_equipment
+			armor
+			cat_armored_cars
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+	armored_car8 = {	#NEW, UPGRADE
+		#MODIFIED: No new armored car equipment, only upgrade
+
+		armored_car = { suppression_factor = 0.25 soft_attack = 0.25 hard_attack = 0.25 }
+
+		research_cost = 3
+		start_year = 1028
+		folder = { name = infantry_folder position = { x = @armored_car y = @1028 } }
+
+		categories = {
+			motorized_equipment
+			armor
+			cat_armored_cars
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
 
 
 	#region SpecialForces
@@ -5058,389 +5487,6 @@ technologies = {
 			modifier = {
 				is_major = no
 				factor = 0.5
-			}
-		}
-	}
-	armored_car5 = {
-
-		enable_equipments = {
-			armored_car_equipment_4
-		}
-
-		armored_car = {
-			suppression = 1
-		}
-
-		research_cost = 3
-		start_year = 1023
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = @1023 }
-		}
-
-		categories = {
-			motorized_equipment
-			armor
-			cat_armored_cars
-		}
-
-		# sub_technologies = {
-		# 	armored_car_at_upgrade2
-		# }
-
-		special_project_specialization = { specialization_land }
-		ai_will_do = {
-			factor = 0.5
-		}
-	}
-
-	##### Amtracs / Amphibious APCs ######
-	## Removed cause I don't like them. ##
-	##     __   ___    ___   _  _       ##
-	##    /_ | / _ \  / _ \ | || |      ##
-	##     | || (_) || (_) || || |_     ##
- 	##     | | \__, | > _ < |__   _|    ##
-	##     | |   / / | (_) |   | |      ##
-	##     |_|  /_/   \___/    |_|      ##
-	######################################
-	amphibious_mechanized_infantry = {
-		#MODIFIED: Not allowed
-
-		enable_equipments = {
-			amphibious_mechanized_equipment_1
-		}
-
-		allow_branch = {
-			# has_dlc = "Man the Guns"
-			always = no
-		}
-
-		enable_subunits = {
-			amphibious_mechanized
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry_2
-			research_cost_coeff = 1
-		}
-
-		dependencies = {
-			marines = 1
-		}
-
-		research_cost = 2
-		start_year = 1012
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1012 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-			marine_tech
-			special_forces_tech
-		}
-		special_project_specialization = { specialization_land }
-
-		on_research_complete = {
-			if = {
-				limit = {
-					is_ai = yes
-					OR = { has_tech = amphibious_tank has_tech = amphibious_tank_chassis }
-				}
-				hidden_effect = {
-					unlock_amtrac = yes
-
-				}
-			}
-			hidden_effect = {
-				fix_weapon_techs = yes
-			}
-		}
-
-		ai_will_do = {
-			factor = 0.5
-			modifier = {
-				num_of_military_factories > 40
-				factor = 2
-			}
-			modifier = {
-				any_controlled_state_is_coastal = no
-				factor = 0
-			}
-
-			modifier = {
-				factor = 2
-				naval_focused_nation = yes
-			}
-
-			modifier = {
-				factor = 2
-				original_tag = HIP
-			}
-		}
-	}
-	amphibious_mechanized_infantry_2 = {
-
-		enable_equipments = {
-			amphibious_mechanized_equipment_2
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry_3
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1014
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1014 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-			marine_tech
-			special_forces_tech
-		}
-		on_research_complete = {
-			hidden_effect = {
-				fix_weapon_techs = yes
-			}
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-			factor = 0.5
-			modifier = {
-				NOT = {
-					has_template_containing_unit = amphibious_mechanized
-				}
-				factor = 0
-			}
-
-			modifier = {
-				num_of_military_factories > 40
-				factor = 2
-			}
-			modifier = {
-				any_controlled_state_is_coastal = no
-				factor = 0
-			}
-
-			modifier = {
-				factor = 2
-				naval_focused_nation = yes
-			}
-
-			modifier = {
-				factor = 2
-				original_tag = HIP
-			}
-		}
-	}
-	amphibious_mechanized_infantry_3 = {
-
-		enable_equipments = {
-			amphibious_mechanized_equipment_3
-		}
-
-		amphibious_mechanized = {
-			soft_attack = 0.15
-			hard_attack = 0.15
-		}
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry_4
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1016
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1016 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-			marine_tech
-			special_forces_tech
-		}
-		special_project_specialization = { specialization_land }
-		on_research_complete = {
-			hidden_effect = {
-				fix_weapon_techs = yes
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-
-			modifier = {
-				NOT = {
-					has_template_containing_unit = amphibious_mechanized
-				}
-				factor = 0
-			}
-
-			modifier = {
-				any_controlled_state_is_coastal = no
-				factor = 0
-			}
-
-			modifier = {
-				factor = 2
-				naval_focused_nation = yes
-			}
-
-			modifier = {
-				factor = 2
-				original_tag = HIP
-			}
-		}
-	}
-	amphibious_mechanized_infantry_4 = {
-
-		enable_equipments = {
-			amphibious_mechanized_equipment_4
-		}
-
-
-		path = {
-			leads_to_tech = amphibious_mechanized_infantry_5
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1020
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1020 }
-		}
-		on_research_complete = {
-			hidden_effect = {
-				fix_weapon_techs = yes
-			}
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-			marine_tech
-			special_forces_tech
-		}
-		special_project_specialization = { specialization_land }
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				NOT = {
-					has_template_containing_unit = amphibious_mechanized
-				}
-				factor = 0
-			}
-
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-			modifier = {
-				any_controlled_state_is_coastal = no
-				factor = 0
-			}
-
-			modifier = {
-				factor = 2
-				naval_focused_nation = yes
-			}
-
-			modifier = {
-				factor = 2
-				original_tag = HIP
-			}
-		}
-	}
-	amphibious_mechanized_infantry_5 = {
-		allow = {
-			ROOT = {
-				   is_special_project_completed = sp:sp_land_infantry_fighting_vehicles
-		   	}
-	   	}
-		enable_equipments = {
-			amphibious_mechanized_equipment_5
-		}
-
-		on_research_complete = {
-			hidden_effect = {
-				fix_weapon_techs = yes
-			}
-		}
-		is_special_project_tech = yes
-
-		research_cost = 2
-		start_year = 1024
-		folder = {
-			name = infantry_folder
-			position = { x = 2 y = @1024 }
-		}
-
-		categories = {
-			motorized_equipment
-			mio_cat_tech_all_motorized_mechanized
-			infantry_tech
-			cat_mechanized_equipment
-			tp_tech
-			marine_tech
-			special_forces_tech
-		}
-		special_project_specialization = { specialization_land }
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				NOT = {
-					has_template_containing_unit = amphibious_mechanized
-				}
-				factor = 0
-			}
-
-			modifier = {
-				is_major = no
-				factor = 0.5
-			}
-			modifier = {
-				any_controlled_state_is_coastal = no
-				factor = 0
-			}
-
-			modifier = {
-				factor = 2
-				naval_focused_nation = yes
-			}
-
-			modifier = {
-				factor = 2
-				original_tag = HIP
 			}
 		}
 	}

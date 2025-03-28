@@ -58,7 +58,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -70,7 +70,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 5100 height = 2300
+					width = 5100 height = 2400
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -95,7 +95,7 @@ guiTypes = {
 				iconType = {
 					name ="infantry_specops_techtree_bg"
 					spriteType = "GFX_infantry_folder_specops_background"
-					position = { x=0 y=1450 }
+					position = { x=0 y=1500 }
 					alwaystransparent = yes
 				}
 
@@ -162,7 +162,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "infantry_subtitle_specialists"
-					position = { x = 220 y = 1270 }
+					position = { x = 220 y = 1570 }
 					textureFile = ""
 					font = "dacik_push_36_opaque"
 					borderSize = { x = 0 y = 0}
@@ -468,28 +468,28 @@ guiTypes = {
 			## MARINES
 			gridboxtype = {
 				name = "marines_tree"
-				position = { x = 140 y = 1150 }
+				position = { x = 140 y = 1450 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			## MOUNTAINEERS
 			gridboxtype = {
 				name = "tech_mountaineers_tree"
-				position = { x = 140 y = 1250 }
+				position = { x = 140 y = 1550 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			## PARATROOPERS
 			gridboxtype = {
 				name = "paratroopers_tree"
-				position = { x = 140 y = 1350 }
+				position = { x = 140 y = 1650 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			# Special Forces Tree (NO Arms Against Tyranny)
 			gridboxtype = {
 				name = "tech_special_forces_tree"
-				position = { x = 140 y = 1650 }
+				position = { x = 140 y = 1850 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
@@ -504,7 +504,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -879,7 +879,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -1310,7 +1310,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -1850,7 +1850,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -2347,7 +2347,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -2685,7 +2685,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -2984,7 +2984,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -3262,7 +3262,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -3684,7 +3684,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -4189,7 +4189,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -4895,7 +4895,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -5440,6 +5440,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -5612,6 +5613,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -5764,6 +5766,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -5852,6 +5855,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -5980,6 +5984,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6084,6 +6089,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6203,6 +6209,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6302,6 +6309,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6472,6 +6480,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6529,6 +6538,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6593,6 +6603,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6732,6 +6743,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6779,6 +6791,7 @@ guiTypes = {
 			drag_scroll = { left middle }
 			verticalScrollbar = "right_vertical_slider"
 			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
 
 			background = {
 				name = "Background"
@@ -6896,219 +6909,233 @@ guiTypes = {
 			position = { x=0 y=7 }
 			size = { width = 100%% height = 30 }
 
+			## Increments by 90 (Full) or 135 (Full + Half)
+
+			# Infantry
 			buttonType = {
 				name = "infantry_folder_tab"
-				position = { x = 22 y = 0 }
+				position = { x = 25 y = 0 }
 				quadTextureSprite = "GFX_infantry_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_infantry
 			}
-
 			iconType = {
 				name = "highlight_infantry_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=22 y=-5}
+				position = { x=25 y=-5}
 				hide = yes
 				alwaystransparent = yes
 			}
 
+			# Support
 			buttonType = {
 				name = "support_folder_tab"
-				position = { x = 111 y = 0 }
+				position = { x = 115 y = 0 }
 				quadTextureSprite = "GFX_support_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_support
 			}
+
+			# Armour
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 200 y = 0 }
+				position = { x = 205 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
 			}
-
+			# NSB Armour
 			buttonType = {
 				name = "nsb_armour_folder_tab"
-				position = { x = 200 y = 0 }
+				position = { x = 205 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
 			}
 
+			# Artillery
 			buttonType = {
 				name = "artillery_folder_tab"
-				position = { x = 289 y = 0 }
+				position = { x = 295 y = 0 }
 				quadTextureSprite = "GFX_artillery_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_artillery
 			}
 
+			# Naval
 			buttonType = {
 				name = "naval_folder_tab"
-				position = { x = 378 y = 0 }
+				position = { x = 475 y = 0 }
 				quadTextureSprite = "GFX_naval_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_naval
 			}
+			# MTG Naval
 			buttonType = {
 				name = "mtgnavalfolder_tab"
-				position = { x = 378 y = 0 }
+				position = { x = 430 y = 0 }
 				quadTextureSprite = "GFX_naval_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_naval
 			}
+			# MTG Naval Support
 			buttonType = {
 				name = "mtgnavalsupportfolder_tab"
-				position = { x = 467 y = 0 }
+				position = { x = 520 y = 0 }
 				quadTextureSprite = "GFX_naval_support_tab"
 				frame = 1
 				clicksound = ui_research_tab_naval
 			}
+
+			# Air
 			buttonType = {
 				name = "air_techs_folder_tab"
-				position = { x = 556 y = 0 }
+				position = { x = 655 y = 0 }
 				quadTextureSprite = "GFX_air_techs_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_air
 			}
+			# BBA Air
 			buttonType = {
 				name = "bba_air_techs_folder_tab"
-				position = { x = 556 y = 0 }
+				position = { x = 655 y = 0 }
 				quadTextureSprite = "GFX_air_techs_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_air
 			}
+
+			# Electronics
 			buttonType = {
-				position = { x = 645 y = 0 }
+				position = { x = 790 y = 0 }
 				name = "electronics_folder_tab"
 				quadTextureSprite = "GFX_techtree_engineering_tab"
 				frame = 1
 				clicksound = ui_research_tab_engineering
 			}
-
 			iconType = {
 				name = "highlight_engineering_folder"
+				spriteType = "GFX_tutorial_research_folder_icon_glow"
+				position = { x=556 y=0}
+				hide = yes
+				alwaystransparent = yes
+			}
+
+			# Industry
+			buttonType = {
+				position = { x = 880 y = 0 }
+				name = "industry_folder_tab"
+				quadTextureSprite = "GFX_industry_folder_tab"
+				frame = 1
+				clicksound = ui_research_tab_industry
+			}
+			iconType = {
+				name = "highlight_industry_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
 				position = { x=645 y=0}
 				hide = yes
 				alwaystransparent = yes
 			}
 
+			## RACE TABS ##
+			# Pony
 			buttonType = {
-				position = { x = 734 y = 0 }
-				name = "industry_folder_tab"
-				quadTextureSprite = "GFX_industry_folder_tab"
-				frame = 1
-				clicksound = ui_research_tab_industry
-			}
-
-			iconType = {
-				name = "highlight_industry_folder"
-				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=734 y=0}
-				hide = yes
-				alwaystransparent = yes
-			}
-
-			#RACE FOLDERS
-			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "pony_folder_tab"
 				quadTextureSprite = "GFX_pony_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Horse
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "horse_folder_tab"
 				quadTextureSprite = "GFX_pony_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Generic
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "generic_folder_tab"
 				quadTextureSprite = "GFX_generic_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Griffon
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "griffon_folder_tab"
 				quadTextureSprite = "GFX_griffon_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Deer
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "deer_folder_tab"
 				quadTextureSprite = "GFX_deer_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Changeling
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "changeling_folder_tab"
 				quadTextureSprite = "GFX_changeling_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Diamond Dog
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "diamond_dog_folder_tab"
 				quadTextureSprite = "GFX_diamond_dog_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Kirin
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "kirin_folder_tab"
 				quadTextureSprite = "GFX_kirin_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Polar Bear
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "polar_folder_tab"
 				quadTextureSprite = "GFX_polar_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Yak
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "yak_folder_tab"
 				quadTextureSprite = "GFX_yak_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Hippogriff
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "hippogriff_folder_tab"
 				quadTextureSprite = "GFX_hippogriff_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Barrad
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "barrad_folder_tab"
 				quadTextureSprite = "GFX_generic_folder_tab"
 				frame = 1
 				clicksound = magic_sound_ev
 			}
-
+			# Zebra
 			buttonType = {
-				position = { x = 823 y = 0 }
+				position = { x = 1015 y = 0 }
 				name = "zebra_folder_tab"
 				quadTextureSprite = "GFX_zebra_folder_tab"
 				frame = 1
@@ -7259,7 +7286,7 @@ guiTypes = {
 			position = { x=20 y=220 }
 			size = { width = -20 height = -20 }
 			verticalScrollbar = "right_vertical_slider"
-			scroll_wheel_factor = 40
+			scroll_wheel_factor = 80
 			smooth_scrolling = yes
 			margin = { top = 4 left = 13 right = 5}
 			clipping = yes

@@ -26,7 +26,7 @@ l_russian:
   infantry_anti_air:0 "Infantry Anti-Air"
   infantry_anti_air_0:0 "1026 Mare-Portable Air Defense System"
     ## Mare is used here as it implies that if the most basic creature can carry it, you can too. Also, it rolls off the tongue better than "Being-Portable" or "Creature-Portable".
-    infantry_anti_air_0_short:0 "1026 MAREPADS"
+    infantry_anti_air_0_short:0 "1026 CREPADS"
     infantry_anti_air_0_desc:0 "A specialized missile launcher that is capable of locking onto aircraft and firing a heat-seeking missile to neutralize it. The launcher itself utilizes experimental thaumaturgically-produced components and wiring to minimize their size and weight, making it as portable as current rocket launchers."
     INFANTRY_AA_TOOLTIP:0 "\n£unit_infantry_icon_small All Infantry will require an additional §Y8§! §Y$infantry_anti_air$.§!"
   ## Upgrades
@@ -47,7 +47,7 @@ l_russian:
   infantry_aa_upgrade_1:0 "New Missile Trackers"
     infantry_aa_upgrade_1_desc:0 "Dual-detector seekers utilizing both infrared (IR) and ultraviolet (UV) tracking allows our homing missiles to distinguish aircraft from their countermeasures and improves homing capability when the aircraft's exhaust is not in sight."
   infantry_aa_upgrade_2:0 "IFF Integration"
-    infantry_aa_upgrade_2_desc:0 "Built-in extendable antennas on MAREPADS allow them to send out interrogator signals to identify nearby aircraft. This will reduce chances of friendly-fire on allied aircraft."
+    infantry_aa_upgrade_2_desc:0 "Built-in extendable antennas on CREPADS allow them to send out interrogator signals to identify nearby aircraft. This will reduce chances of friendly-fire on allied aircraft."
 
   # Infantry Gear
   ## Infantry Uniforms

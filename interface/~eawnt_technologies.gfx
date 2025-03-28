@@ -194,18 +194,34 @@ spriteTypes = {
 	# Armoured Cars
     SpriteType = {
 		name = "GFX_armored_car1_medium"
-		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
-	}
-    SpriteType = {
-		name = "GFX_armored_car2_medium"
-		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_armored_car_1.dds"
 	}
     SpriteType = {
 		name = "GFX_armored_car3_medium"
-		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_armored_car_2.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car5_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_armored_car_3.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car7_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/generic_armored_car_4.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car2_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_0.dds"
 	}
     SpriteType = {
 		name = "GFX_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_1.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car6_medium"
+		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_2.dds"
+	}
+    SpriteType = {
+		name = "GFX_armored_car8_medium"
 		texturefile = "gfx/interface/technologies/infantry_folder/ac_upgrade_3.dds"
 	}
 	## INFANTRY WEAPONS

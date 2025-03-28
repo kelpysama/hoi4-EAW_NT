@@ -39,8 +39,8 @@ l_english:
   # Mechanized #
   mechanized_equipment_1:0 "1010 Mechanized"
     mechanized_equipment_1_short:0 "1010 Mechanized"
-  mechanized_equipment_2:0 "1012 Mechanized"
-    mechanized_equipment_2_short:0 "1012 Mechanized"
+  mechanized_equipment_2:0 "1013 Mechanized"
+    mechanized_equipment_2_short:0 "1013 Mechanized"
     mechanized_equipment_2_desc:0 "Initial mechanised infantry sections utilised a myriad of designs such as up-armored wheeled trucks or dedicated tracked vehicles meant to protect their occupants from small arms fire. The halftrack design is something of a compromise between tracked and wheeled vehicles, meant to combine the versatility of the former and the speed of the latter. Field experience also influenced these halftracks to offer more means of self-defense, from the inclusion of mounted machineguns to gun ports for the passengers to fire out from."
   mechanized_equipment_3:0 "1016 Mechanized"
     mechanized_equipment_3_short:0 "1016 Mechanized"
@@ -54,15 +54,33 @@ l_english:
     mechanized_equipment_x_2_desc:0 "Continued development of the APC concept has led to new designs with mounted turrets capable of supporting infantry after they have dismounted. While lighter than the weaponry seen on AFVs or armored cars, APCs themselves can now provide fire support."
     # mechanized_equipment_x_2_desc:0 "Significantly different from regular APCs, IFVs are specifically designed to act as a specialised weapons platform intended to provide similar firepower of a heavier combat vehicle. It achieves this with sacrificing some of its passenger capacity and by mounting a turreted heavy weapon, such as a light auto-cannon or a smaller calibre gun. This makes IFVs more suitable for urban combat than tanks, and could possibly revolutionise mechanised warfare."
 
+  # Amphibious Mechanized #
+  amphibious_mechanized_equipment_1:0 "1012 Amphibious Mechanized"
+    amphibious_mechanized_equipment_1_short:0 "1012 Amtrac"
+  amphibious_mechanized_equipment_2:0 "1015 Amphibious Mechanized"
+    amphibious_mechanized_equipment_2_short:0 "1015 Amtrac"
+  amphibious_mechanized_equipment_3:0 "1019 Amphibious Mechanized"
+    amphibious_mechanized_equipment_3_short:0 "1019 Amtrac"
+  amphibious_mechanized_equipment_4:0 "1023 Amphibious Armored Personnel Carrier"
+    amphibious_mechanized_equipment_4_short:0 "1023 Amphibious APC"
+  amphibious_mechanized_equipment_5:0 "1027 Amphibious Armored Personnel Carrier"
+    amphibious_mechanized_equipment_5_short:0 "1027 Amphibious APC"
+
   # Armored Cars #
-  armored_car1:0 "Armoured Patrol Vehicles"
-    armored_car1_desc:0 "We can retrofit existing patrol vehicles with armour plates and mounted weapons to serve as inexpensive armoured support for our rear-line garrison forces."
-  armored_car2:0 "Dedicated Armoured Cars"
-    armored_car2_desc:0 "Purpose-built armoured cars can be added to our garrison forces to deter certain actions against our forces. Furthermore, armoured cars can be integrated into our mechanized divisions to bring heavy fire support to our dismounted soldiers."
-  armored_car3:0 "Role Specialization"
-    armored_car3_desc:0 "Armoured cars exist in a doctrinal grey area. By designing models around specific tasks such as garrison support, reconnaissance, communication, and fire support, we can further increase the effectiveness of armoured cars."
-  armored_car4:0 "Early IFV Prototypes"
-    armored_car4_desc:0 "Although their role as rear-line support and reconnaissance vehicles is indispensable, front-line armoured cars must be evolved to stay competitive on the battlefield. Testing of the infantry fighting vehicle concept has led to the development of a new generation of armoured vehicles."
+  gw_armored_car_equipment:0 "1007 Armoured Car"
+    gw_armored_car_equipment_short:0 "1007 Armoured Car"
+  armored_car_equipment_1:0 "1013 Armoured Car"
+    armored_car_equipment_1_short:0 "1013 Armoured Car"
+  armored_car_equipment_2:0 "1018 Armoured Car"
+    armored_car_equipment_2_short:0 "1018 Armoured Car"
+  armored_car_equipment_3:0 "1024 Armoured Car"
+    armored_car_equipment_3_short:0 "1024 Armoured Car"
+  armored_car2:0 "Armoured Patrol Vehicles"
+    armored_car2_desc:0 "We can retrofit existing patrol vehicles with armour plates and mounted weapons to serve as inexpensive armoured support for our rear-line garrison forces."
+  armored_car4:0 "Dedicated Armoured Cars"
+    armored_car4_desc:0 "Purpose-built armoured cars can be added to our garrison forces to deter certain actions against our forces."
+  armored_car6:0 "Role Specialization"
+    armored_car6_desc:0 "Armoured cars exist in a doctrinal grey area. By designing models around specific tasks such as reconnaissance, communication, and fire support, we can further increase the effectiveness of armoured cars."
 
   ## INFANTRY WEAPONS ##
   # Weapons #

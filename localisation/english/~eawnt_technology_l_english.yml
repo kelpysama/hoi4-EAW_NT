@@ -23,9 +23,8 @@ l_english:
     infantry_anti_tank_3_desc:0 "Newer rocket launchers not only see use as anti-tank weapons, but are able to use specialized munitions to attack and destroy bunkers or other fortifications."
   ## Anti-air
   infantry_anti_air:0 "Infantry Anti-Air"
-  infantry_anti_air_0:0 "1026 Mare-Portable Air Defense System"
-    ## Mare is used here as it implies that if the most basic creature can carry it, you can too. Also, it rolls off the tongue better than "Being-Portable" or "Creature-Portable".
-    infantry_anti_air_0_short:0 "1026 MAREPADS"
+  infantry_anti_air_0:0 "1026 Creature-Portable Air Defense System"
+    infantry_anti_air_0_short:0 "1026 CREPADS"
     infantry_anti_air_0_desc:0 "A specialized missile launcher that is capable of locking onto aircraft and firing a heat-seeking missile to neutralize it. The launcher itself utilizes experimental thaumaturgically-produced components and wiring to minimize their size and weight, making it as portable as current rocket launchers."
     INFANTRY_AA_TOOLTIP:0 "\n£unit_infantry_icon_small All Infantry will require an additional §Y8§! §Y$infantry_anti_air$.§!"
   ## Upgrades
@@ -46,7 +45,7 @@ l_english:
   infantry_aa_upgrade_1:0 "New Missile Trackers"
     infantry_aa_upgrade_1_desc:0 "Dual-detector seekers utilizing both infrared (IR) and ultraviolet (UV) tracking allows our homing missiles to distinguish aircraft from their countermeasures and improves homing capability when the aircraft's exhaust is not in sight."
   infantry_aa_upgrade_2:0 "IFF Integration"
-    infantry_aa_upgrade_2_desc:0 "Built-in extendable antennas on MAREPADS allow them to send out interrogator signals to identify nearby aircraft. This will reduce chances of friendly-fire on allied aircraft."
+    infantry_aa_upgrade_2_desc:0 "Built-in extendable antennas on CREPADS allow them to send out interrogator signals to identify nearby aircraft. This will reduce chances of friendly-fire on allied aircraft."
 
   # Infantry Gear
   ## Infantry Uniforms
@@ -127,6 +126,10 @@ l_english:
     ifv_equipment_0_short:0 "1030 IFV"
     ifv_equipment_0_desc:0 "Although APCs were versatile, it was not possible to mount heavier weaponry on them without sacrificing crew capacity. Newer designs, called infantry fighting vehicles, carry less infantry but mount heavier weaponry. IFVs are not complete replacements for APCs, and are meant to assist them in supporting dismounted infantry."
     APC_IFV_TOOLTIP:0 "\n£unit_mechanized_icon_small Mechanized Brigades will require an additional §Y20§! §Y$ifv_equipment$.§!"
+  ## Amphibious Mechanized
+  ## Armoured Cars
+  armored_car8:0 "Early IFV Prototypes"
+    armored_car8_desc:0 "Although their role as rear-line support and reconnaissance vehicles is indispensable, armoured cars must be evolved to stay competitive on and off the battlefield. Testing of the infantry fighting vehicle concept has led to the development of a new generation of armoured vehicles."
 
   # Infantry Weapons
 
