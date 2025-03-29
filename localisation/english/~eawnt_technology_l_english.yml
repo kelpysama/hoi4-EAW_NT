@@ -2,6 +2,14 @@
 ## Defines the english strings for new technology.
 
 l_english:
+  #region MODIFIERS ##
+  light_tank_chassis_design_cost_factor:0 "£army_experience  Light Tank Design Cost"
+  medium_tank_chassis_design_cost_factor:0 "£army_experience  Medium Tank Design Cost"
+  heavy_tank_chassis_design_cost_factor:0 "£army_experience  Heavy Tank Design Cost"
+  modern_tank_chassis_design_cost_factor:0 "£army_experience  Main Battle Tank Design Cost"
+  super_heavy_tank_chassis_design_cost_factor:0 "£army_experience  Super Heavy Tank Design Cost"
+  amphibious_tank_chassis_design_cost_factor:0 "£army_experience  Amphibious Tank Design Cost"
+
   #region INFANTRY TECH ##
   # Titles
   INFANTRY_TITLE_SUPPORT:0 "SUPPORT WEAPONS"

@@ -599,7 +599,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_year3"
-					position = { x = 340 y = 50 }
+					position = { x = 550 y = 50 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -611,7 +611,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_year6"
-					position = { x = 760 y = 50 }
+					position = { x = 970 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1010"
@@ -622,7 +622,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_year9"
-					position = { x = 970 y = 50 }
+					position = { x = 1180 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1013"
@@ -633,7 +633,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_year12"
-					position = { x = 1180 y = 50 }
+					position = { x = 1390 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1016"
@@ -644,7 +644,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_year13"
-					position = { x = 1390 y = 50 }
+					position = { x = 1600 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1019"
@@ -655,7 +655,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_year14"
-					position = { x = 1600 y = 50 }
+					position = { x = 1810 y = 50 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1022"
@@ -713,7 +713,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_bottom_year3"
-					position = { x = 340 y = 1680 }
+					position = { x = 550 y = 1680 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -725,7 +725,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_bottom_year6"
-					position = { x = 760 y = 1680 }
+					position = { x = 970 y = 1680 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1010"
@@ -736,7 +736,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_bottom_year9"
-					position = { x = 970 y = 1680 }
+					position = { x = 1180 y = 1680 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1013"
@@ -747,7 +747,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_bottom_year12"
-					position = { x = 1180 y = 1680 }
+					position = { x = 1390 y = 1680 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1016"
@@ -758,7 +758,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_bottom_year13"
-					position = { x = 1390 y = 1680 }
+					position = { x = 1600 y = 1680 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1019"
@@ -769,7 +769,7 @@ guiTypes = {
 				}
 				instantTextBoxType = {
 					name = "support_bottom_year14"
-					position = { x = 1600 y = 1680 }
+					position = { x = 1810 y = 1680 }
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
 					text = "1022"
@@ -846,18 +846,18 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-			# Radio Tech
-			gridboxtype = {
-				name = "electronic_mechanical_engineering_tree"
-				position = { x = 70 y = 200 }
-				slotsize = { width=70 height= 70 }
-				format = "LEFT"
-			}
 			# Motorized Tech
 			gridboxtype = {
 				name = "motorised_infantry_tree"
-				position = { x = 1330 y = 200 }
+				position = { x = 280 y = 690 }
 				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			# Radio Tech
+			gridboxtype = {
+				name = "radio_tree"
+				position = { x = 280 y = 970 }
+				slotsize = { width=70 height= 70 }
 				format = "LEFT"
 			}
 			# Trains + Railway Guns
