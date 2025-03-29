@@ -228,7 +228,17 @@ If you have any questions on sources, either comment it on the steam workshop pa
 
 
 ##### 4.9 RACIAL FOLDER(S)
-
+- NOTE: Any unmentioned were taken directly from the game.
+- Undead Race BG
+	- By artguydis, https://derpibooru.org/images/2130240
+- Changeling Race BG
+	- By richmay, https://derpibooru.org/images/2416349
+- Yak Race BG
+	- By Scott Wylie - Own work, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=158422320
+- Kirin Race BG
+	- By STW932 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=74986723
+- Polar Bear Race BG
+	- By Chief Yeoman Alphonso Braggs, US-Navy - This image was released by the United States Navy with the ID 031000-N-XXXXB-001 (next).This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing, Public Domain, https://commons.wikimedia.org/w/index.php?curid=23694
 
 ##### 4.10 DOCTRINE FOLDER(S)
 - Naval Doctrines

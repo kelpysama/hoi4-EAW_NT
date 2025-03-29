@@ -29,6 +29,15 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 		alwaystransparent = yes
 	}
+	corneredTileSpriteType = {	# Used in racial folders
+		name = "GFX_techtree_stripe_vertical_small"
+		size = { x = 199 y = 111 }
+		textureFile = "gfx/interface/techtree/techtree_stripe_vertical_small.dds"
+		borderSize = { x = 0 y = 0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
 	corneredTileSpriteType = {
 		name = "GFX_techtree_stripes_vertical_large"
 		size = { x = 770 y = 120 }
@@ -124,6 +133,35 @@ spriteTypes = {
 		name = "GFX_industry_folder_background1"
 		texturefile = "gfx/interface/techtree/industry_folder1.dds"
 	}
+
+	#region Racial
+	spriteType = { name = "GFX_racial_folder_changeling_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_changeling_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_changeling_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_changeling_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_changeling_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_changeling_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_griffon_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_griffon_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_griffon_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_griffon_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_griffon_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_griffon_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_hippogriff_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_hippogriff_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_hippogriff_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_hippogriff_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_hippogriff_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_hippogriff_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_kirin_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_kirin_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_kirin_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_kirin_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_kirin_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_kirin_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_polar_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_polar_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_polar_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_polar_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_polar_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_polar_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_pony_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_pony_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_pony_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_pony_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_pony_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_pony_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_undead_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_undead_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_undead_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_undead_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_undead_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_undead_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_yak_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_yak_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_yak_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_yak_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_yak_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_yak_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_zebra_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_zebra_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_bg1.dds" }
+	spriteType = { name = "GFX_racial_folder_zebra_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_ico.dds" }
 
 	#region Doctrines
 	spriteType = {

@@ -6610,33 +6610,66 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 2800 height = 1100
+					width = 1600 height = 900
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
+				## Main Background
 				iconType = {
-					name ="hippogriff_techtree_bg"
-					spriteType = "GFX_hippogriff_techtree_bg" # TO FIX
+					name ="racial_folder_hippogriff_bg_big"
+					spriteType = "GFX_racial_folder_hippogriff_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 500
+					min = { height = 100%% }
+				}
+				clipping = no
 
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_hippogriff_bg_stripe"
+					spriteType = "GFX_racial_folder_hippogriff_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_hippogriff_icon"
+					spriteType = "GFX_racial_folder_hippogriff_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "hippogriff_race_trait_desc"
+				}
 			}
 
+			## Subtitles
 			instantTextBoxType = {
 				name = "hippogriff_seaponies_subtitle"
-				position = { x = 100 y = 108 }
-				font = "hoi_33"
+				position = { x = 240 y = 50 }
+				# font = "hoi_33"
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_HIPPOGRIFF_SEAPONIES_SUBTITLE"
 				maxWidth = 600
@@ -6644,11 +6677,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "hippogriff_engineering_subtitle"
-				position = { x = 100 y = 388 }
-				font = "hoi_33"
+				position = { x = 240 y = 330 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_HIPPOGRIFF_ENGINEERING_SUBTITLE"
 				maxWidth = 600
@@ -6656,11 +6688,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "hippogriff_recon_subtitle"
-				position = { x = 100 y = 668 }
-				font = "hoi_33"
+				position = { x = 240 y = 610 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_HIPPOGRIFF_RECON_SUBTITLE"
 				maxWidth = 600
@@ -6668,11 +6699,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "hippogriff_combined_subtitle"
-				position = { x = 100 y = 948 }
-				font = "hoi_33"
+				position = { x = 1070 y = 330 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_HIPPOGRIFF_COMBINED_SUBTITLE"
 				maxWidth = 600
@@ -6680,11 +6710,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "hippogriff_endurance_subtitle"
-				position = { x = 100 y = 1228 }
-				font = "hoi_33"
+				position = { x = 1070 y = 610 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_HIPPOGRIFF_ENDURANCE_SUBTITLE"
 				maxWidth = 600
@@ -6693,46 +6722,41 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
+			## Seapony Marines
 			gridboxtype = {
 				name = "tech_seaponies_tree"
-				position = { x = 270 y = 200 }
-				#size = { width = 420 height = 500 }
+				position = { x = 240 y = 200 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Engineering
 			gridboxtype = {
 				name = "tech_hippogriff_engineering_tree"
-				position = { x = 270 y = 200 }
-				#size = { width = 420 height = 500 }
+				position = { x = 240 y = 480 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Recon & Detection
 			gridboxtype = {
 				name = "tech_hippogriff_recon_tree"
-				position = { x = 270 y = 200 }
-				#size = { width = 420 height = 500 }
+				position = { x = 240 y = 760 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Combined Arms
 			gridboxtype = {
 				name = "tech_hippogriff_combined_tree"
-				position = { x = 270 y = 200 }
-				#size = { width = 420 height = 500 }
+				position = { x = 1070 y = 480 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Endurance
 			gridboxtype = {
 				name = "tech_hippogriff_endurance_tree"
-				position = { x = 270 y = 200 }
-				#size = { width = 420 height = 500 }
+				position = { x = 1070 y = 760 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
 		}
 		# BARRAD FOLDER #
 		containerWindowType = {

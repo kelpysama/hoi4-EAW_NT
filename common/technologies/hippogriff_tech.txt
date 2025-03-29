@@ -2,27 +2,23 @@
 ## Defines hippogriff racial tech positions
 
 technologies = {
-	@989 = 0
-	@1007 = 0
-	@1009 = 2
-	@1010 = 4
-	@1011 = 6
-	@1012 = 8
-	@1013 = 10
-	@1014 = 12
-	@1015 = 14
-	@1016 = 16
-	@1017 = 18
-	@1018 = 20
-	@1019 = 22
-	@1020 = 24
-	@1021 = 26
-	@1022 = 28
-	@1023 = 30
-	@1024 = 32
-	@1025 = 34
-	@1026 = 36
+	## Horizontal positions (Y)
+	@racial_tech_0 = 0
+	@racial_tech_1 = 2
+	@racial_tech_2 = 4
+	@racial_tech_3 = 6
+	@racial_tech_4 = 8
+	@racial_tech_5 = 10
+	@racial_tech_6 = 12
+	@racial_tech_7 = 14
+	@racial_tech_8 = 16
+	@racial_tech_9 = 18
+	## Vertical positions (X)
+	@middle_branch = 0
+	@top_branch = -1
+	@bottom_branch = 1
 
+	## Race tech
 	hippogriff_race = {
 
 		research_cost = 1
@@ -34,6 +30,7 @@ technologies = {
 
 	}
 
+	#region SeaponyMarines
 	tech_seaponies = {
 
 		dependencies = {
@@ -93,7 +90,7 @@ technologies = {
 		start_year = 989
 		folder = {
 			name = hippogriff_folder
-			position = { x = 0 y = 0 }
+			position = { x = @middle_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -107,7 +104,6 @@ technologies = {
 			factor = 20
 		}
 	}
-
 	tech_seaponies2 = {
 		critical_receive_chance = -0.1
 		naval_critical_effect_factor = -0.1
@@ -121,7 +117,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 0 y = 3 }
+			position = { x = @middle_branch y = @racial_tech_1 }
 		}
 
 		on_research_complete = {
@@ -141,7 +137,6 @@ technologies = {
 			factor = 4
 		}
 	}
-
 	tech_seaponies3 = {
 		marine = {
 			max_organisation = 5
@@ -168,7 +163,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 0 y = 6 }
+			position = { x = @middle_branch y = @racial_tech_2 }
 		}
 
 		on_research_complete = {
@@ -187,7 +182,6 @@ technologies = {
 			factor = 3
 		}
 	}
-
 	tech_seaponies_a = {
 		category_line_artillery = {
 			marsh = {
@@ -213,7 +207,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 0 y = 9 }
+			position = { x = @middle_branch y = @racial_tech_3 }
 		}
 
 		on_research_complete = {
@@ -232,7 +226,6 @@ technologies = {
 			factor = 3
 		}
 	}
-
 	tech_seaponies_b = {
 
 		special_forces_out_of_supply_factor = -0.1
@@ -245,7 +238,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 0 y = 12 }
+			position = { x = @middle_branch y = @racial_tech_4 }
 		}
 
 		on_research_complete = {
@@ -265,7 +258,6 @@ technologies = {
 			factor = 3
 		}
 	}
-
 	tech_seaponies_c = {
 		special_forces_no_supply_grace = 48
 		extra_marine_supply_grace = 240
@@ -274,7 +266,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 0 y = 15 }
+			position = { x = @middle_branch y = @racial_tech_5 }
 		}
 
 		on_research_complete = {
@@ -294,6 +286,7 @@ technologies = {
 		}
 	}
 
+	#region Engineering
 	tech_hippogriff_engineering = {
 
 		dependencies = {
@@ -320,7 +313,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 4 y = 0 }
+			position = { x = @middle_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -355,7 +348,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 4 y = 3 }
+			position = { x = @middle_branch y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -392,7 +385,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 4 y = 6 }
+			position = { x = @middle_branch y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -432,7 +425,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 4 y = 9 }
+			position = { x = @middle_branch y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -454,7 +447,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_hippogriff_engineering5a = {
 
 		destroyer = {
@@ -492,7 +484,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 3 y = 12 }
+			position = { x = @top_branch y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -514,7 +506,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_hippogriff_engineering6a = {
 
 		destroyer = {
@@ -546,7 +537,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 3 y = 15 }
+			position = { x = @top_branch y = @racial_tech_5 }
 		}
 
 		categories = {
@@ -583,7 +574,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 5 y = 12 }
+			position = { x = @bottom_branch y = @racial_tech_4 }
 		}
 		xor = { tech_hippogriff_engineering5a }
 
@@ -622,7 +613,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 5 y = 15 }
+			position = { x = @bottom_branch y = @racial_tech_5 }
 		}
 
 		categories = {
@@ -644,6 +635,8 @@ technologies = {
 			}
 		}
 	}
+
+	#region ReconDetection
 	tech_hippogriff_recon = {
 		dependencies = {
 			hippogriff_race = 1
@@ -667,7 +660,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 8 y = 0 }
+			position = { x = @middle_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -702,7 +695,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 8 y = 3 }
+			position = { x = @middle_branch y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -744,7 +737,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 8 y = 6 }
+			position = { x = @middle_branch y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -780,7 +773,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 7 y = 9 }
+			position = { x = @top_branch y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -871,7 +864,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 9 y = 9 }
+			position = { x = @bottom_branch y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -893,7 +886,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_hippogriff_recon5 = {
 
 		category_special_forces = {
@@ -907,7 +899,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 8 y = 12 }
+			position = { x = @middle_branch y = @racial_tech_4 }
 		}
 		path = {
 			leads_to_tech = tech_hippogriff_recon6
@@ -933,7 +925,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_hippogriff_recon6 = {
 
 		destroyer = {
@@ -1053,7 +1044,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 8 y = 15 }
+			position = { x = @middle_branch y = @racial_tech_5 }
 		}
 
 		categories = {
@@ -1076,7 +1067,7 @@ technologies = {
 		}
 	}
 
-
+	#region CombinedArms
 	tech_hippogriff_combined = {
 
 		dependencies = {
@@ -1111,7 +1102,7 @@ technologies = {
 		start_year = 989
 		folder = {
 			name = hippogriff_folder
-			position = { x = 12 y = 0 }
+			position = { x = @middle_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -1142,7 +1133,7 @@ technologies = {
 		start_year = 989
 		folder = {
 			name = hippogriff_folder
-			position = { x = 12 y = 3 }
+			position = { x = @middle_branch y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -1181,7 +1172,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 11 y = 6 }
+			position = { x = @top_branch y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -1216,7 +1207,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 13 y = 6 }
+			position = { x = @bottom_branch y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -1252,7 +1243,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 12 y = 9 }
+			position = { x = @middle_branch y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -1295,7 +1286,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 12 y = 12 }
+			position = { x = @middle_branch y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -1318,6 +1309,7 @@ technologies = {
 		}
 	}
 
+	#region Endurance
 	tech_hippogriff_combined6 = {
 
 		category_all_infantry = {
@@ -1352,7 +1344,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 12 y = 15 }
+			position = { x = @middle_branch y = @racial_tech_5 }
 		}
 
 		categories = {
@@ -1385,7 +1377,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 16 y = 0 }
+			position = { x = @middle_branch y = @racial_tech_0 }
 		}
 		path = {
 			leads_to_tech = tech_hippogriff_endurance2
@@ -1422,7 +1414,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 16 y = 3 }
+			position = { x = @middle_branch y = @racial_tech_1 }
 		}
 		path = {
 			leads_to_tech = tech_hippogriff_endurance3
@@ -1456,7 +1448,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 16 y = 6 }
+			position = { x = @middle_branch y = @racial_tech_2 }
 		}
 		path = {
 			leads_to_tech = tech_hippogriff_endurance4
@@ -1491,7 +1483,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 16 y = 9 }
+			position = { x = @middle_branch y = @racial_tech_3 }
 		}
 		path = {
 			leads_to_tech = tech_hippogriff_endurance5
@@ -1540,7 +1532,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 16 y = 12 }
+			position = { x = @middle_branch y = @racial_tech_4 }
 		}
 		path = {
 			leads_to_tech = tech_hippogriff_endurance6
@@ -1577,7 +1569,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = hippogriff_folder
-			position = { x = 16 y = 15 }
+			position = { x = @middle_branch y = @racial_tech_5 }
 		}
 
 		categories = {
@@ -1599,9 +1591,4 @@ technologies = {
 			}
 		}
 	}
-
-
-
 }
-
-#####-----------------------------------------------------------> End
