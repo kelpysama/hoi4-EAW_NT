@@ -4,6 +4,26 @@
 
 technologies = {
 	## Vertical positions (Y)
+	# #999 = 2
+	# #1001 = 3
+	# #1003 = 4
+	# #1005 = 5
+	# #1007 = 6
+	# #1009 = 7
+	# #1011 = 8
+	# #1013 = 9
+	# #1015 = 10
+	# #1016 = 12
+	# #1017 = 14
+	# #1019 = 15
+	# #1021 = 16
+	# #1023 = 17
+	# #1025 = 18
+	# #1027 = 19
+	# #1029 = 20
+	# #1031 = 21
+	# #1033 = 22
+	## Vertical positions (Y)
 	@999 = 2
 	@1001 = 3
 	@1003 = 4
@@ -13,16 +33,13 @@ technologies = {
 	@1011 = 8
 	@1013 = 9
 	@1015 = 10
-	@1016 = 12
-	@1017 = 14
-	@1019 = 15
-	@1021 = 16
-	@1023 = 17
+
+	@1017 = 12
+	@1019 = 14
+	@1022 = 16
 	@1025 = 18
-	@1027 = 19
-	@1029 = 20
-	@1031 = 21
-	@1033 = 22
+	@1028 = 20
+	@1031 = 22
 	## Horizontal positions (X)
 	@light = 0
 	@medium = 2
@@ -173,10 +190,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1029
+		start_year = 1028
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @airship y = @1029 }
+			position = { x = @airship y = @1028 }
 		}
 
 		categories = {
@@ -266,14 +283,14 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1021
+		start_year = 1019
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @airship_upgrade y = @1021 }
+			position = { x = @airship_upgrade y = @1019 }
 		}
 		folder = {
 			name = air_techs_folder
-			position = { x = @airship_upgrade y = @1021 }
+			position = { x = @airship_upgrade y = @1019 }
 		}
 
 		categories = {
@@ -720,10 +737,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1017
+		start_year = 1019
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @light y = @1017 }
+			position = { x = @light y = @1019 }
 		}
 
 		categories = {
@@ -831,7 +848,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1029
+		start_year = 1028
 
 		categories = {
 			light_air
@@ -1135,10 +1152,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1027
+		start_year = 1025
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @medium y = @1027 }
+			position = { x = @medium y = @1025 }
 		}
 
 		categories = {
@@ -1459,10 +1476,10 @@ technologies = {
 		# }
 
 		research_cost = 2
-		start_year = 1021
+		start_year = 1019
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @heavy y = @1021 }
+			position = { x = @heavy y = @1019 }
 		}
 
 		categories = {
@@ -1509,10 +1526,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1029
+		start_year = 1025
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @heavy y = @1029 }
+			position = { x = @heavy y = @1025 }
 		}
 
 		categories = {
@@ -1551,7 +1568,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1023
+		start_year = 1022
 
 		# folder = {
 		# 	name = bba_air_techs_folder
@@ -1998,14 +2015,14 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1016
+		start_year = 1017
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @engines y = @1016 }
+			position = { x = @engines y = @1017 }
 		}
 		folder = {
 			name = air_techs_folder
-			position = { x = @engines y = @1016 }
+			position = { x = @engines y = @1017 }
 		}
 
 		categories = {
@@ -2205,10 +2222,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1023
+		start_year = 1022
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @design_2 y = @1023 }
+			position = { x = @design_2 y = @1022 }
 		}
 
 		categories = {
@@ -2237,10 +2254,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1029
+		start_year = 1028
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @design_3 y = @1029 }
+			position = { x = @design_3 y = @1028 }
 		}
 
 		categories = {
@@ -2286,19 +2303,15 @@ technologies = {
 			research_cost_coeff = 1.0
 		}
 		path = {
-			leads_to_tech = precision_guided_munitions
-			research_cost_coeff = 1.0
-		}
-		path = {
-			leads_to_tech = air_to_air_missile
+			leads_to_tech = upgrade_air_to_air_missile
 			research_cost_coeff = 1.0
 		}
 
 		research_cost = 1
-		start_year = 1021
+		start_year = 1019
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @bomb_2 y = @1021 }
+			position = { x = @bomb_2 y = @1019 }
 		}
 
 		categories = {
@@ -2322,6 +2335,78 @@ technologies = {
 				}
 				factor = 5
 			}
+		}
+	}
+	upgrade_air_to_air_missile = {
+		allow = {
+			ROOT = {
+			   is_special_project_completed = sp:sp_rockets_air_to_air_missile
+		   }
+		}
+		is_special_project_tech = yes
+
+		air_attack_factor = 0.1
+
+		research_cost = 1.5
+		start_year = 1022
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @bomb_3 y = @1022 }
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_bombs
+			cat_air_guns
+			mio_cat_all_cas_and_modules
+			mio_cat_all_medium_aircraft_and_modules
+			mio_cat_all_light_aircraft_and_modules
+			mio_cat_all_naval_bomber_and_modules
+			rocketry
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	upgrade_precision_guided_munitions = {
+
+		dependencies = {
+			sp_rockets_advanced_rocket_bomber = 1
+		}
+		allow = {
+			ROOT = {
+			   is_special_project_completed = sp:sp_rockets_air_to_air_missile
+		   }
+		}
+		is_special_project_tech = yes
+
+		ground_attack_factor = 0.1
+
+		research_cost = 1.5
+		start_year = 1028
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @bomb_3 y = @1028 }
+		}
+
+		categories = {
+			air_equipment
+			plane_modules_tech
+			cat_air_bombs
+			cat_air_guns
+			mio_cat_all_cas_and_modules
+			mio_cat_all_medium_aircraft_and_modules
+			mio_cat_all_light_aircraft_and_modules
+			mio_cat_all_naval_bomber_and_modules
+			rocketry
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
 
@@ -2420,10 +2505,10 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1016
+		start_year = 1017
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @bomb_1 y = @1016 }
+			position = { x = @bomb_1 y = @1017 }
 		}
 
 		categories = {
@@ -2660,6 +2745,11 @@ technologies = {
 			super_large_bomb_bay_2
 		}
 
+		path = {
+			leads_to_tech = upgrade_precision_guided_munitions
+			research_cost_coeff = 1.0
+		}
+
 		research_cost = 1
 		start_year = 1025
 		folder = {
@@ -2814,10 +2904,10 @@ technologies = {
 			aircraft_cannon_1_2x
 		}
 
-		# path = {
-		# 	leads_to_tech = aa_cannon_2
-		# 	research_cost_coeff = 1
-		# }
+		path = {
+			leads_to_tech = aa_cannon_2
+			research_cost_coeff = 1
+		}
 		path = {
 			leads_to_tech = aa_cannon_3
 			research_cost_coeff = 1
@@ -2865,7 +2955,7 @@ technologies = {
 			}
 		}
 	}
-	aa_cannon_2 = { #DISABLED
+	aa_cannon_2 = {
 
 		enable_equipment_modules = {
 			large_aircraft_cannon_1x
@@ -2874,17 +2964,17 @@ technologies = {
 			cannon_defense_turret_2x
 		}
 
-		# path = {
-		# 	leads_to_tech = aa_cannon_5
-		# 	research_cost_coeff = 1
-		# }
+		path = {
+			leads_to_tech = aa_cannon_5
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
-		start_year = 1014
-		# folder = {
-		# 	name = bba_air_techs_folder
-		# 	position = { x = @cannons y = 7 }
-		# }
+		start_year = 1015
+		folder = {
+			name = bba_air_techs_folder
+			position = { x = @machine_guns y = @1015 }
+		}
 
 		categories = {
 			air_equipment
@@ -2932,10 +3022,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1016
+		start_year = 1017
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @cannons y = @1016 }
+			position = { x = @cannons y = @1017 }
 		}
 
 		categories = {
@@ -2982,10 +3072,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1021
+		start_year = 1022
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @cannons y = @1021 }
+			position = { x = @cannons y = @1022 }
 		}
 
 		categories = {
@@ -3029,10 +3119,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1029
+		start_year = 1028
 		folder = {
 			name = bba_air_techs_folder
-			position = { x = @cannons y = @1029 }
+			position = { x = @machine_guns y = @1028 }
 		}
 
 		categories = {

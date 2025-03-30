@@ -4,6 +4,21 @@
 spriteTypes = {
     ## 🤓 <(technology stuff)
 
+	#region TransportPlanes
+	## Generic
+	SpriteType = {
+		name = "GFX_transport_plane_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_bba_strategic_airlifter_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_strategic_airlifter_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_transport_3.dds"
+	}
+
     #region ArmouredCars
     ## Changelings
 	SpriteType = {

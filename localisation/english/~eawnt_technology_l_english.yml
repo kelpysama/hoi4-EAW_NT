@@ -284,13 +284,19 @@ l_english:
 
   # Airships
   advanced_airship_airframes:0 "1015 Heavy Airship"
-  modern_airship_airframes:0 "1025 Heavy Airship"
+  modern_airship_airframes:0 "1028 Heavy Airship"
   mothership_equipment_1:0 "1015 Heavy Airship"
     mothership_equipment_1_short:0 "1015 Heavy Airship"
     mothership_equipment_1_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
-  mothership_equipment_2:0 "1025 Heavy Airship"
-    mothership_equipment_2_short:0 "1025 Heavy Airship"
+  mothership_equipment_2:0 "1028 Heavy Airship"
+    mothership_equipment_2_short:0 "1028 Heavy Airship"
     mothership_equipment_2_desc: "A large, full-metal airship kept afloat by a complex system of automatic telekinetic-spell casters. The added lift allows it to carry naval-caliber batteries and aircraft wings."
+
+  # Technology
+  upgrade_air_to_air_missile:0 "Enhanced Missile Tracking"
+    upgrade_air_to_air_missile_desc:0 "As research into improving air-to-air missiles continues, we've found that certain types of guidance work best at specific ranges. By specializing the types of trackers used on certain missiles, we can improve their chances of hitting the intended target."
+  upgrade_precision_guided_munitions:0 "Bomb Guidance Conversion Kits"
+    upgrade_precision_guided_munitions_desc:0 "Early guided munitions were specially designed and constructed. New research has led to the development of modular guidance packages that can be attached to unguided bombs. This allows air crews to give existing munitions guidance capabilities when the need arises."
 
   # Modules
 

@@ -676,12 +676,12 @@ spriteTypes = {
 	}
 	## AIRCRAFT UPGRADES / TECH / MODULES
 	SpriteType = {
-		name = "GFX_precision_guided_munitions_medium"
-		texturefile = "gfx/interface/equipmentdesigner/planes/modules/airplane_air_to_surface_missile_icon.dds"
+		name = "GFX_upgrade_air_to_air_missile_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/airplane_air_to_air_missile_icon.dds"
 	}
 	SpriteType = {
-		name = "GFX_air_to_air_missile_medium"
-		texturefile = "gfx/interface/equipmentdesigner/planes/modules/airplane_air_to_air_missile_icon.dds"
+		name = "GFX_upgrade_precision_guided_munitions_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/airplane_air_to_surface_missile_icon.dds"
 	}
 	SpriteType = {
 		name = "GFX_sp_centrifugal_jet_tech_medium"
