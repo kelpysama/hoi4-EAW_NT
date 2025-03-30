@@ -5432,7 +5432,7 @@ guiTypes = {
 		}
 
 		# PONY FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "pony_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -5447,33 +5447,66 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 2800 height = 1100
+					width = 1600 height = 900
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
+				## Main Background
 				iconType = {
-					name ="pony_techtree_bg"
-					spriteType = "GFX_pony_techtree_bg"
+					name ="racial_folder_pony_bg_big"
+					spriteType = "GFX_racial_folder_pony_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 500
+					min = { height = 100%% }
+				}
+				clipping = no
 
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_pony_bg_stripe"
+					spriteType = "GFX_racial_folder_pony_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_pony_icon"
+					spriteType = "GFX_racial_folder_pony_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "pony_race_trait_desc"
+				}
 			}
 
+			## Subtitles
 			instantTextBoxType = {
 				name = "pony_earthpony_magic_subtitle"
-				position = { x = 100 y = 108 }
-				font = "hoi_33"
+				position = { x = 240 y = 50 }
+				# font = "hoi_33"
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_PONY_EARTHPONY_MAGIC_SUBTITLE"
 				maxWidth = 600
@@ -5481,11 +5514,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "pony_pegasus_magic_subtitle"
-				position = { x = 100 y = 358 }
-				font = "hoi_33"
+				position = { x = 240 y = 330 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_PONY_PEGASUS_MAGIC_SUBTITLE"
 				maxWidth = 600
@@ -5493,116 +5525,103 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "pony_unicorn_subtitle"
-				position = { x = 100 y = 557 }
+				position = { x = 1185 y = 50 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "dacik_push_36_opaque"
 				borderSize = { x = 0 y = 0}
 				text = "TITLE_PONY_UNICORN_MAGIC_SUBTITLE"
-				maxWidth = 600
+				maxWidth = 420
 				maxHeight = 62
-				format = left
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "pony_th_subtitle"
-				position = { x = 214 y = 667 }
+				position = { x = 1013 y = 105 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_PONY_MAGICAL_HARMONY_SUBTITLE"
 				maxWidth = 122
 				maxHeight = 122
-				format = center
+				format = right
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "TITLE_PONY_MAGICAL_HARMONY_SUBTITLE_TT"
 			}
-
 			instantTextBoxType = {
 				name = "pony_ms_subtitle"
-				position = { x = 484 y = 667 }
+				position = { x = 1235 y = 105 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_PONY_MAGICAL_SUPREMACY_SUBTITLE"
 				maxWidth = 122
 				maxHeight = 122
-				format = center
+				format = left
 				Orientation = "CENTER_LEFT"
 				pdx_tooltip = "TITLE_PONY_MAGICAL_SUPREMACY_SUBTITLE_TT"
 			}
-
 			instantTextBoxType = {
 				name = "pony_minf_subtitle"
-				position = { x = 760 y = 667 }
+				position = { x = 1433 y = 105 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_PONY_MINF_SUBTITLE"
 				maxWidth = 122
 				maxHeight = 122
-				format = center
+				format = right
 				Orientation = "UPPER_LEFT"
 				#pdx_tooltip = "TITLE_PONY_MINF_SUBTITLE_TT"
 			}
-
 			instantTextBoxType = {
 				name = "pony_allinf_subtitle"
-				position = { x = 1055 y = 667 }
+				position = { x = 1655 y = 105 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_PONY_ALLINF_SUBTITLE"
 				maxWidth = 122
 				maxHeight = 122
-				format = center
+				format = left
 				Orientation = "CENTER_LEFT"
 				#pdx_tooltip = "TITLE_PONY_MAGICAL_SUPREMACY_SUBTITLE_TT"
 			}
 
+			## Earth Ponies
 			gridboxtype = {
 				name = "tech_earth_pony_tree"
-				position = { x = 231 y = 140 }
+				position = { x = 240 y = 200 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Pegasi
 			gridboxtype = {
 				name = "tech_pegasi_tree"
-				position = { x = 231 y = 440 }
+				position = { x = 240 y = 480 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Unicorns
 			gridboxtype = {
 				name = "tech_unicorn_tree"
-				position = { x = 270 y = 631 }
+				position = { x = 1185 y = 95 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
+			## Magic Infantry
 			gridboxtype = {
-				name = "tech_pony_magical_infantry_tree"
-				position = { x = 270 y = 631 }
+				name = "tech_pony_magic_infantry0_tree"
+				position = { x = 1605 y = 95 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
-			gridboxtype = {
-				name = "tech_pony_unicorns_tree"
-				position = { x = 270 y = 631 }
-				#size = { width = 420 height = 500 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
 		}
 		# HORSE FOLDER #
 		containerWindowType = {
@@ -5976,7 +5995,7 @@ guiTypes = {
 
 		}
 		# CHANGELING FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "changeling_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -5991,33 +6010,66 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 2800 height = 1100
+					width = 1600 height = 900
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
+				## Main Background
 				iconType = {
-					name ="changeling_techtree_bg"
-					spriteType = "GFX_changeling_techtree_bg"
+					name ="racial_folder_changeling_bg_big"
+					spriteType = "GFX_racial_folder_changeling_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 500
+					min = { height = 100%% }
+				}
+				clipping = no
 
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_changeling_bg_stripe"
+					spriteType = "GFX_racial_folder_changeling_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_changeling_icon"
+					spriteType = "GFX_racial_folder_changeling_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "changeling_race_trait_desc"
+				}
 			}
 
+			## Subtitles
 			instantTextBoxType = {
 				name = "changeling_jager_subtitle"
-				position = { x = 100 y = 108 }
-				font = "hoi_33"
+				position = { x = 240 y = 50 }
+				# font = "hoi_33"
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_CHANGELING_JAGER_SUBTITLE"
 				maxWidth = 600
@@ -6025,63 +6077,74 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
+			instantTextBoxType = {
+				name = "changeling_infiltrator_subtitle"
+				position = { x = 1025 y = 50 }
+				# font = "hoi_33"
+				font = "dacik_push_36_opaque"
+				borderSize = {x = 0 y = 4}
+				text = "TITLE_CHANGELING_IMPOSTOR_SUBTITLE"
+				maxWidth = 600
+				maxHeight = 62
+				format = center
+				Orientation = "UPPER_LEFT"
+			}
 			instantTextBoxType = {
 				name = "changeling_development_subtitle"
-				position = { x = 100 y = 272 }
+				position = { x = 325 y = 330 }
 				textureFile = ""
-				font = "hoi_33"
+				font = "dacik_push_36_opaque"
 				borderSize = { x = 0 y = 0}
 				text = "TITLE_CHANGELING_DEVELOPMENT_SUBTITLE"
 				maxWidth = 600
 				maxHeight = 62
-				format = left
+				format = center
 				Orientation = "UPPER_LEFT"
 			}
 
+			## Jagers
 			gridboxtype = {
 				name = "tech_jager_tree"
-				position = { x = 234 y = 200 }
+				position = { x = 240 y = 200 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Specialized Drones
 			gridboxtype = {
 				name = "tech_changeling_a_tree"
-				position = { x = 270 y = 324 }
+				position = { x = 345 y = 445 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
+			## Love Extraction
 			gridboxtype = {
 				name = "tech_changeling_b_tree"
-				position = { x = 270 y = 324 }
+				position = { x = 625 y = 445 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
+			## Warswarms
 			gridboxtype = {
 				name = "tech_changeling_c_tree"
-				position = { x = 270 y = 324 }
+				position = { x = 905 y = 445 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
+			## Infiltrators
 			gridboxtype = {
 				name = "tech_infiltrators_tree"
-				position = { x = 270 y = 324 }
+				position = { x = 1325 y = 165 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
-
 		}
 		# GRIFFON FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "griffon_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -6096,33 +6159,66 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 2800 height = 1100
+					width = 1600 height = 1540
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
+				## Main Background
 				iconType = {
-					name ="griffon_techtree_bg"
-					spriteType = "GFX_griffon_techtree_bg"
+					name ="racial_folder_griffon_bg_big"
+					spriteType = "GFX_racial_folder_griffon_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 1540
+					min = { height = 100%% }
+				}
+				clipping = no
 
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_griffon_bg_stripe"
+					spriteType = "GFX_racial_folder_griffon_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_griffon_icon"
+					spriteType = "GFX_racial_folder_griffon_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "griffon_race_trait_desc"
+				}
 			}
 
+			## Subtitles
 			instantTextBoxType = {
 				name = "griffon_knights_subtitle"
-				position = { x = 100 y = 108 }
-				font = "hoi_33"
+				position = { x = 240 y = 190 }
+				# font = "hoi_33"
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_GRIFFON_KNIGHTS_SUBTITLE"
 				maxWidth = 600
@@ -6130,11 +6226,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "griffon_society_subtitle"
-				position = { x = 100 y = 528 }
-				font = "hoi_33"
+				position = { x = 240 y = 470 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_GRIFFON_SOCIETY_SUBTITLE"
 				maxWidth = 600
@@ -6142,11 +6237,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "griffon_army_subtitle"
-				position = { x = 100 y = 668 }
-				font = "hoi_33"
+				position = { x = 240 y = 750 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_GRIFFON_ARMY_SUBTITLE"
 				maxWidth = 600
@@ -6154,11 +6248,10 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			instantTextBoxType = {
 				name = "griffon_air_navy_subtitle"
-				position = { x = 100 y = 1219 }
-				font = "hoi_33"
+				position = { x = 240 y = 1170 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_GRIFFON_AIR_NAVY_SUBTITLE"
 				maxWidth = 600
@@ -6167,6 +6260,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 
+			## Society & Economy
 			gridboxtype = {
 				name = "tech_griffon_misc_tree"
 				position = { x = 270 y = 200 }
@@ -6174,7 +6268,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Knights
 			gridboxtype = {
 				name = "tech_knights_tree"
 				position = { x = 270 y = 200 }
@@ -6182,7 +6276,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Military
 			gridboxtype = {
 				name = "tech_griffon_army_tree"
 				position = { x = 270 y = 200 }
@@ -6190,7 +6284,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Air & Navy
 			gridboxtype = {
 				name = "tech_griffon_airnavy_tree"
 				position = { x = 270 y = 200 }
@@ -6301,7 +6395,7 @@ guiTypes = {
 
 		}
 		# KIRIN FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "kirin_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -6316,32 +6410,66 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 1800 height = 2388
+					width = 1600 height = 2380
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
+				## Main Background
 				iconType = {
-					name ="kirin techtree background"
-					spriteType = "GFX_kirin_techtree_bg"
+					name ="racial_folder_kirin_bg_big"
+					spriteType = "GFX_racial_folder_kirin_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
 			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 2380
+					min = { height = 100%% }
+				}
+				clipping = no
 
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_kirin_bg_stripe"
+					spriteType = "GFX_racial_folder_kirin_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_kirin_icon"
+					spriteType = "GFX_racial_folder_kirin_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "kirin_race_trait_desc"
+				}
+			}
+
+			## Vanguards
 			instantTextBoxType = {
 				name = "vanguard subtitle"
-				position = { x = 60 y = 189 }
-				font = "hoi_33"
+				position = { x = 240 y = 50 }
+				# font = "dacik_push_36_opaque"
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_KIRIN_VANGUARD_SUBTITLE"
 				maxWidth = 600
@@ -6349,18 +6477,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			gridboxtype = {
 				name = "tech_kirin_vanguard_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 205 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Valiants
 			instantTextBoxType = {
 				name = "braves subtitle"
-				position = { x = 60 y = 470 }
-				font = "hoi_33"
+				position = { x = 240 y = 330 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_KIRIN_BRAVES_SUBTITLE"
 				maxWidth = 600
@@ -6368,18 +6495,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			gridboxtype = {
 				name = "tech_kirin_brave_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 205 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Warfare
 			instantTextBoxType = {
 				name = "military subtitle"
-				position = { x = 60 y = 820 }
-				font = "hoi_33"
+				position = { x = 240 y = 610 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_KIRIN_MILITARY_SUBTITLE"
 				maxWidth = 600
@@ -6387,18 +6513,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			gridboxtype = {
 				name = "tech_kirin_military_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 380 y = 205 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Numerology
 			instantTextBoxType = {
 				name = "numerology subtitle"
-				position = { x = 60 y = 1240 }
-				font = "hoi_33"
+				position = { x = 240 y = 1170 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_KIRIN_NUMEROLOGY_SUBTITLE"
 				maxWidth = 600
@@ -6406,18 +6531,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			gridboxtype = {
 				name = "tech_kirin_numerology_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 275 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Geomancy
 			instantTextBoxType = {
 				name = "geomancy subtitle"
-				position = { x = 60 y = 1520 }
-				font = "hoi_33"
+				position = { x = 240 y = 1450 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_KIRIN_GEOMANCY_SUBTITLE"
 				maxWidth = 600
@@ -6425,18 +6549,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			gridboxtype = {
 				name = "tech_kirin_geomancy_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 275 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Astrology
 			instantTextBoxType = {
 				name = "astrology subtitle"
-				position = { x = 60 y = 1730 }
-				font = "hoi_33"
+				position = { x = 940 y = 1450 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_KIRIN_ASTROLOGY_SUBTITLE"
 				maxWidth = 600
@@ -6444,18 +6567,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			gridboxtype = {
 				name = "tech_kirin_astrology_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 940 y = 65 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
+			## Duality
 			instantTextBoxType = {
 				name = "nirik subtitle"
-				position = { x = 60 y = 2080 }
-				font = "hoi_33"
+				position = { x = 240 y = 1710 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_KIRIN_NIRIK_SUBTITLE"
 				maxWidth = 200
@@ -6463,16 +6585,15 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
 			gridboxtype = {
 				name = "tech_kirin_nirik_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 135 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 		}
 		# POLAR BEAR FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "polar_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -6487,26 +6608,60 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 2800 height = 1100
+					width = 1600 height = 900
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
+				## Main Background
 				iconType = {
-					name ="polar_bear_techtree_bg"
-					spriteType = "GFX_polar_bear_techtree_bg"
+					name ="racial_folder_polar_bg_big"
+					spriteType = "GFX_racial_folder_polar_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
 			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 500
+					min = { height = 100%% }
+				}
+				clipping = no
+
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_polar_bg_stripe"
+					spriteType = "GFX_racial_folder_polar_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_polar_icon"
+					spriteType = "GFX_racial_folder_polar_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "bear_race_trait_desc"
+				}
+			}
+
 
 			gridboxtype = {
 				name = "tech_magi_scribes_tree"
@@ -6530,7 +6685,7 @@ guiTypes = {
 			}
 		}
 		# YAK FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "yak_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -6545,57 +6700,90 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 2800 height = 1100
+					width = 1600 height = 980
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
+				## Main Background
 				iconType = {
-					name ="yak_techtree_bg"
-					spriteType = "GFX_yak_techtree_bg"
+					name ="racial_folder_yak_bg_big"
+					spriteType = "GFX_racial_folder_yak_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
+				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 980
+					min = { height = 100%% }
+				}
+				clipping = no
+
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_yak_bg_stripe"
+					spriteType = "GFX_racial_folder_yak_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_yak_icon"
+					spriteType = "GFX_racial_folder_yak_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "yak_race_trait_desc"
 				}
 			}
 
 			gridboxtype = {
 				name = "tech_yak_winter_training_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 135 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "tech_yak_winter_logi_1a_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 65 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 			gridBoxType = {
 				name = "tech_yak_winter_logi_1b_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 240 y = 60 }
 				slotsize = { width = 70	height = 70	}
 				format = "LEFT"
 			}
 			gridboxtype = {
 				name = "tech_yak_industry_1_tree"
-				position = { x = 270 y = 200 }
+				position = { x = 870 y = -80 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
 		}
 		# HIPPOGRIFF FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "hippogriff_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -6807,7 +6995,7 @@ guiTypes = {
 
 		}
 		# ZEBRA FOLDER #
-		containerWindowType = {
+		containerWindowType = {	#MODIFIED
 			name = "zebra_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -6822,27 +7010,71 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 710 height = 1100
-					min = { width= 100%% height = 100%% }
+					width = 1600 height = 900
+					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripes"
+				}
+				## Main Background
 				iconType = {
-					name ="zebra_techtree_bg"
-					spriteType = "GFX_zebra_techtree_bg"
+					name ="racial_folder_zebra_bg_big"
+					spriteType = "GFX_racial_folder_zebra_bg1"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 500
+					min = { height = 100%% }
+				}
+				clipping = no
 
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_zebra_bg_stripe"
+					spriteType = "GFX_racial_folder_zebra_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_zebra_icon"
+					spriteType = "GFX_racial_folder_zebra_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "zebra_race_trait_desc"
+				}
+			}
+
+			## Chargers
+			gridboxtype = {
+				name = "tech_spirit_warriors_tree"
+				position = { x = 240 y = 205 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
 			}
 			instantTextBoxType = {
 				name = "zebra_spirit_warriors_subtitle"
-				position = { x = 100 y = 50 }
-				font = "hoi_33"
+				position = { x = 240 y = 50 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_ZEBRA_SPIRIT_WARRIORS_SUBTITLE"
 				maxWidth = 600
@@ -6850,10 +7082,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
+			## Adaptability
+			gridboxtype = {
+				name = "tech_zebra_climate_tree"
+				position = { x = 240 y = 415 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			instantTextBoxType = {
 				name = "zebra_climate_subtitle"
-				position = { x = 100 y = 227 }
-				font = "hoi_33"
+				position = { x = 240 y = 330 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_ZEBRA_CLIMATE_SUBTITLE"
 				maxWidth = 600
@@ -6861,10 +7100,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
+			## Alchemy
+			gridboxtype = {
+				name = "tech_zebra_alchemy_tree"
+				position = { x = 940 y = 485 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			instantTextBoxType = {
 				name = "zebra_alchemy_subtitle"
-				position = { x = 100 y = 544 }
-				font = "hoi_33"
+				position = { x = 940 y = 330 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_ZEBRA_ALCHEMY_SUBTITLE"
 				maxWidth = 600
@@ -6872,10 +7118,17 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
+			## Metallurgy
+			gridboxtype = {
+				name = "tech_zebra_crafting_tree"
+				position = { x = 240 y = 695 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			instantTextBoxType = {
 				name = "zebra_crafting_subtitle"
-				position = { x = 100 y = 771 }
-				font = "hoi_33"
+				position = { x = 240 y = 610 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_ZEBRA_CRAFTING_SUBTITLE"
 				maxWidth = 600
@@ -6883,10 +7136,18 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
+			## War Canoes
+			gridboxtype = {
+				name = "tech_zebra_war_canoes_tree"
+				# position = { x = 1255 y = 170 }
+				position = { x = 1220 y = 205 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
 			instantTextBoxType = {
 				name = "zebra_war_canoes_subtitle"
-				position = { x = 1125 y = 50 }
-				font = "hoi_33"
+				position = { x = 1185 y = 50 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_ZEBRA_CANOES_SUBTITLE"
 				maxWidth = 600
@@ -6894,38 +7155,97 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-			gridboxtype = {
-				name = "tech_spirit_warriors_tree"
-				position = { x = 100 y = 150 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_zebra_climate_tree"
-				position = { x = 100 y = 327 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_zebra_alchemy_tree"
-				position = { x = 100 y = 644 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_zebra_crafting_tree"
-				position = { x = 100 y = 871 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-			gridboxtype = {
-				name = "tech_zebra_war_canoes_tree"
-				position = { x = 1200 y = 115 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
 		}
 
+		# UNDEAD FOLDER #
+		# containerWindowType = {	#MODIFIED
+		# 	name = "undead_folder"
+		# 	position = { x=0 y=47 }
+		# 	size = { width = 100%% height = 100%% }
+		# 	margin = { top = 13 left = 13 bottom = 24 right = 25}
+		# 	drag_scroll = { left middle }
+		# 	verticalScrollbar = "right_vertical_slider"
+		# 	horizontalScrollbar = "bottom_horizontal_slider"
+		# 	scroll_wheel_factor = 80
+
+		# 	background = {
+		# 		name = "Background"
+		# 		quadTextureSprite ="GFX_tiled_window_2b_border"
+		# 	}
+
+		# 	## Main Background
+		# 	containerWindowType = {
+		# 		name = "techtree_stripes"
+		# 		position = { x= 195 y= 0 }
+		# 		size = {
+		# 			width = 1600 height = 900
+		# 			min = { width = 100%% height = 100%% }
+		# 		}
+		# 		clipping = no
+
+		# 		## Stripes
+		# 		background = {
+		# 			name = "Background"
+		# 			quadTextureSprite ="GFX_techtree_stripes"
+		# 		}
+		# 		## Main Background
+		# 		iconType = {
+		# 			name ="racial_folder_undead_bg_big"
+		# 			spriteType = "GFX_racial_folder_undead_bg1"
+		# 			position = { x=0 y=0 }
+		# 			alwaystransparent = yes
+		# 		}
+		# 	}
+		# 	## Racial Stripe
+		# 	containerWindowType = {
+		# 		name = "racial_stripe_bg"
+		# 		position = { x = 0 y = 0 }
+		# 		size = {
+		# 			width = 199 height = 500
+		# 			min = { height = 100%% }
+		# 		}
+		# 		clipping = no
+
+		# 		## Single Stripe
+		# 		background = {
+		# 			name = "Background"
+		# 			quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+		# 		}
+		# 		## Race Stripe BG
+		# 		iconType = {
+		# 			name = "racial_folder_undead_bg_stripe"
+		# 			spriteType = "GFX_racial_folder_undead_bg"
+		# 			position = { x = 0 y = 0 }
+		# 			alwaystransparent = yes
+		# 		}
+		# 		## Race Icon
+		# 		iconType = {
+		# 			name = "racial_folder_undead_icon"
+		# 			spriteType = "GFX_racial_folder_undead_icon"
+		# 			position = { x = 65 y = 340 }
+		# 			pdx_tooltip = "undead_race_trait_desc"
+		# 		}
+		# 	}
+
+
+		# 	instantTextBoxType = {
+		# 		name = "zebra_spirit_warriors_subtitle"
+		# 		position = { x = 100 y = 50 }
+		# 		font = "hoi_33"
+		# 		borderSize = {x = 0 y = 4}
+		# 		text = "TITLE_ZEBRA_SPIRIT_WARRIORS_SUBTITLE"
+		# 		maxWidth = 600
+		# 		maxHeight = 62
+		# 		format = left
+		# 		Orientation = "UPPER_LEFT"
+		# 	}
+		# 	gridboxtype = {
+		# 		name = "tech_spirit_warriors_tree"
+		# 		position = { x = 100 y = 150 }
+		# 		slotsize = { width = 70 height = 70 }
+		# 		format = "LEFT"
+		# 	}
+		# }
 
 		# FORMATTING #
 		containerWindowType = {

@@ -356,9 +356,9 @@ technologies = {
 			zebra_race = 1
 
 		}
-		xor = {
-			tech_zebra_desert
-		}
+		# xor = {
+		# 	tech_zebra_desert
+		# }
 		on_research_complete = {
 			custom_effect_tooltip = tech_zebra_jungle_bonus
 			hidden_effect = {
@@ -472,9 +472,9 @@ technologies = {
 			zebra_race = 1
 
 		}
-		xor = {
-			tech_zebra_jungle
-		}
+		# xor = {
+		# 	tech_zebra_jungle
+		# }
 		on_research_complete = {
 			custom_effect_tooltip = tech_zebra_dessert_bonus
 		}

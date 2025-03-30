@@ -2,7 +2,7 @@
 ## Defines hippogriff racial tech positions
 
 technologies = {
-	## Horizontal positions (Y)
+	## Tech increment positions
 	@racial_tech_0 = 0
 	@racial_tech_1 = 2
 	@racial_tech_2 = 4
@@ -13,7 +13,8 @@ technologies = {
 	@racial_tech_7 = 14
 	@racial_tech_8 = 16
 	@racial_tech_9 = 18
-	## Vertical positions (X)
+	@racial_tech_10 = 20
+	## Branch positions
 	@middle_branch = 0
 	@top_branch = -1
 	@bottom_branch = 1

@@ -2,26 +2,26 @@
 ## Defines pony racial tech positions
 
 technologies = {
-	@989 = 0
-	@1007 = 0
-	@1009 = 2
-	@1010 = 4
-	@1011 = 6
-	@1012 = 8
-	@1013 = 10
-	@1014 = 12
-	@1015 = 14
-	@1016 = 16
-	@1017 = 18
-	@1018 = 20
-	@1019 = 22
-	@1020 = 24
-	@1021 = 26
-	@1022 = 28
-	@1023 = 30
-	@1024 = 32
-	@1025 = 34
-	@1026 = 36
+	## Tech increment positions
+	@racial_tech_0 = 0
+	@racial_tech_1 = 2
+	@racial_tech_2 = 4
+	@racial_tech_3 = 6
+	@racial_tech_4 = 8
+	@racial_tech_5 = 10
+	@racial_tech_6 = 12
+	@racial_tech_7 = 14
+	@racial_tech_8 = 16
+	@racial_tech_9 = 18
+	@racial_tech_10 = 20
+	## Branch positions
+	@root_branch = 0
+	@branch_0 = -3
+	@branch_1 = -2
+	@branch_2 = -1
+	@branch_3 = 1
+	@branch_4 = 2
+	@branch_5 = 3
 
 	pony_race = {
 
@@ -39,9 +39,7 @@ technologies = {
 
 	}
 
-	### Earth Pony Tech Group ###
-
-	#Earth pony farming
+	#region EarthPonies
 	tech_earth_pony = {
 
 		dependencies = {
@@ -64,7 +62,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 1 y = 0 }
+			position = { x = @root_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -87,8 +85,7 @@ technologies = {
 			}
 		}
 	}
-
-	#Earth Pony Sappers
+	## Top Path
 	tech_earth_pony_a1 = {
 
 		engineer = {
@@ -117,7 +114,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 2 }
+			position = { x = @branch_2 y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -140,8 +137,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Delicious Rations
 	tech_earth_pony_a2 = {
 
 		supply_node_range = 0.15
@@ -156,7 +151,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 4 }
+			position = { x = @branch_2 y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -179,8 +174,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Earth Pony Medicine
 	tech_earth_pony_a3 = {
 
 		field_hospital = {
@@ -197,7 +190,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 6 }
+			position = { x = @branch_2 y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -224,8 +217,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Rustic Ingenuity
 	tech_earth_pony_a4 = {
 
 		coordination_bonus = 0.05
@@ -235,7 +226,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 8 }
+			position = { x = @branch_2 y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -262,8 +253,7 @@ technologies = {
 			}
 		}
 	}
-
-	#Raise This Barn
+	## Bottom Path
 	tech_earth_pony_b1 = {
 
 		production_speed_buildings_factor = 0.05
@@ -278,7 +268,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = 2 }
+			position = { x = @branch_3 y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -301,8 +291,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Earth Pony Mining
 	tech_earth_pony_b2 = {
 
 		local_resources_factor = 0.10
@@ -316,7 +304,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = 4 }
+			position = { x = @branch_3 y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -339,8 +327,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Earth Pony Industry
 	tech_earth_pony_b3 = {
 
 		industrial_capacity_factory = 0.1
@@ -356,7 +342,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = 6 }
+			position = { x = @branch_3 y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -379,8 +365,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Stubborn Workers
 	tech_earth_pony_b4 = {
 
 		global_building_slots_factor = 0.1
@@ -390,7 +374,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = 8 }
+			position = { x = @branch_3 y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -414,6 +398,7 @@ technologies = {
 		}
 	}
 
+	#region Pegasi
 	tech_pegasi = {
 
 		dependencies = {
@@ -464,7 +449,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 0 }
+			position = { x = @root_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -483,7 +468,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pegasi2 = {
 
 		pegasi = {
@@ -510,7 +494,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 3 }
+			position = { x = @root_branch y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -529,8 +513,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Pegasi Weather Engineering
 	tech_pegasi_bonus1 = {
 
 		air_weather_penalty = -0.05
@@ -546,7 +528,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = 5 }
+			position = { x = @branch_4 y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -569,8 +551,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Pegasi weather manipulation
 	tech_pegasi_bonus2 = {
 
 		air_weather_penalty = -0.15
@@ -579,7 +559,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = 7 }
+			position = { x = @branch_4 y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -602,7 +582,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pegasi3 = {
 		pegasi = {
 			max_organisation = 5
@@ -618,7 +597,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 6 }
+			position = { x = @root_branch y = @racial_tech_2 }
 		}
 
 		on_research_complete = {
@@ -647,7 +626,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pegasi_a = {
 
 		pegasi = {
@@ -671,7 +649,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 9 }
+			position = { x = @root_branch y = @racial_tech_3 }
 		}
 
 		on_research_complete = {
@@ -696,8 +674,6 @@ technologies = {
 			}
 		}
 	}
-
-	#Military Weather Application
 	tech_pegasi_bonus3 = {
 
 		enemy_army_bonus_air_superiority_factor = -0.1
@@ -713,7 +689,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2 y = 11 }
+			position = { x = @branch_4 y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -736,7 +712,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pegasi_b = {
 
 		pegasi = {
@@ -756,7 +731,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 12 }
+			position = { x = @root_branch y = @racial_tech_4 }
 		}
 
 		on_research_complete = {
@@ -781,7 +756,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pegasi_c = {
 
 		pegasi = {
@@ -795,7 +769,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 15 }
+			position = { x = @root_branch y = @racial_tech_5 }
 		}
 
 		on_research_complete = {
@@ -822,6 +796,7 @@ technologies = {
 		}
 	}
 
+	#region Unicorns
 	tech_unicorn = {
 
 		dependencies = {
@@ -852,7 +827,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 2  y = 0 }
+			position = { x = @root_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -886,7 +861,7 @@ technologies = {
 			}
 		}
 	}
-
+	## Harmony
 	tech_unicorn_th = {
 
 		xor = {
@@ -912,7 +887,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0  y = 2}
+			position = { x = @branch_2 y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -947,7 +922,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_th2 = {
 
 		path = {
@@ -970,7 +944,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0  y = 4 }
+			position = { x = @branch_2 y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -1000,7 +974,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_th3 = {
 
 		path = {
@@ -1026,7 +999,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0  y = 6 }
+			position = { x = @branch_2 y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -1056,7 +1029,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_th4 = {
 
 		path = {
@@ -1079,7 +1051,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 8 }
+			position = { x = @branch_2 y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -1109,7 +1081,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_th5 = {
 
 		unicorn_company = {
@@ -1121,7 +1092,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 0 y = 10 }
+			position = { x = @branch_2 y = @racial_tech_5 }
 		}
 
 		on_research_complete = {
@@ -1157,7 +1128,7 @@ technologies = {
 			}
 		}
 	}
-
+	## Supremacy
 	tech_unicorn_ms = {
 
 		xor = {
@@ -1184,7 +1155,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 4 y = 2 }
+			position = { x = @branch_3 y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -1218,7 +1189,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_ms2 = {
 
 		unicorn_company = {
@@ -1242,7 +1212,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 4 y = 4 }
+			position = { x = @branch_3 y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -1271,7 +1241,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_ms3 = {
 
 		unicorn_company = {
@@ -1297,7 +1266,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 4 y = 6 }
+			position = { x = @branch_3 y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -1326,7 +1295,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_ms4 = {
 
 		unicorn_company = {
@@ -1350,7 +1318,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 4 y = 8 }
+			position = { x = @branch_3 y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -1379,7 +1347,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_unicorn_ms5 = {
 		unicorn_company = {
 			soft_attack = 0.75
@@ -1391,7 +1358,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 4 y = 10 }
+			position = { x = @branch_3 y = @racial_tech_5 }
 		}
 
 		on_research_complete = {
@@ -1427,6 +1394,65 @@ technologies = {
 		}
 	}
 
+	#region MagicInfantry
+	tech_pony_magic_infantry0 = {	#NEW
+
+		dependencies = {
+			pony_race = 1
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				fix_weapon_techs = yes
+			}
+		}
+		supply_consumption_factor = -0.05
+		category_front_line = {
+			max_organisation = 1
+		}
+
+		path = {
+			leads_to_tech = tech_pony_magical_infantry
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tech_pony_unicorns
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1007
+		folder = {
+			name = pony_folder
+			position = { x = @root_branch y = @racial_tech_0 }
+		}
+
+		categories = {
+			magical_tech
+			race_tech
+		}
+		special_project_specialization = { specialization_magical }
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 1.2
+				date > "1008.1.1"
+			}
+
+
+			modifier = {
+				factor = 2
+				date > "1009.1.1"
+			}
+
+			modifier = {
+				factor = 2
+				date > "1010.1.1"
+			}
+		}
+	}
+	## Specialized Training
 	tech_pony_magical_infantry = {
 
 		dependencies = {
@@ -1450,7 +1476,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 8  y = 2 }
+			position = { x = @branch_2 y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -1478,7 +1504,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_magical_infantry2 = {
 
 		path = {
@@ -1496,7 +1521,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 8  y = 4 }
+			position = { x = @branch_2 y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -1524,7 +1549,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_magical_infantry3 = {
 
 		path = {
@@ -1540,7 +1564,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 8  y = 6 }
+			position = { x = @branch_2 y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -1568,7 +1592,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_magical_infantry4 = {
 
 		path = {
@@ -1586,7 +1609,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 8  y = 8 }
+			position = { x = @branch_2 y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -1614,7 +1637,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_magical_infantry5 = {
 
 		category_magical = {
@@ -1631,7 +1653,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 8  y = 10 }
+			position = { x = @branch_2 y = @racial_tech_5 }
 		}
 
 		categories = {
@@ -1660,7 +1682,7 @@ technologies = {
 			}
 		}
 	}
-
+	## Dispersed Training
 	tech_pony_unicorns = {
 
 		dependencies = {
@@ -1680,7 +1702,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 12  y = 2 }
+			position = { x = @branch_3 y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -1714,7 +1736,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_unicorns2 = {
 
 		path = {
@@ -1732,7 +1753,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 12  y = 4 }
+			position = { x = @branch_3 y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -1760,7 +1781,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_unicorns3 = {
 
 		path = {
@@ -1777,7 +1797,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 12  y = 6 }
+			position = { x = @branch_3 y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -1805,7 +1825,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_unicorns4 = {
 
 		path = {
@@ -1823,7 +1842,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 12  y = 8 }
+			position = { x = @branch_3 y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -1851,7 +1870,6 @@ technologies = {
 			}
 		}
 	}
-
 	tech_pony_unicorns5 = {
 
 		category_all_infantry = {
@@ -1867,7 +1885,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = pony_folder
-			position = { x = 12  y = 10 }
+			position = { x = @branch_3 y = @racial_tech_5 }
 		}
 
 		categories = {
@@ -1895,7 +1913,4 @@ technologies = {
 			}
 		}
 	}
-
 }
-
-#####-----------------------------------------------------------> End

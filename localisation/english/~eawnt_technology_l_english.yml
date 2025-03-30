@@ -320,8 +320,14 @@ l_english:
     railway_upgrade_3_desc:0 "By transitioning away from expensive steam power into more efficient diesel locomotives and electrified railways, we can enhance the transportation of resources, materials, and people."
   #endregion INDUSTRY
 
-  #region INFECTED RACE TECH
-  #endregion INFECTED RACE TECH
+  #region RACIAL TECH
+  # Titles
+  TITLE_CHANGELING_IMPOSTOR_SUBTITLE:0 "INFILTRATORS"
+
+  # Pony
+  tech_pony_magic_infantry0:0 "Support Unicorns"
+    tech_pony_magic_infantry0_desc:0 "Outside of mage companies, unicorns can be deployed throughout our armed forces. Although few in number, their usefulness will be greatly appreciated by our soldiers."
+  #endregion RACIAL TECH
 
   #region DOCTRINES
   precision_bombing:0 "Precision Bombing"

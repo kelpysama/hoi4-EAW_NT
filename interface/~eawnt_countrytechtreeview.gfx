@@ -163,6 +163,373 @@ spriteTypes = {
 	spriteType = { name = "GFX_racial_folder_zebra_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_bg1.dds" }
 	spriteType = { name = "GFX_racial_folder_zebra_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_ico.dds" }
 
+	#region Racial Folders
+	## Pony
+	spriteType = {
+		name = "GFX_technology_pony_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_pony_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_pony_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_pony_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_pony_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Horse
+	spriteType = {
+		name = "GFX_technology_horse_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_horse_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_horse_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_horse_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_horse_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Generic
+	spriteType = {
+		name = "GFX_technology_generic_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_generic_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_generic_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_generic_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_generic_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Griffon
+	spriteType = {
+		name = "GFX_technology_griffon_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_griffon_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_griffon_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_griffon_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_griffon_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Deer
+	spriteType = {
+		name = "GFX_technology_deer_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_deer_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_deer_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_deer_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_deer_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Changeling
+	spriteType = {
+		name = "GFX_technology_changeling_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_changeling_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_changeling_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_changeling_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_changeling_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Diamond Dog
+	spriteType = {
+		name = "GFX_technology_diamond_dog_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_diamond_dog_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_diamond_dog_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_diamond_dog_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_diamond_dog_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Hippogriff
+	spriteType = {
+		name = "GFX_technology_hippogriff_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_hippogriff_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_hippogriff_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_hippogriff_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_hippogriff_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Barrad
+	spriteType = {
+		name = "GFX_technology_barrad_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_barrad_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_barrad_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_barrad_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_barrad_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Kirin
+	spriteType = {
+		name = "GFX_technology_kirin_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_kirin_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_kirin_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_kirin_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_kirin_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Zebra
+	spriteType = {
+		name = "GFX_technology_zebra_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_zebra_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_zebra_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_zebra_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_zebra_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Polar Bear
+	spriteType = {
+		name = "GFX_technology_polar_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_polar_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_polar_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_polar_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_polar_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Yak
+	spriteType = {
+		name = "GFX_technology_yak_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_yak_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_yak_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_yak_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_yak_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
+
 	#region Doctrines
 	spriteType = {
 		name = "GFX_modern_naval_doc_bg"

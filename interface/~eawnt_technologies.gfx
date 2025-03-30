@@ -805,7 +805,10 @@ spriteTypes = {
 
 
     #region RacialFolder
-
+	SpriteType = {
+		name = "GFX_tech_pony_magic_infantry0_medium"
+		texturefile = "gfx/interface/technologies/racial_folder/pony_magic_infantry.dds"
+	}
 
 	#region Doctrines
 	SpriteType = {
