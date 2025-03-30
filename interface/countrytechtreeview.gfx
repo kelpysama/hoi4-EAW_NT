@@ -5,13 +5,6 @@
 
 
 spriteTypes = {
-    #region EndTechFades
-	spriteType = {
-		name = "GFX_infantry_folder_endtechfade"
-		textureFile = "gfx/interface/techtree/endtechfades/infantry_folder_endtechfade.dds"
-	}
-
-
     #region SmallSubtech (AA, TD, RA, SPG)
 	## Default Small Subtech
 	spriteType = {

@@ -542,6 +542,14 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 
+				## END TECH FADE ##
+				iconType = {
+					name = "support_folder_endtechfade_bg"
+					spriteType = "GFX_support_folder_endtechfade"
+					position = { x = 2294 y = 182}
+					alwaystransparent = yes
+				}
+
 				## SUBTITLES ##
 				instantTextBoxType = {
 					name = "support_subtitle_companies"
@@ -1345,6 +1353,14 @@ guiTypes = {
 					alwaystransparent = yes
 				}
 
+				## END TECH FADE ##
+				iconType = {
+					name = "nsb_armour_folder_endtechfade_bg"
+					spriteType = "GFX_nsb_armour_folder_endtechfade"
+					position = { x = 517 y = 1529}
+					alwaystransparent = yes
+				}
+
 				## LEFT YEARS ##
 				containerWindowType = {
 					name = "armour_year_left"
@@ -1882,6 +1898,14 @@ guiTypes = {
 					name ="artillery_techtree_bottom_bg"
 					spriteType = "GFX_artillery_folder_bottom_background"
 					position = { x=485 y=1172 }
+					alwaystransparent = yes
+				}
+
+				## END TECH FADE ##
+				iconType = {
+					name = "artillery_folder_endtechfade_bg"
+					spriteType = "GFX_artillery_folder_endtechfade"
+					position = { x = 377 y = 1809}
 					alwaystransparent = yes
 				}
 

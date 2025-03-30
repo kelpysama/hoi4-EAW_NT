@@ -4,6 +4,24 @@
 spriteTypes = {
     ## 🤓 <(technology stuff)
 
+    #region EndTechFades
+	spriteType = {
+		name = "GFX_infantry_folder_endtechfade"
+		textureFile = "gfx/interface/techtree/endtechfades/infantry_folder_endtechfade.dds"
+	}
+	spriteType = {
+		name = "GFX_support_folder_endtechfade"
+		textureFile = "gfx/interface/techtree/endtechfades/support_folder_endtechfade.dds"
+	}
+	spriteType = {
+		name = "GFX_nsb_armour_folder_endtechfade"
+		textureFile = "gfx/interface/techtree/endtechfades/nsb_armour_folder_endtechfade.dds"
+	}
+	spriteType = {
+		name = "GFX_artillery_folder_endtechfade"
+		textureFile = "gfx/interface/techtree/endtechfades/artillery_folder_endtechfade.dds"
+	}
+
     #region TechProgressBar
 	spriteType = {
 		name = "GFX_technology_progress_bar_frame"
