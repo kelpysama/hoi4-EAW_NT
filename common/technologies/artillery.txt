@@ -81,6 +81,9 @@ technologies = {
 			secondary_turret_small_cannon
 		}
 		enable_equipments = { artillery_equipment_1 }
+		armored_car = {
+			soft_attack = 0.1
+		}
 
 		path = { leads_to_tech = artillery1 research_cost_coeff = 1 }
 		path = { leads_to_tech = interwar_artillery research_cost_coeff = 1 }
@@ -113,6 +116,9 @@ technologies = {
 			tank_medium_cannon
 			lc_medium_cannon_turret #Module for Land Cruiser
 			lc_assault_gun #Module for Land Cruiser
+		}
+		armored_car = {
+			soft_attack = 0.1
 		}
 
 		path = { leads_to_tech = artillery2 research_cost_coeff = 1 }
@@ -157,6 +163,9 @@ technologies = {
 			tank_heavy_howitzer
 			tank_super_heavy_howitzer
 		}
+		armored_car = {
+			soft_attack = 0.1
+		}
 
 		path = { leads_to_tech = artillery5 research_cost_coeff = 1 }
 		path = { leads_to_tech = artillery_b research_cost_coeff = 1 }
@@ -187,6 +196,9 @@ technologies = {
 			tank_heavy_howitzer_2
 			tank_super_heavy_howitzer_2
 		}
+		armored_car = {
+			soft_attack = 0.1
+		}
 
 		path = { leads_to_tech = artillery_c research_cost_coeff = 1 }
 		path = { leads_to_tech = artillery_e research_cost_coeff = 1 }
@@ -214,6 +226,9 @@ technologies = {
 		enable_equipment_modules = {
 			tank_heavy_howitzer_3
 			tank_super_heavy_howitzer_3
+		}
+		armored_car = {
+			soft_attack = 0.1
 		}
 
 		path = { leads_to_tech = artillery_f research_cost_coeff = 1 }
@@ -773,6 +788,9 @@ technologies = {
 			lc_light_anti_air_battery #Module for Land Cruiser
 		}
 		enable_building = { building = anti_air_building level = 3 }
+		armored_car = {
+			hard_attack = 0.1
+		}
 
 		path = { leads_to_tech = antiair2 research_cost_coeff = 1 }
 		path = { leads_to_tech = antiair1 research_cost_coeff = 1 }
@@ -808,6 +826,9 @@ technologies = {
 		}
 		static_anti_air_damage_factor = 0.1
 		#navy_anti_air_attack_factor = 0.05
+		armored_car = {
+			hard_attack = 0.1
+		}
 
 		path = { leads_to_tech = antiair5 research_cost_coeff = 1 }
 		path = { leads_to_tech = antiair3 research_cost_coeff = 1 }
@@ -846,6 +867,9 @@ technologies = {
 		enable_building = { building = anti_air_building level = 4 }
 		static_anti_air_damage_factor = 0.1
 		#navy_anti_air_attack_factor = 0.05
+		armored_car = {
+			hard_attack = 0.1
+		}
 
 		path = { leads_to_tech = antiair_c research_cost_coeff = 1 }
 		path = { leads_to_tech = antiair_a research_cost_coeff = 1 }
@@ -879,6 +903,9 @@ technologies = {
 		}
 		enable_building = { building = anti_air_building level = 5 }
 		#navy_anti_air_attack_factor = 0.05
+		armored_car = {
+			hard_attack = 0.1
+		}
 
 		path = { leads_to_tech = antiair_f research_cost_coeff = 1 }
 		path = { leads_to_tech = antiair_d research_cost_coeff = 1 }
@@ -913,6 +940,9 @@ technologies = {
 		}
 		static_anti_air_damage_factor = 0.1
 		#navy_anti_air_attack_factor = 0.05
+		armored_car = {
+			hard_attack = 0.1
+		}
 
 		on_research_complete = {
 			custom_effect_tooltip = {
@@ -1161,6 +1191,9 @@ technologies = {
 			tank_buster_1
 			lc_high_velocity_cannon_turret
 		}
+		armored_car = {
+			ap_attack = 0.1
+		}
 
 		path = { leads_to_tech = antitank2 research_cost_coeff = 1 }
 		path = { leads_to_tech = antitank1 research_cost_coeff = 1 }
@@ -1213,6 +1246,9 @@ technologies = {
 			tank_buster_2
 			squeezebore_adaptor
 		}
+		armored_car = {
+			ap_attack = 0.1
+		}
 
 		path = { leads_to_tech = antitank5 research_cost_coeff = 1 }
 		path = { leads_to_tech = antitank3 research_cost_coeff = 1 }
@@ -1258,6 +1294,9 @@ technologies = {
 			auto_loader
 			lc_heavy_high_velocity_cannons #Module for Land Cruiser
 		}
+		armored_car = {
+			ap_attack = 0.1
+		}
 
 		path = { leads_to_tech = antitank_c research_cost_coeff = 1 }
 		path = { leads_to_tech = antitank_a research_cost_coeff = 1 }
@@ -1298,6 +1337,9 @@ technologies = {
 		enable_equipment_modules = {
 			tank_high_velocity_cannon_4
 			tank_heavy_cannon_4
+		}
+		armored_car = {
+			ap_attack = 0.1
 		}
 
 		path = { leads_to_tech = antitank_f research_cost_coeff = 1 }
@@ -1341,6 +1383,9 @@ technologies = {
 			tank_heavy_cannon_5
 			tank_agtm_launcher
 			anti_tank_guided_missiles
+		}
+		armored_car = {
+			ap_attack = 0.1
 		}
 
 		research_cost = 1
@@ -1710,6 +1755,7 @@ technologies = {
 				movement = 0.1
 			}
 			mountain = {
+				attack = 0.08
 				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect
 			}
 		}
@@ -1719,6 +1765,7 @@ technologies = {
 				movement = 0.1
 			}
 			mountain = {
+				attack = 0.08
 				movement = 0.15 #If you change this - Change the custom tooltip too: RAJ_revive_the_screw_guns_effect
 			}
 		}

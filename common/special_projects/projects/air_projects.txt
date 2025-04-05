@@ -781,6 +781,23 @@ sp_air_mothership_aircraft = { #"Heavy Airships"
 			}
 		}
 	}
+
+	ai_will_do = {
+		base = 1
+		modifier = {
+			is_zebrican_continent_country = yes
+			factor = 5
+		}
+		modifier = {
+			OR = {
+				TAG = SLC
+				TAG = GYZ
+				TAG = THU
+				TAG = STM
+			}
+			factor = 50
+		}
+	}
 }
 sp_air_gunship = {
 	specialization = specialization_air
@@ -891,8 +908,12 @@ sp_air_jet_engine = {
 		}
 	}
 
+	ai_will_do = {
+		base = 15
+	}
+
 	breakthrough_cost = {
-		specialization_air = 3
+		specialization_air = 2
 	}
 
 	resource_cost = {
@@ -1175,7 +1196,7 @@ sp_air_axial_jet_engine = {
 	}
 
 	breakthrough_cost = {
-		specialization_air = 2
+		specialization_air = 3
 	}
 
 	resource_cost = {
@@ -1270,11 +1291,6 @@ sp_air_axial_jet_engine = {
 						}
 					}
 				}
-			}
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH_WITH_EXTRA_PROJECT
-				TECH = country_culture|attack_helicopter_equipment_1_short
-				EXTRA_PROJECT = sp_air_helicopter
 			}
 		}
 
@@ -1593,7 +1609,7 @@ sp_air_supersonic_jet = {
 					name = sp_air_supersonic_jet_fighter_free_design
 					uses = 1
 					cost_factor = 1
-					equipment = small_plane_airframe_5
+					equipment = small_plane_airframe_6
 				}
 			}
 		}
@@ -1838,8 +1854,12 @@ sp_air_helicopter = {
 		has_dlc = "Gotterdammerung"
 	}
 
+	ai_will_do = {
+		base = 0.1
+	}
+
 	breakthrough_cost = {
-		specialization_air = 2
+		specialization_air = 1
 	}
 
 	resource_cost = {
@@ -1866,11 +1886,6 @@ sp_air_helicopter = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
 				TECH = sp_helicopter_med_evac_tech
-			}
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_TECH_WITH_EXTRA_PROJECT
-				TECH = country_culture|attack_helicopter_equipment_1_short
-				EXTRA_PROJECT = sp_air_axial_jet_engine
 			}
 
 		}
@@ -1983,4 +1998,86 @@ sp_air_helicopter = {
 			}
 		}
 	}
+}
+sp_air_advanced_helicopter = {
+	specialization = specialization_air
+	icon = GFX_sp_air_advanced_helicopter
+
+	project_tags = {
+		sp_tag_aircraft
+		sp_tag_helicopter
+	}
+	special_project_parent = {
+		sp_air_helicopter
+	}
+
+	allowed = {
+		has_dlc = "Gotterdammerung"
+	}
+	available = {
+		FROM = {
+			has_tech = sp_centrifugal_jet_tech
+		}
+	}
+
+	ai_will_do = {
+		base = 0.1
+	}
+
+	breakthrough_cost = {
+		specialization_air = 2
+	}
+
+	resource_cost = {
+		resources = {
+			aluminium = 12
+			tungsten = 8
+		}
+	}
+
+	prototype_time = sp_time.prototype.long
+
+	complexity = sp_complexity.medium
+
+	project_output = {
+		country_effects = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = attack_helicopter1
+			}
+			if = {
+				limit = {
+					has_dlc = "Man the Guns"
+				}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_TECH
+					TECH = anti_sub_helicopter
+				}
+			}
+		}
+
+		enable_equipments = {
+			helicopter_equipment_2
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_air_scientist_xp_generic_reward
+		sp_air_political_interference_generic_reward
+		sp_air_generic_major_breakthrough_reward
+		sp_air_generic_aerodynamics_advancements_reward
+		sp_air_generic_reward_scientist_xp_1
+		sp_air_generic_reward_scientist_xp_2
+		sp_air_generic_reward_scientist_xp_3
+		sp_air_generic_reward_air_xp_1
+		sp_air_generic_reward_air_xp_2
+		sp_air_generic_reward_air_xp_3
+		sp_air_generic_reward_major_progress_1
+		sp_air_generic_reward_major_progress_2
+		sp_air_generic_reward_major_progress_3
+		sp_air_generic_reward_test_failure_1
+		sp_air_generic_reward_test_failure_2
+		sp_air_generic_reward_test_failure_3
+	}
+
 }

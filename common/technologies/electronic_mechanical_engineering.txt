@@ -2065,6 +2065,10 @@ technologies = {
 	#region Fortifications
 	basic_fortification_tech = {
 
+		dependencies = {
+			infantry_weapons = 1
+		}
+
 		path = {
 			leads_to_tech = coastal_fort_tech_1
 			research_cost_coeff = 1
@@ -2375,6 +2379,13 @@ technologies = {
 	}
 	nuke_naval = {
 
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_nuclear_reactor
+			}
+		}
+		is_special_project_tech = yes
+
 		research_speed_factor = 0.02
 		nuclear_production_factor = 0.05
 		thermonuclear_production_factor = 0.05
@@ -2395,6 +2406,16 @@ technologies = {
 				resource = crystals
 				amount = 1
 			}
+			modify_building_resources = {
+				building = modern_nuclear_reactor
+				resource = crystals
+				amount = 1
+			}
+			modify_building_resources = {
+				building = modern_commercial_nuclear_reactor
+				resource = crystals
+				amount = 1
+			}
 			if = {
 				limit = {
 					has_dlc = "Man the Guns"
@@ -2407,11 +2428,78 @@ technologies = {
 		}
 		show_effect_as_desc = yes
 
+		path = {
+			leads_to_tech = better_reactors
+			research_cost_coeff = 1
+		}
+
 		start_year = 1017
 		research_cost = 5
 		folder = {
 			name = electronics_folder
 			position = { x = @atomics y = @1017 }
+		}
+
+		categories = {
+			nuclear
+		}
+		special_project_specialization = { specialization_nuclear }
+
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 2
+				OR = { is_major = yes num_of_military_factories > 69 }
+			}
+		}
+	}
+	better_reactors = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_nuclear_reactor
+			}
+		}
+		is_special_project_tech = yes
+
+		on_research_complete = {
+			if = {
+				limit = {
+					has_dlc = "Gotterdammerung"
+				}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_modern_commercial_nuclear_reactor
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						has_tech = nuclear_reactor_heavy_water
+					}
+					set_technology = {
+						nuclear_reactor_heavy_water = 0
+					}
+				}
+				else = {
+					set_technology = {
+						nuclear_reactor = 0
+					}
+				}
+			}
+		}
+		enable_building = {
+			building = modern_nuclear_reactor
+			level = 1
+		}
+		show_effect_as_desc = yes
+
+		start_year = 1020
+		research_cost = 5
+		folder = {
+			name = electronics_folder
+			position = { x = @atomics y = @1020 }
 		}
 
 		categories = {
@@ -2707,11 +2795,74 @@ technologies = {
 			soft_attack = 0.1
 		}
 
+		path = {
+			leads_to_tech = sp_rockets_advanced_guidance
+			research_cost_coeff = 1
+		}
+
 		research_cost = 1
 		start_year = 1014
 		folder = {
 			name = electronics_folder
 			position = { x = @rocketry_1 y = @1014 }
+		}
+
+		categories = {
+			rocketry
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	sp_rockets_advanced_guidance = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_rockets_flying_bomb
+			}
+		}
+		is_special_project_tech = yes
+
+		enable_equipments = {
+			#guided_missile_equipment_2
+		}
+		enable_equipment_modules = {
+			guided_anti_ship_missile_2
+		}
+
+		guided_missile = {
+			air_range = 0.1
+		}
+		ballistic_missile = {
+			air_range = 0.1
+		}
+		nuclear_missile = {
+			air_range = 0.1
+		}
+		sam_missile = {
+			air_range = 0.1
+		}
+
+		rocket_artillery = {
+			soft_attack = 0.1
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		mot_rocket_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.1
+		}
+
+		research_cost = 1
+		start_year = 1020
+		folder = {
+			name = electronics_folder
+			position = { x = @rocketry_1 y = @rockets_1020 }
 		}
 
 		categories = {

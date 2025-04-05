@@ -644,6 +644,17 @@ technologies = {
 				factor = 5
 				date > "1008.1.1"
 			}
+			modifier = {
+				factor = 3
+				OR = {
+					tag = CHN
+					tag = STG
+					tag = GRW
+					tag = GRI
+					tag = BAT
+					tag = ROA
+				}
+			}
 		}
 	}
 	concentrated_industry2 = {
@@ -755,6 +766,17 @@ technologies = {
 				factor = 10
 				date > "1012.1.1"
 			}
+			modifier = {
+				factor = 3
+				OR = {
+					tag = CHN
+					tag = STG
+					tag = GRW
+					tag = GRI
+					tag = BAT
+					tag = ROA
+				}
+			}
 		}
 	}
 	concentrated_industry5 = {
@@ -831,6 +853,17 @@ technologies = {
 
 			modifier = { factor = 0 has_tech = dispersed_industry_a }
 			modifier = { factor = 0 is_researching_technology = dispersed_industry_a }
+			modifier = {
+				factor = 3
+				OR = {
+					tag = CHN
+					tag = STG
+					tag = GRW
+					tag = GRI
+					tag = BAT
+					tag = ROA
+				}
+			}
 		}
 	}
 	concentrated_industry_b = {
@@ -896,6 +929,17 @@ technologies = {
 			factor = 4
 			modifier = { factor = 0 has_tech = dispersed_industry_c }
 			modifier = { factor = 0 is_researching_technology = dispersed_industry_c }
+			modifier = {
+				factor = 3
+				OR = {
+					tag = CHN
+					tag = STG
+					tag = GRW
+					tag = GRI
+					tag = BAT
+					tag = ROA
+				}
+			}
 		}
 	}
 	concentrated_industry_d = {
@@ -965,6 +1009,14 @@ technologies = {
 			modifier = {
 				factor = 5
 				date > "1008.1.1"
+			}
+			modifier = {
+				factor = 3
+				OR = {
+					tag = EQS
+					tag = RCT
+					tag = KIR
+				}
 			}
 		}
 	}
@@ -1085,6 +1137,14 @@ technologies = {
 				factor = 10
 				date > "1012.1.1"
 			}
+			modifier = {
+				factor = 3
+				OR = {
+					tag = EQS
+					tag = RCT
+					tag = KIR
+				}
+			}
 		}
 	}
 	dispersed_industry5 = {
@@ -1162,6 +1222,14 @@ technologies = {
 			factor = 4
 			modifier = { factor = 0 has_tech = concentrated_industry_a }
 			modifier = { factor = 0 is_researching_technology = concentrated_industry_a }
+			modifier = {
+				factor = 3
+				OR = {
+					tag = EQS
+					tag = RCT
+					tag = KIR
+				}
+			}
 		}
 	}
 	dispersed_industry_b = {
@@ -1233,6 +1301,14 @@ technologies = {
 			factor = 4
 			modifier = { factor = 0 has_tech = concentrated_industry_c }
 			modifier = { factor = 0 is_researching_technology = concentrated_industry_c }
+			modifier = {
+				factor = 3
+				OR = {
+					tag = EQS
+					tag = RCT
+					tag = KIR
+				}
+			}
 		}
 	}
 	dispersed_industry_d = {
@@ -1405,9 +1481,12 @@ technologies = {
 		production_speed_buildings_factor = 0.10
 		industry_repair_factor = 0.10
 		on_research_complete = {
-			custom_effect_tooltip = {
-				localization_key = SP_UNLOCK_PROJECT
-				PROJECT = sp_commercial_nuclear_reactor
+			if = {
+				limit = { has_dlc = "Gotterdammerung"}
+				custom_effect_tooltip = {
+					localization_key = SP_UNLOCK_PROJECT
+					PROJECT = sp_commercial_nuclear_reactor
+				}
 			}
 		}
 

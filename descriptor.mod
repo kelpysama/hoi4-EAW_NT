@@ -1,5 +1,5 @@
 name="Equestria at War: New Technology"
-version="0.2.3"
+version="0.2.4"
 dependencies={
 	"Equestria at War"
 }
