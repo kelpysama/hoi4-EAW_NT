@@ -834,6 +834,14 @@ spriteTypes = {
 	}
 	## GENERIC EQUIPMENT
 	SpriteType = {
+		name = "GFX_helicopter_tech3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heli_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_helicopter_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_heli_1.dds"
+	}
+	SpriteType = {
 		name = "GFX_scout_helicopter1_medium"
 		texturefile = "gfx/interface/technologies/air_techs_folder/generic_scout_heli_0.dds"
 	}
@@ -859,10 +867,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_helicopter_tech2_medium"
 		texturefile = "gfx/interface/technologies/air_techs_folder/exp_heli_up2.dds"
-	}
-	SpriteType = {
-		name = "GFX_helicopter_tech3_medium"
-		texturefile = "gfx/interface/technologies/air_techs_folder/exp_heli_up3.dds"
 	}
 	SpriteType = {
 		name = "GFX_helicopter_tech4_medium"

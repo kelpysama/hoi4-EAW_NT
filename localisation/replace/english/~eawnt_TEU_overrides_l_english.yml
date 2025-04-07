@@ -162,19 +162,6 @@ l_english:
   SUPPORT_TITLE_TRAINS:0 "LOCOMOTIVES"
     SUPPORT_TITLE_TRAINS_TT:0 "Large machines capable of traversing our vast railway networks."
 
-  ## HELICOPTERS ##
-  helicopter_equipment_1:0 "1008 Helicopter"
-    helicopter_equipment_1_short:0 "1008 Heli"
-  scout_helicopter_equipment_1:0 "1011 Scout Helicopter"
-    scout_helicopter_equipment_1_short:0 "1011 Scout Heli"
-    scout_helicopter_equipment_1_desc:0 "Traditional aerial observation was either conducted by flight-capable troops or through the use of costly planes and vulnerable blimps. The first helicopters developed were found to be more effective than earlier methods, and were quickly adopted for divisional reconnaissance."
-  transport_helicopter_equipment_1:0 "1012 Transport Helicopter"
-    transport_helicopter_equipment_1_short:0 "1012 Transport Heli"
-    transport_helicopter_equipment_1_desc:0 "Upsizing early helicopter models and introducing internal storage space would lead to the development of helicopters dedicated to the transportation of soldiers and supplies."
-  attack_helicopter_equipment_1:0 "1022 Attack Helicopter"
-    attack_helicopter_equipment_1_short:0 "1022 Attack Heli"
-    attack_helicopter_equipment_1_desc:0 "A purpose-built attack helicopter developed after experiments with armed scout and transport helicopter models proved successful. These machines bring the firepower of close-air-support aircraft to individual divisions."
-
   ## TRAINS ##
   train_equipment_1:0 "989 Locomotive"
     train_equipment_1_desc:0 "Taken over by the military from regular civilian freight duty, this train engine is well-suited to move a large amount of supplies over long distances. However, its civilian construction makes it vulnerable."
@@ -637,6 +624,22 @@ l_english:
     AIR_TITLE_ENGINES_TT:0 "Engines that propel your aircraft and technologies that improve aspects of your air force."
   AIR_TITLE_WEAPONS:0 "ARMAMENTS"
     AIR_TITLE_WEAPONS_TT:0 "Weapons and equipment that can be fitted onto aircraft."
+
+  ## HELICOPTERS ##
+  helicopter_equipment_1:0 "1008 Helicopter"
+    helicopter_equipment_1_short:0 "1008 Helicopter"
+  helicopter_equipment_2:0 "1022 Multipurpose Helicopter"
+    helicopter_equipment_2_short:0 "1022 Helicopter"
+    helicopter_equipment_2_desc:0 "While specialized options continue to dominate, a multipurpose helicopter is still a necessary component of helicopter brigades. Able to quickly adapt to various mission types, these types of helicopters are held in high regard by those on the ground as rugged machines."
+  scout_helicopter_equipment_1:0 "1011 Scout Helicopter"
+    scout_helicopter_equipment_1_short:0 "1011 Scout Heli"
+    scout_helicopter_equipment_1_desc:0 "Traditional aerial observation was either conducted by flight-capable troops or through the use of costly planes and vulnerable blimps. The first helicopters developed were found to be more effective than earlier methods, and were quickly adopted for divisional reconnaissance."
+  transport_helicopter_equipment_1:0 "1012 Transport Helicopter"
+    transport_helicopter_equipment_1_short:0 "1012 Transport Heli"
+    transport_helicopter_equipment_1_desc:0 "Upsizing early helicopter models and introducing internal storage space would lead to the development of helicopters dedicated to the transportation of soldiers and supplies."
+  attack_helicopter_equipment_1:0 "1022 Attack Helicopter"
+    attack_helicopter_equipment_1_short:0 "1022 Attack Heli"
+    attack_helicopter_equipment_1_desc:0 "A purpose-built attack helicopter developed after experiments with armed scout and transport helicopter models proved successful. These machines bring the firepower of close-air-support aircraft to individual divisions."
 
   ## AIRCRAFT ##
   transport_plane_equipment_1:0 "1003 Transport Plane"

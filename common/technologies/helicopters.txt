@@ -114,19 +114,16 @@ technologies = {
 			modifier = { factor = 2 is_major = yes }
 		}
     }
-    helicopter_tech3 = {	#1022 Upgrade
+    helicopter_tech3 = {	#1022 Equipment
 
 		allow = { ROOT = { is_special_project_completed = sp:sp_air_advanced_helicopter } }
         is_special_project_tech = yes
 
-		category_helicopter_support_companies = {
-			reliability = 0.15
-			breakthrough = 0.15
-		}
+		enable_equipments = { helicopter_equipment_2 }
 
 		path = { leads_to_tech = helicopter_tech4 research_cost_coeff = 1 }
 
-		research_cost = 1
+		research_cost = 2
 		start_year = 1022
 		folder = { name = helicopter_air_techs_folder position = { x = @exp_heli y = @1022 } }
 
