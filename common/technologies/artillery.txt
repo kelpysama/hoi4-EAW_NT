@@ -529,7 +529,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 1.25 date > "1012.1.9" }
 			modifier = { factor = 1.25 date > "1013.1.9" }
 			modifier = { factor = 1.25 date > "1014.1.9" }
@@ -558,7 +558,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 1.25 date > "1018.1.9" }
 			modifier = { factor = 1.25 date > "1019.1.9" }
 			modifier = { factor = 1.25 date > "1020.1.9" }
@@ -587,7 +587,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 1.25 date > "1024.1.9" }
 			modifier = { factor = 1.25 date > "1025.1.9" }
 			modifier = { factor = 1.25 date > "1026.1.9" }
@@ -613,7 +613,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 1.25 date > "1030.1.9" }
 			modifier = { factor = 1.25 date > "1031.1.9" }
 			modifier = { factor = 1.25 date > "1032.1.9" }
@@ -642,7 +642,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 2 OR = { original_tag = STG original_tag = GRW } }
 		}
 	}
@@ -667,7 +667,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 2 OR = { original_tag = STG original_tag = GRW } }
 		}
 	}
@@ -692,7 +692,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 2 OR = { original_tag = STG original_tag = GRW } }
 		}
 	}
@@ -717,7 +717,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 2 OR = { original_tag = STG original_tag = GRW } }
 		}
 	}
@@ -742,7 +742,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 2 OR = { original_tag = STG original_tag = GRW } }
 		}
 	}
@@ -767,7 +767,7 @@ technologies = {
 
 		ai_will_do = {
 			factor = 0.75
-			modifier = { factor = 5 is_major = true }
+			modifier = { factor = 5 is_major = yes }
 			modifier = { factor = 2 OR = { original_tag = STG original_tag = GRW } }
 		}
 	}

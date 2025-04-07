@@ -847,7 +847,7 @@ guiTypes = {
 			}
 
 
-			# Support Company Tree (Incl. Helicopters)
+			# Support Company Tree
 			gridboxtype = {
 				name = "tech_support_tree"
 				position = { x = 70 y = 190 }
@@ -4229,6 +4229,206 @@ guiTypes = {
 				format = "UP"
 			}
 		}
+		# AIR FOLDER (HELICOPTER)
+		containerWindowType = {
+			name = "helicopter_air_techs_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+			scroll_wheel_factor = 80
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			## BG CONTAINER ##
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = {
+					width = 1800 height = 900
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				## BG ##
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripes_vertical"
+				}
+				iconType = {
+					name ="aircraft_techtree_bg"
+					spriteType = "GFX_helicopter_background0"
+					position = { x=0 y=0 }
+					alwaystransparent = yes
+				}
+
+				## TOP YEARS ##
+				instantTextBoxType = {
+					name = "helicopter_year0"
+					position = { x = 130 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1008"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year1"
+					position = { x = 340 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1009"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year2"
+					position = { x = 550 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1011"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year3"
+					position = { x = 760 y = 50 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1012"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year4"
+					position = { x = 970 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1014"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year5"
+					position = { x = 1180 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1018"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year6"
+					position = { x = 1390 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1022"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year7"
+					position = { x = 1600 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1026"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "helicopter_year8"
+					position = { x = 1810 y = 50 }
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "1030"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+			}
+
+			## ADV HELI REQ OUTLINE ##
+			containerWindowType = {
+				name = "tiled_research_bg_adv_heli"
+				position = { x=1250 y=90 }
+				size = { width = 600 height = 800 }
+				clipping = no
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_tiled_research_bg"
+				}
+			}
+
+			## SUBTITLES ##
+			instantTextBoxType = {
+				name = "helicopters_helicopters"
+				position = { x = 220 y = 100 }
+				textureFile = ""
+				font = "dacik_push_36_opaque"
+				borderSize = { x = 0 y = 0}
+				text = "AIR_TITLE_HELICOPTERS"
+				maxWidth = 450
+				maxHeight = 40
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "AIR_TITLE_HELICOPTERS_TT"
+			}
+			instantTextBoxType = {
+				name = "helicopters_adv"
+				position = { x = 1270 y = 100 }
+				textureFile = ""
+				font = "dacik_push_36_opaque"
+				borderSize = { x = 0 y = 0}
+				text = "AIR_TITLE_ADV_HELICOPTERS"
+				maxWidth = 650
+				maxHeight = 40
+				format = left
+				Orientation = "UPPER_LEFT"
+				pdx_tooltip = "AIR_TITLE_ADV_HELICOPTERS_TT"
+			}
+
+			# Vanilla Helicopters
+			gridboxtype = {
+				name = "helicopter_tech0_tree"
+				position = { x = 70 y = 190 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			# BBA Helicopters
+			# gridboxtype = {
+			# 	name = "tech_support_tree"
+			# 	position = { x = 70 y = 190 }
+			# 	slotsize = { width = 70 height = 70 }
+			# 	format = "LEFT"
+			# }
+		}
 
 		# ELECTRONICS FOLDER #
 		containerWindowType = {
@@ -5451,31 +5651,6 @@ guiTypes = {
 				position = { x = 1320 y = 165 }
 				# position = { x = 1265 y = 165 }
 				size = { width = 0 height = 650 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-
-			gridboxtype = {
-				name = "basic_machine_tools_tree"
-				position = { x = 100 y = 172 }
-				size = { width = 520 height = 800 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "fuel_silos_tree"
-				position = { x = 1250 y = 172 }
-				size = { width =72 height = 650 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "construction1_tree"
-				position = { x = 894 y = 312 }
-				size = { width = 72 height = 650 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
@@ -7303,9 +7478,9 @@ guiTypes = {
 			position = { x=0 y=7 }
 			size = { width = 100%% height = 30 }
 
-			## Increments by 90 (Full) or 135 (Full + Half)
+			## Increments by 90 (+1) or 135 (+1.5) or 180 (+2)
 
-			# Infantry
+			# Infantry (0)
 			buttonType = {
 				name = "infantry_folder_tab"
 				position = { x = 25 y = 0 }
@@ -7313,15 +7488,8 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_research_tab_infantry
 			}
-			iconType = {
-				name = "highlight_infantry_folder"
-				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=25 y=-5}
-				hide = yes
-				alwaystransparent = yes
-			}
 
-			# Support
+			# Support (1)
 			buttonType = {
 				name = "support_folder_tab"
 				position = { x = 115 y = 0 }
@@ -7330,7 +7498,7 @@ guiTypes = {
 				clicksound = ui_research_tab_support
 			}
 
-			# Armour
+			# Armour (2)
 			buttonType = {
 				name = "armour_folder_tab"
 				position = { x = 205 y = 0 }
@@ -7338,7 +7506,7 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_research_tab_armor
 			}
-			# NSB Armour
+			# NSB Armour (2)
 			buttonType = {
 				name = "nsb_armour_folder_tab"
 				position = { x = 205 y = 0 }
@@ -7347,7 +7515,7 @@ guiTypes = {
 				clicksound = ui_research_tab_armor
 			}
 
-			# Artillery
+			# Artillery (3)
 			buttonType = {
 				name = "artillery_folder_tab"
 				position = { x = 295 y = 0 }
@@ -7356,7 +7524,7 @@ guiTypes = {
 				clicksound = ui_research_tab_artillery
 			}
 
-			# Naval
+			# Naval (5)
 			buttonType = {
 				name = "naval_folder_tab"
 				position = { x = 475 y = 0 }
@@ -7364,7 +7532,7 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_research_tab_naval
 			}
-			# MTG Naval
+			# MTG Naval (4.5)
 			buttonType = {
 				name = "mtgnavalfolder_tab"
 				position = { x = 430 y = 0 }
@@ -7372,7 +7540,7 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_research_tab_naval
 			}
-			# MTG Naval Support
+			# MTG Naval Support (5.5)
 			buttonType = {
 				name = "mtgnavalsupportfolder_tab"
 				position = { x = 520 y = 0 }
@@ -7381,7 +7549,7 @@ guiTypes = {
 				clicksound = ui_research_tab_naval
 			}
 
-			# Air
+			# Air (7)
 			buttonType = {
 				name = "air_techs_folder_tab"
 				position = { x = 655 y = 0 }
@@ -7389,7 +7557,7 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_research_tab_air
 			}
-			# BBA Air
+			# BBA Air (7)
 			buttonType = {
 				name = "bba_air_techs_folder_tab"
 				position = { x = 655 y = 0 }
@@ -7397,43 +7565,37 @@ guiTypes = {
 				frame = 1
 				clicksound = ui_research_tab_air
 			}
-
-			# Electronics
+			# Helicopter Air (8)
 			buttonType = {
-				position = { x = 790 y = 0 }
+				name = "helicopter_air_techs_folder_tab"
+				position = { x = 745 y = 0 }
+				quadTextureSprite = "GFX_helicopter_air_techs_folder_tab"
+				frame = 1
+				clicksound = ui_research_tab_air
+			}
+
+			# Electronics (9.5)
+			buttonType = {
+				position = { x = 880 y = 0 }
 				name = "electronics_folder_tab"
 				quadTextureSprite = "GFX_techtree_engineering_tab"
 				frame = 1
 				clicksound = ui_research_tab_engineering
 			}
-			iconType = {
-				name = "highlight_engineering_folder"
-				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=556 y=0}
-				hide = yes
-				alwaystransparent = yes
-			}
 
-			# Industry
+			# Industry (10.5)
 			buttonType = {
-				position = { x = 880 y = 0 }
+				position = { x = 970 y = 0 }
 				name = "industry_folder_tab"
 				quadTextureSprite = "GFX_industry_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_industry
 			}
-			iconType = {
-				name = "highlight_industry_folder"
-				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=645 y=0}
-				hide = yes
-				alwaystransparent = yes
-			}
 
-			## RACE TABS ##
+			## RACE TABS ## (12)
 			# Pony
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "pony_folder_tab"
 				quadTextureSprite = "GFX_pony_folder_tab"
 				frame = 1
@@ -7441,7 +7603,7 @@ guiTypes = {
 			}
 			# Horse
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "horse_folder_tab"
 				quadTextureSprite = "GFX_pony_folder_tab"
 				frame = 1
@@ -7449,7 +7611,7 @@ guiTypes = {
 			}
 			# Generic
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "generic_folder_tab"
 				quadTextureSprite = "GFX_generic_folder_tab"
 				frame = 1
@@ -7457,7 +7619,7 @@ guiTypes = {
 			}
 			# Griffon
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "griffon_folder_tab"
 				quadTextureSprite = "GFX_griffon_folder_tab"
 				frame = 1
@@ -7465,7 +7627,7 @@ guiTypes = {
 			}
 			# Deer
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "deer_folder_tab"
 				quadTextureSprite = "GFX_deer_folder_tab"
 				frame = 1
@@ -7473,7 +7635,7 @@ guiTypes = {
 			}
 			# Changeling
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "changeling_folder_tab"
 				quadTextureSprite = "GFX_changeling_folder_tab"
 				frame = 1
@@ -7481,7 +7643,7 @@ guiTypes = {
 			}
 			# Diamond Dog
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "diamond_dog_folder_tab"
 				quadTextureSprite = "GFX_diamond_dog_folder_tab"
 				frame = 1
@@ -7489,7 +7651,7 @@ guiTypes = {
 			}
 			# Kirin
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "kirin_folder_tab"
 				quadTextureSprite = "GFX_kirin_folder_tab"
 				frame = 1
@@ -7497,7 +7659,7 @@ guiTypes = {
 			}
 			# Polar Bear
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "polar_folder_tab"
 				quadTextureSprite = "GFX_polar_folder_tab"
 				frame = 1
@@ -7505,7 +7667,7 @@ guiTypes = {
 			}
 			# Yak
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "yak_folder_tab"
 				quadTextureSprite = "GFX_yak_folder_tab"
 				frame = 1
@@ -7513,7 +7675,7 @@ guiTypes = {
 			}
 			# Hippogriff
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "hippogriff_folder_tab"
 				quadTextureSprite = "GFX_hippogriff_folder_tab"
 				frame = 1
@@ -7521,7 +7683,7 @@ guiTypes = {
 			}
 			# Barrad
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "barrad_folder_tab"
 				quadTextureSprite = "GFX_generic_folder_tab"
 				frame = 1
@@ -7529,7 +7691,7 @@ guiTypes = {
 			}
 			# Zebra
 			buttonType = {
-				position = { x = 1015 y = 0 }
+				position = { x = 1105 y = 0 }
 				name = "zebra_folder_tab"
 				quadTextureSprite = "GFX_zebra_folder_tab"
 				frame = 1
@@ -9227,6 +9389,153 @@ guiTypes = {
 				name = "picture"
 				position = { x=6 y=2 }
 				spriteType = "GFX_airwing_carrier_icon"
+				alwaystransparent = yes
+			}
+		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=6 y=80 }
+			spriteType = "GFX_design_team_icon_corner"
+			scale = 0.8
+		}
+	}
+	## Helicopter Folder
+	containerWindowType = {
+		name = "techtree_helicopter_air_techs_folder_small_item"
+		position = { x=0 y=0 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=36 y=36 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-4 y=-19 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -19 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=6 y=68 }
+			spriteType = "GFX_design_team_icon_corner"
+			scale = 0.8
+		}
+	}
+	containerWindowType = {
+		name = "techtree_helicopter_air_techs_folder_item"
+		position = { x=-56 y=-7 }
+		size = { width = 183 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=91 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 6 y = -3 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 170
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=107 y=-18 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 110 y = -18 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+
+		containerWindowType = {
+			name = "sub_technology_slot_0"
+			position = { x=136 y=4 }
+			size = { width = 35 height = 26 }
+			clipping = no
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_rocket"
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_1"
+			position = { x=136 y=30 }
+			size = { width = 35 height = 26 }
+			clipping = no
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+
+			iconType = {
+				name = "picture"
+				position = { x=20 y=13 }
+				spriteType = "GFX_subtech_td"
+				centerposition = yes
 				alwaystransparent = yes
 			}
 		}

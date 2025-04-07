@@ -91,7 +91,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @root_branch x = @racial_tech_0 }
+			position = { x = @root_branch y = @racial_tech_0 }
 		}
 
 		categories = {
@@ -128,7 +128,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @root_branch x = @racial_tech_1 }
+			position = { x = @root_branch y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -180,7 +180,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @root_branch x = @racial_tech_2 }
+			position = { x = @root_branch y = @racial_tech_2 }
 		}
 
 		categories = {
@@ -228,7 +228,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @root_branch x = @racial_tech_3 }
+			position = { x = @root_branch y = @racial_tech_3 }
 		}
 
 		categories = {
@@ -278,7 +278,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @root_branch x = @racial_tech_4 }
+			position = { x = @root_branch y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -317,7 +317,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @root_branch x = @racial_tech_5 }
+			position = { x = @root_branch y = @racial_tech_5 }
 		}
 
 		on_research_complete = {
@@ -847,7 +847,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_1 }
+			position = { x = @branch_1  y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -886,7 +886,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_2 }
+			position = { x = @branch_1  y = @racial_tech_2 }
 		}
 
 		on_research_complete = {
@@ -931,7 +931,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_3}
+			position = { x = @branch_1  y = @racial_tech_3}
 		}
 
 		categories = {
@@ -973,7 +973,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_4 }
+			position = { x = @branch_1  y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -1026,7 +1026,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_1}
+			position = { x = @branch_4  y = @racial_tech_1}
 		}
 
 		on_research_complete = {
@@ -1072,7 +1072,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_2 }
+			position = { x = @branch_4  y = @racial_tech_2 }
 		}
 
 		on_research_complete = {
@@ -1127,7 +1127,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_3}
+			position = { x = @branch_4  y = @racial_tech_3}
 		}
 
 		categories = {
@@ -1172,7 +1172,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_4}
+			position = { x = @branch_4  y = @racial_tech_4}
 		}
 
 		on_research_complete = {
@@ -1239,7 +1239,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_1 }
+			position = { x = @branch_1  y = @racial_tech_1 }
 		}
 
 		categories = {
@@ -1278,7 +1278,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_2 }
+			position = { x = @branch_1  y = @racial_tech_2 }
 		}
 
 		on_research_complete = {
@@ -1323,7 +1323,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_3}
+			position = { x = @branch_1  y = @racial_tech_3}
 		}
 
 		categories = {
@@ -1362,7 +1362,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_1  x = @racial_tech_4 }
+			position = { x = @branch_1  y = @racial_tech_4 }
 		}
 
 		categories = {
@@ -1413,7 +1413,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_1}
+			position = { x = @branch_4  y = @racial_tech_1}
 		}
 
 		on_research_complete = {
@@ -1460,7 +1460,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_2 }
+			position = { x = @branch_4  y = @racial_tech_2 }
 		}
 
 		on_research_complete = {
@@ -1516,7 +1516,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_3}
+			position = { x = @branch_4  y = @racial_tech_3}
 		}
 
 		categories = {
@@ -1561,7 +1561,7 @@ technologies = {
 		start_year = 1007
 		folder = {
 			name = changeling_folder
-			position = { x = @branch_4  x = @racial_tech_4}
+			position = { x = @branch_4  y = @racial_tech_4}
 		}
 
 		on_research_complete = {

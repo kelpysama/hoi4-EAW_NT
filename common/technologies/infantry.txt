@@ -48,7 +48,7 @@ technologies = {
 	@motorized = -2
 	@mechanized = 0
 	@ifv = 1
-	@amtrac = 2	## perhaps I treated you too harshly
+	@amtrac = 2
 	@armored_car = 4
 
 
@@ -70,7 +70,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 0.3
+		research_cost = 0.25
 		start_year = 500#
 		folder = {
 			name = infantry_folder
@@ -101,7 +101,7 @@ technologies = {
 			pre_gw_artillery = 1
 		}
 
-		research_cost = 1
+		research_cost = 0.5
 		start_year = 950 # was 800, moved for license reasons
 		folder = {
 			name = infantry_folder
@@ -153,7 +153,7 @@ technologies = {
 			leads_to_tech = infantry_acclimatization
 			research_cost_coeff = 1
 		}
-		research_cost = 1.5
+		research_cost = 0.75
 		start_year = 989
 		folder = {
 			name = infantry_folder
@@ -186,7 +186,7 @@ technologies = {
 			leads_to_tech = infantry_weapons2
 			research_cost_coeff = 1
 		}
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1007
 		folder = {
 			name = infantry_folder
@@ -762,7 +762,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1009
 		folder = {
 			name = infantry_folder
@@ -803,7 +803,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1011
 		folder = {
 			name = infantry_folder
@@ -849,7 +849,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1013
 		folder = {
 			name = infantry_folder
@@ -891,7 +891,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1017
 		folder = {
 			name = infantry_folder
@@ -922,7 +922,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1019
 		folder = {
 			name = infantry_folder
@@ -948,7 +948,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1023
 		folder = {
 			name = infantry_folder
@@ -978,7 +978,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1025
 		folder = {
 			name = infantry_folder
@@ -1000,7 +1000,7 @@ technologies = {
 			soft_attack = 0.05
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1029
 		folder = {
 			name = infantry_folder
@@ -1033,7 +1033,7 @@ technologies = {
 			ap_attack = 0.025
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1012
 		folder = {
 			name = infantry_folder
@@ -1074,7 +1074,7 @@ technologies = {
 			ap_attack = 0.025
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1016
 		folder = {
 			name = infantry_folder
@@ -1115,7 +1115,7 @@ technologies = {
 			ap_attack = 0.025
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1022
 		folder = {
 			name = infantry_folder
@@ -1156,7 +1156,7 @@ technologies = {
 			ap_attack = 0.025
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1028
 		folder = {
 			name = infantry_folder
@@ -1191,7 +1191,7 @@ technologies = {
 			ap_attack = 0.03
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1012
 		folder = {
 			name = infantry_folder
@@ -1226,7 +1226,7 @@ technologies = {
 			ap_attack = 0.03
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1016
 		folder = {
 			name = infantry_folder
@@ -1261,7 +1261,7 @@ technologies = {
 			ap_attack = 0.03
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1022
 		folder = {
 			name = infantry_folder
@@ -1296,7 +1296,7 @@ technologies = {
 			ap_attack = 0.03
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1028
 		folder = {
 			name = infantry_folder
@@ -1338,7 +1338,7 @@ technologies = {
 		path = { leads_to_tech = support_weapons2 research_cost_coeff = 1 }
 		path = { leads_to_tech = infantry_at research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1007
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1007 } }
 
@@ -1359,7 +1359,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons3 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1010
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1010 } }
 
@@ -1380,7 +1380,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons4 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1012
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1012 } }
 
@@ -1401,7 +1401,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_a research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1014
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1014 } }
 
@@ -1422,7 +1422,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_b research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1016
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1016 } }
 
@@ -1443,7 +1443,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_c research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1018
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1018 } }
 
@@ -1464,7 +1464,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_d research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1020
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1020 } }
 
@@ -1485,7 +1485,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_e research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1022
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1022 } }
 
@@ -1506,7 +1506,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_f research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1024
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1024 } }
 
@@ -1527,7 +1527,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_g research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1026
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1026 } }
 
@@ -1548,7 +1548,7 @@ technologies = {
 
 		path = { leads_to_tech = support_weapons_h research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1028
 		folder = { name = infantry_folder position = { x = @support_weapon y = @1028 } }
 
@@ -1567,7 +1567,7 @@ technologies = {
 
 		category_all_infantry = { defense = 0.05 breakthrough = 0.05 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1030
 		folder = {
 			name = infantry_folder
@@ -1701,7 +1701,7 @@ technologies = {
 
 		path = { leads_to_tech = infantry_at2 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1011
 		folder = { name = infantry_folder position = { x = @infantry_at y = @1011 } }
 
@@ -1721,7 +1721,7 @@ technologies = {
 
 		path = { leads_to_tech = infantry_at2_upgrade_2 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1015
 		folder = { name = infantry_folder position = { x = @infantry_at y = @1015 } }
 
@@ -1741,7 +1741,7 @@ technologies = {
 
 		path = { leads_to_tech = infantry_at_a research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1017
 		folder = { name = infantry_folder position = { x = @infantry_at y = @1017 } }
 
@@ -1761,7 +1761,7 @@ technologies = {
 
 		path = { leads_to_tech = infantry_at_a_upgrade_2 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1021
 		folder = { name = infantry_folder position = { x = @infantry_at y = @1021 } }
 
@@ -1781,7 +1781,7 @@ technologies = {
 
 		path = { leads_to_tech = infantry_at_b research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1023
 		folder = { name = infantry_folder position = { x = @infantry_at y = @1023 } }
 
@@ -1801,7 +1801,7 @@ technologies = {
 
 		path = { leads_to_tech = infantry_at_b_upgrade_2 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1027
 		folder = { name = infantry_folder position = { x = @infantry_at y = @1027 } }
 
@@ -1819,7 +1819,7 @@ technologies = {
 
 		category_all_infantry = { hard_attack = 0.05 ap_attack = 0.05 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1029
 		folder = { name = infantry_folder position = { x = @infantry_at y = @1029 } }
 
@@ -2083,7 +2083,7 @@ technologies = {
 
 		path = { leads_to_tech = infantry_uniform_2 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1007
 		folder = { name = infantry_folder position = { x = @infantry_equipment y = @1007 } }
 
@@ -2104,7 +2104,7 @@ technologies = {
 		path = { leads_to_tech = infantry_uniform_3 research_cost_coeff = 1 }
 		path = { leads_to_tech = pre_night_vision_1 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1011
 		folder = { name = infantry_folder position = { x = @infantry_equipment y = @1011 } }
 
@@ -2130,7 +2130,7 @@ technologies = {
 		path = { leads_to_tech = infantry_uniform_4 research_cost_coeff = 1 }
 		path = { leads_to_tech = night_vision2 research_cost_coeff = 1 }
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1017
 		folder = { name = infantry_folder position = { x = @infantry_equipment y = @1017 } }
 
@@ -2152,7 +2152,7 @@ technologies = {
 		path = { leads_to_tech = infantry_uniform_5 research_cost_coeff = 1 }
 		# path = { leads_to_tech = night_vision3 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1023
 		folder = { name = infantry_folder position = { x = @infantry_equipment y = @1023 } }
 
@@ -2170,7 +2170,7 @@ technologies = {
 
 		army_org_regain = 0.025
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1029
 		folder = { name = infantry_folder position = { x = @infantry_equipment y = @1029 } }
 
@@ -2190,7 +2190,7 @@ technologies = {
 
 		path = { leads_to_tech = pre_night_vision_1 research_cost_coeff = 1.0 }
 
-		research_cost = 1.25
+		research_cost = 1
 		start_year = 1010
 		folder = { name = infantry_folder position = { x = @infantry_nv y = @1010 } }
 
@@ -2210,7 +2210,7 @@ technologies = {
 
 		path = { leads_to_tech = night_vision research_cost_coeff = 1.0 }
 
-		research_cost = 1.25
+		research_cost = 1
 		start_year = 1013
 		folder = { name = infantry_folder position = { x = @infantry_nv y = @1013 } }
 
@@ -2302,7 +2302,7 @@ technologies = {
 		path = { leads_to_tech = motorised_infantry research_cost_coeff = 1 }
 		path = { leads_to_tech = armored_car1 research_cost_coeff = 1 }
 
-		research_cost = 1.5
+		research_cost = 0.5
 		start_year = 989
 		folder = { name = infantry_folder position = { x = @motorized y = @989_but_minus_1 } }
 
@@ -2378,7 +2378,7 @@ technologies = {
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1007
 		folder = { name = infantry_folder position = { x = @motorized y = @1007 } }
 		folder = { name = support_folder position = { x = 0 y = 0 } }
@@ -2406,7 +2406,7 @@ technologies = {
 		enable_equipments = { motorized_rocket_equipment_1 }
 		dependencies = { rocket_artillery = 1 }
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1010
 
 		categories = {
@@ -2507,7 +2507,7 @@ technologies = {
 
 		path = { leads_to_tech = motorised_infantry_2 research_cost_coeff = 1 }
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1011
 		folder = { name = infantry_folder position = { x = @motorized y = @1011 } }
 
@@ -2531,7 +2531,7 @@ technologies = {
 
 		path = { leads_to_tech = motorised_infantry_3 research_cost_coeff = 1 }
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1017
 		folder = { name = infantry_folder position = { x = @motorized y = @1017 } }
 
@@ -2563,7 +2563,7 @@ technologies = {
 
 		path = { leads_to_tech = motorised_infantry_4 research_cost_coeff = 1 }
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1024
 		folder = { name = infantry_folder position = { x = @motorized y = @1024 } }
 
@@ -3740,7 +3740,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 989
 		folder = {
 			name = infantry_folder
@@ -3789,7 +3789,7 @@ technologies = {
 		}
 
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1010
 		folder = {
 			name = infantry_folder
@@ -3832,7 +3832,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1013
 		folder = {
 			name = infantry_folder
@@ -3874,7 +3874,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1018
 		folder = {
 			name = infantry_folder
@@ -3917,7 +3917,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1023
 		folder = {
 			name = infantry_folder
@@ -3949,7 +3949,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1028
 		folder = {
 			name = infantry_folder
@@ -4027,7 +4027,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 995
 		folder = {
 			name = infantry_folder
@@ -4071,7 +4071,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1010
 		folder = {
 			name = infantry_folder
@@ -4105,7 +4105,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1013
 		folder = {
 			name = infantry_folder
@@ -4140,7 +4140,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1018
 		folder = {
 			name = infantry_folder
@@ -4174,7 +4174,7 @@ technologies = {
 			}
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1023
 		folder = {
 			name = infantry_folder
@@ -4197,7 +4197,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1028
 		folder = {
 			name = infantry_folder
@@ -4242,7 +4242,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 1
 		start_year = 1007
 		folder = {
 			name = infantry_folder
@@ -4309,7 +4309,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 1.5
+		research_cost = 1
 		start_year = 1010
 		folder = {
 			name = infantry_folder
@@ -4342,7 +4342,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1013
 		folder = {
 			name = infantry_folder
@@ -4375,7 +4375,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1018
 		folder = {
 			name = infantry_folder
@@ -4408,7 +4408,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1023
 		folder = {
 			name = infantry_folder
@@ -4436,7 +4436,7 @@ technologies = {
 			max_organisation = 5
 		}
 
-		research_cost = 2.0
+		research_cost = 1
 		start_year = 1028
 		folder = {
 			name = infantry_folder

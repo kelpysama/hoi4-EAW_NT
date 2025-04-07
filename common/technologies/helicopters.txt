@@ -1,0 +1,768 @@
+## helicopters.txt
+## Defines helicopter technologies and positions
+## All technologies in this folder are new with the exception of:
+## - attack_helicopter1
+## - sp_helicopter_artillery_observers_tech
+## - sp_helicopter_med_evac_tech
+## - sp_helicopter_transport_pods_tech
+
+technologies = {
+	## Horizontal positions (Y)
+	@1008 = 0
+    @1009 = 3
+	@1011 = 6
+    @1012 = 9
+    @1014 = 12
+    @1018 = 15
+	@1022 = 18
+    @1026 = 21
+    @1030 = 24
+	## Vertical positions (X)
+    @exp_heli = 0
+	@attack_heli = 2
+		@air_assault = 4
+	@transport_heli = 5
+		@transport_heli_company0 = 3
+		@transport_heli_company1 = 7
+	@scout_heli = 9
+		@scout_heli_company = 7
+
+    #region VanillaHelicopters
+    ## Experimental Helicopter
+    helicopter_tech0 = {	#1008 Upgrade
+
+		allow_branch = { has_dlc = "Gotterdammerung" }
+		allow = { ROOT = { is_special_project_completed = sp:sp_air_helicopter } }
+        is_special_project_tech = yes
+
+		category_helicopter_support_companies = {
+			reliability = 0.15
+			maximum_speed = 0.25
+		}
+
+		path = { leads_to_tech = helicopter_tech1 research_cost_coeff = 1 }
+		path = { leads_to_tech = scout_helicopter0 research_cost_coeff = 1 }
+		path = { leads_to_tech = transport_helicopter0 research_cost_coeff = 1 }
+		path = { leads_to_tech = attack_helicopter0 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1008
+		folder = { name = helicopter_air_techs_folder position = { x = @exp_heli y = @1008 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    helicopter_tech1 = {	#1011 Upgrade
+
+		category_helicopter_support_companies = {
+			reliability = 0.15
+			defense = 0.25
+		}
+
+		path = { leads_to_tech = helicopter_tech2 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1011
+		folder = { name = helicopter_air_techs_folder position = { x = @exp_heli y = @1011 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    helicopter_tech2 = {	#1014 Upgrade
+
+		category_helicopter_support_companies = {
+			maximum_speed = 0.25
+			breakthrough = 0.15
+		}
+
+		path = { leads_to_tech = helicopter_tech3 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1014
+		folder = { name = helicopter_air_techs_folder position = { x = @exp_heli y = @1014 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    helicopter_tech3 = {	#1022 Upgrade
+
+		allow = { ROOT = { is_special_project_completed = sp:sp_air_advanced_helicopter } }
+        is_special_project_tech = yes
+
+		category_helicopter_support_companies = {
+			reliability = 0.15
+			breakthrough = 0.15
+		}
+
+		path = { leads_to_tech = helicopter_tech4 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1022
+		folder = { name = helicopter_air_techs_folder position = { x = @exp_heli y = @1022 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    helicopter_tech4 = {	#1030 Upgrade
+
+		category_helicopter_support_companies = {
+			recon = 1
+			breakthrough = 0.15
+		}
+
+		research_cost = 1
+		start_year = 1030
+		folder = { name = helicopter_air_techs_folder position = { x = @exp_heli y = @1030 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    air_assault_company_tech = {	#1026 Company
+
+		dependencies = {
+			transport_helicopter3 = 1
+			attack_helicopter1 = 1
+		}
+
+		enable_subunits = { air_assault_company }
+
+		research_cost = 1
+		start_year = 1026
+		folder = {
+			name = helicopter_air_techs_folder
+			position = { x = @air_assault y = @1026 }
+		}
+
+		categories = {
+			support_tech
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_attack_helicopters_and_modules
+			mio_cat_tech_transport_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+
+    ## Scout Helicopters
+    scout_helicopter0 = {	#1009 Upgrade
+
+		helicopter_recon = {
+			recon = 1
+		}
+		category_helicopter_support_companies = {
+			recon = 1
+		}
+
+		path = { leads_to_tech = scout_helicopter1 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1009
+		folder = { name = helicopter_air_techs_folder position = { x = @scout_heli y = @1009 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_scout_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    scout_helicopter1 = {	#1011 Equipment
+
+		enable_equipments = { scout_helicopter_equipment_1 }
+
+		path = { leads_to_tech = scout_helicopter2 research_cost_coeff = 1 }
+		path = { leads_to_tech = sp_helicopter_artillery_observers_tech research_cost_coeff = 1 }
+
+		research_cost = 2
+		start_year = 1011
+		folder = { name = helicopter_air_techs_folder position = { x = @scout_heli y = @1011 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_scout_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    scout_helicopter2 = {	#1014 Upgrade
+
+		helicopter_recon = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			breakthrough = 0.05
+		}
+
+		path = { leads_to_tech = scout_helicopter3 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1014
+		folder = { name = helicopter_air_techs_folder position = { x = @scout_heli y = @1014 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_scout_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    scout_helicopter3 = {	#1022 Upgrade
+
+		allow = { ROOT = { is_special_project_completed = sp:sp_air_advanced_helicopter } }
+        is_special_project_tech = yes
+
+		helicopter_recon = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			breakthrough = 0.05
+		}
+
+		path = { leads_to_tech = scout_helicopter4 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1022
+		folder = { name = helicopter_air_techs_folder position = { x = @scout_heli y = @1022 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_scout_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    scout_helicopter4 = {	#1030 Upgrade
+
+		helicopter_recon = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			breakthrough = 0.05
+		}
+
+		research_cost = 1
+		start_year = 1030
+		folder = { name = helicopter_air_techs_folder position = { x = @scout_heli y = @1030 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_scout_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+
+    ## Transport Helicopters
+    transport_helicopter0 = {	#1011 Upgrade
+
+		helicopter_field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.05
+
+			battalion_mult = {
+				category = category_all_infantry
+				default_morale = 0.05
+			}
+		}
+
+		helicopter_transport = {
+			supply_consumption_factor = -0.1
+			fuel_consumption_factor = -0.025
+		}
+
+		helicopter_brigade = {
+			supply_consumption_factor = -0.1
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.05
+
+			battalion_mult = {
+				category = category_all_infantry
+				default_morale = 0.05
+			}
+		}
+
+		path = { leads_to_tech = transport_helicopter1 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1011
+		folder = { name = helicopter_air_techs_folder position = { x = @transport_heli y = @1011 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_transport_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    transport_helicopter1 = {	#1012 Equipment
+
+		enable_equipments = { transport_helicopter_equipment_1 }
+
+		path = { leads_to_tech = transport_helicopter2 research_cost_coeff = 1 }
+		path = { leads_to_tech = sp_helicopter_med_evac_tech research_cost_coeff = 1 }
+		path = { leads_to_tech = sp_helicopter_transport_pods_tech research_cost_coeff = 1 }
+
+		research_cost = 2
+		start_year = 1012
+		folder = { name = helicopter_air_techs_folder position = { x = @transport_heli y = @1012 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_transport_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    transport_helicopter2 = {	#1018 Upgrade
+
+		helicopter_field_hospital = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		helicopter_transport = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		air_assault_company = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = { leads_to_tech = transport_helicopter3 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1018
+		folder = { name = helicopter_air_techs_folder position = { x = @transport_heli y = @1018 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_transport_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    transport_helicopter3 = {	#1022 Upgrade
+
+		allow = { ROOT = { is_special_project_completed = sp:sp_air_advanced_helicopter } }
+        is_special_project_tech = yes
+
+		helicopter_field_hospital = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		helicopter_transport = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		air_assault_company = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		path = { leads_to_tech = transport_helicopter4 research_cost_coeff = 1 }
+		path = { leads_to_tech = air_assault_company_tech research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1022
+		folder = { name = helicopter_air_techs_folder position = { x = @transport_heli y = @1022 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_transport_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    transport_helicopter4 = {	#1030 Upgrade
+
+		helicopter_field_hospital = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		helicopter_transport = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+		air_assault_company = {
+			defense = 0.05
+			breakthrough = 0.05
+		}
+
+		research_cost = 1
+		start_year = 1030
+		folder = { name = helicopter_air_techs_folder position = { x = @transport_heli y = @1030 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_transport_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+
+    ## Attack Helicopters
+    attack_helicopter0 = {	#1018 Upgrade
+
+		category_helicopter_support_companies = {
+			soft_attack = 0.2
+			hard_attack = 0.2
+			breakthrough = 0.1
+		}
+
+		path = { leads_to_tech = attack_helicopter1 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1018
+		folder = { name = helicopter_air_techs_folder position = { x = @attack_heli y = @1018 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_attack_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    attack_helicopter1 = {	#1022 Equipment
+
+		allow = { ROOT = { is_special_project_completed = sp:sp_air_advanced_helicopter } }
+        is_special_project_tech = yes
+
+		enable_equipments = { attack_helicopter_equipment_1 }
+		enable_subunits = { attack_helicopter_company }
+
+		path = { leads_to_tech = attack_helicopter2 research_cost_coeff = 1 }
+		path = { leads_to_tech = air_assault_company_tech research_cost_coeff = 1 }
+
+		research_cost = 2
+		start_year = 1022
+		folder = { name = helicopter_air_techs_folder position = { x = @attack_heli y = @1022 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_attack_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+	}
+    attack_helicopter2 = {	#1026 Upgrade
+
+		attack_helicopter_company = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			breakthrough = 0.05
+		}
+		air_assault_company = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		path = { leads_to_tech = attack_helicopter3 research_cost_coeff = 1 }
+
+		research_cost = 1
+		start_year = 1026
+		folder = { name = helicopter_air_techs_folder position = { x = @attack_heli y = @1026 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_attack_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+    attack_helicopter3 = {	#1030 Upgrade
+
+		attack_helicopter_company = {
+			soft_attack = 0.1
+			hard_attack = 0.1
+			breakthrough = 0.05
+		}
+		air_assault_company = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
+
+		research_cost = 1
+		start_year = 1030
+		folder = { name = helicopter_air_techs_folder position = { x = @attack_heli y = @1030 } }
+
+		categories = {
+			helicopter_tech
+			mio_cat_tech_all_helicopters_and_modules
+			mio_cat_tech_attack_helicopters_and_modules
+		}
+		special_project_specialization = { specialization_air }
+
+		ai_will_do = {
+			factor = 1
+			modifier = { factor = 2 num_of_military_factories > 39 }
+			modifier = { factor = 2 num_of_military_factories > 79 }
+			modifier = { factor = 2 is_major = yes }
+		}
+    }
+
+	## Special Projects
+	sp_helicopter_artillery_observers_tech = {
+
+		enable_subunits = {
+			helicopter_recon
+		}
+
+		research_cost = 0.5
+		start_year = 1011
+		folder = { name = helicopter_air_techs_folder position = { x = @scout_heli_company y = @1011 } }
+
+		categories = {
+			support_tech
+			recon_tech
+			helicopter_tech
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 2
+				date > "1010.1.1"
+			}
+
+			modifier = {
+				factor = 4
+				date > "1011.1.1"
+			}
+		}
+	}
+	sp_helicopter_med_evac_tech = {
+
+		enable_subunits = {
+			helicopter_field_hospital
+		}
+
+		research_cost = 0.5
+		start_year = 1012
+		folder = {
+			name = helicopter_air_techs_folder
+			position = { x = @transport_heli_company0 y = @1012 }
+		}
+
+		categories = {
+			support_tech
+			hospital_tech
+			helicopter_tech
+		}
+
+		ai_will_do = {
+			base = 1.1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 1.5
+				date > "1009.1.1"
+			}
+
+			modifier = {
+				factor = 1.5
+				date > "1011.1.1"
+			}
+
+			modifier = {
+				factor = 1.5
+				date > "1015.1.1"
+			}
+		}
+	}
+	sp_helicopter_transport_pods_tech = {
+
+		enable_subunits = {
+			helicopter_transport
+		}
+
+		research_cost = 0.5
+		start_year = 1012
+		folder = {
+			name = helicopter_air_techs_folder
+			position = { x = @transport_heli_company1 y = @1012 }
+		}
+
+		categories = {
+			support_tech
+			logistics_tech
+			helicopter_tech
+		}
+
+		ai_will_do = {
+			base = 2
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 3
+				date > "1015.1.1"
+			}
+		}
+	}
+
+
+    #region BBAHelicopters
+    ## Light Helicopter Chassis
+
+    ## Medium Helicopter Chassis
+
+    ## Heavy Helicopter Chassis
+}

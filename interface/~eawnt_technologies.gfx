@@ -773,6 +773,153 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/air_techs_folder/bba_tech_aircraft_construction.dds"
 	}
 
+	#region HelicopterFolder
+	## SUBUNIT/TEXT ICONS
+	spriteType = {
+		name = "GFX_unit_attack_helicopter_company_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_attack_heli_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_attack_helicopter_company_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_attack_heli_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_attack_helicopter_company_icon_small"
+		texturefile = "gfx/texticons/unit_attack_heli_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_attack_helicopter_company_icon_small"
+		texturefile = "gfx/texticons/nato_unit_attack_heli_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_air_assault_company_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/unit_air_assault_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_air_assault_company_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_air_assault_icon.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_air_assault_company_icon_small"
+		texturefile = "gfx/texticons/unit_air_assault_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_air_assault_company_icon_small"
+		texturefile = "gfx/texticons/nato_unit_air_assault_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	## ARCHETYPE
+	SpriteType = {
+		name = "GFX_archetype_attack_helicopter_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_attack_helicopter_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_archetype_scout_helicopter_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_scout_helicopter_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_archetype_transport_helicopter_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_transport_helicopter_equipment.dds"
+	}
+	## GENERIC EQUIPMENT
+	SpriteType = {
+		name = "GFX_scout_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_scout_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_transport_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_trans_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/generic_attack_heli_0.dds"
+	}
+
+	## TECHNOLOGIES
+	# Experimental Heli Upgrades
+	SpriteType = {
+		name = "GFX_helicopter_tech0_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/exp_heli_up0.dds"
+	}
+	SpriteType = {
+		name = "GFX_helicopter_tech1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/exp_heli_up1.dds"
+	}
+	SpriteType = {
+		name = "GFX_helicopter_tech2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/exp_heli_up2.dds"
+	}
+	SpriteType = {
+		name = "GFX_helicopter_tech3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/exp_heli_up3.dds"
+	}
+	SpriteType = {
+		name = "GFX_helicopter_tech4_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_radar.dds"
+	}
+	# Air Assault
+	SpriteType = {
+		name = "GFX_air_assault_company_tech_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_air_assault_company.dds"
+	}
+	# Scout Helicopter
+	SpriteType = {
+		name = "GFX_scout_helicopter0_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_radio.dds"
+	}
+	SpriteType = {
+		name = "GFX_scout_helicopter2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_scout_up0.dds"
+	}
+	SpriteType = {
+		name = "GFX_scout_helicopter3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_scout_up1.dds"
+	}
+	SpriteType = {
+		name = "GFX_scout_helicopter4_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_scout_up2.dds"
+	}
+	# Transport Helicopter
+	SpriteType = {
+		name = "GFX_transport_helicopter0_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_structural.dds"
+	}
+	SpriteType = {
+		name = "GFX_transport_helicopter2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_trans_up0.dds"
+	}
+	SpriteType = {
+		name = "GFX_transport_helicopter3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_trans_up1.dds"
+	}
+	SpriteType = {
+		name = "GFX_transport_helicopter4_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_trans_up2.dds"
+	}
+	# Attack Helicopter
+	SpriteType = {
+		name = "GFX_attack_helicopter0_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_hardpoints.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_helicopter2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_attack_up0.dds"
+	}
+	SpriteType = {
+		name = "GFX_attack_helicopter3_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/heli_attack_up1.dds"
+	}
 
 
     #region ElectronicsFolder

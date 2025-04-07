@@ -66,6 +66,13 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
+	#region TechFolderTab
+	spriteType = {	#Helicopter Tab
+		name = "GFX_helicopter_air_techs_folder_tab"
+		textureFile = "gfx/interface/techtree/techtree_helicopter_air_tab.dds"
+		noOfFrames = 2
+	}
+
     #region ResearchItemIcon
 	spriteType = {
 		name = "GFX_vertical_branch_xor"
@@ -139,6 +146,10 @@ spriteTypes = {
 		name = "GFX_aircraft_folder_background2"
 		texturefile = "gfx/interface/techtree/aircraft_folder2.dds"
 	}
+	spriteType = {
+		name = "GFX_helicopter_background0"
+		texturefile = "gfx/interface/techtree/helicopter_folder0.dds"
+	}
 
     #region ElectronicsFolderBackground
 	spriteType = {
@@ -180,6 +191,116 @@ spriteTypes = {
 	spriteType = { name = "GFX_racial_folder_zebra_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_bg.dds" }
 	spriteType = { name = "GFX_racial_folder_zebra_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_bg1.dds" }
 	spriteType = { name = "GFX_racial_folder_zebra_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_zebra_ico.dds" }
+
+	#region Helicopter Folder
+	## Ledger Icon
+	spriteType = {
+		name = "GFX_helicopter_air_techs_folder_icon"
+		textureFile = "gfx/interface/techtree/helicopter_folder_icon.dds"
+	}
+	## Normal Containers
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_small_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_small_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_small_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_small_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_small_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_medium_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_medium_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_medium_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_medium_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_medium_research_anim.dds"
+		noOfFrames = 10
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## SP Containers
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//containers//techspec_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//containers//techspec_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//containers//techspec_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//containers//techspec_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_available_item_bg"
+		textureFile = "gfx//interface//techtree//containers//techspec_container_medium_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//containers//techspec_container_medium_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_researched_item_bg"
+		textureFile = "gfx//interface//techtree//containers//techspec_container_medium_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_helicopter_air_techs_folder_special_project_currently_researching_item_bg"
+		texturefile = "gfx//interface//techtree//containers//techspec_container_medium_research_anim.dds"
+		noOfFrames = 10
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+
 
 	#region Racial Folders
 	## Pony

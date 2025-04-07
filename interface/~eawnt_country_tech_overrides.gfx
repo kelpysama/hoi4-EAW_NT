@@ -4,6 +4,75 @@
 spriteTypes = {
     ## 🤓 <(technology stuff)
 
+	#region Helicopters
+	## Changeling Lands
+	SpriteType = {
+		name = "GFX_CHN_attack_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/CHN_attack_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHN_attack_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/CHN_attack_heli_0.dds"
+	}
+
+	## Lunar Empire
+	SpriteType = {
+		name = "GFX_NLR_scout_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/NLR_scout_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_scout_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/NLR_scout_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_transport_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/NLR_trans_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_transport_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/NLR_trans_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_attack_helicopter1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/NLR_attack_heli_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_NLR_attack_helicopter_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/helicopters/NLR_attack_heli_0.dds"
+	}
+
+
+	#region Airships
+	## Changeling Lands
+	SpriteType = {
+		name = "GFX_CHN_mothership_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/motherships/changeling_mothership_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_CHN_modern_airship_airframes_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/motherships/changeling_mothership_2.dds"
+	}
+
+	## Asterion
+	SpriteType = {
+		name = "GFX_MIT_mothership_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/motherships/minotaur_mothership_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_MIT_modern_airship_airframes_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/motherships/minotaur_mothership_2.dds"
+	}
+
+	## Kiria
+	SpriteType = {
+		name = "GFX_KIR_mothership_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/motherships/kirin_mothership_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_KIR_modern_airship_airframes_medium"
+		texturefile = "gfx/interface/technologies/air_techs_folder/motherships/kirin_mothership_2.dds"
+	}
+
 	#region TransportPlanes
 	## Generic
 	SpriteType = {

@@ -170,6 +170,18 @@ If you have any questions on sources, either comment it on the steam workshop pa
 
 
 ##### 3.6 AIR FOLDER
+- Technologies
+	- Scout Helicopter Icons
+		- "SNCASE SE.3130 Alouette II" (https://skfb.ly/6ZFRB) by helijah is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+	- Transport Helicopter Icons
+		- "Sikorsky S-64 Skycrane" (https://skfb.ly/6XJXt) by helijah is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+	- Attack Helicopter Icons
+		- "AH-64 Apache" (https://skfb.ly/QCCC) by Araon is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+	- Heavy Helicopter Hardpoints
+		- Arnold Defense M261 Lightweight Launcher: https://www.arnolddefense.com/product/m26/
+	- Modular Cargo Bays
+		- Malaysian Institute of Aviation Technology Powerpoint on Helicopter Structure, by Bai Haqi: https://www.slideshare.net/slideshow/1-week-1-helicopter-structure/35084754
+	-
 - Generic Aircraft
 	- Modern Transport
 		- UNKNOWN SOURCE, C141 “Starlifter”: http://www.vf-air.com/Actu16.htm
@@ -180,6 +192,17 @@ If you have any questions on sources, either comment it on the steam workshop pa
 	- Other Airships
 		- Taken from the anime "Last Exile"
 		- https://characterdesignreferences.com/art-of-animation-8/art-of-last-exile
+	- Transport Helicopter
+		- "Sikorsky CH-37 Mojave" (https://skfb.ly/oopHN) by helijah is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+	- Attack Helicopter
+		- UNKNOWN SOURCE. Bell AH-1 “Cobra”: https://www.zona-militar.com/foros/threads/bell-ah-1-cobra.9202/page-10
+- Lunar Empire Aircraft
+	- Attack Helicopter
+		- UNKNOWN SOURCE. Atlas XH-1 Alpha, https://www.pinterest.com/pin/724446290072611751/
+	- Transport Helicopter
+		- Westland WS-51 Dragonfly by Olivier Beernaert: https://alchetron.com/Westland-WS-51-Dragonfly
+	- Scout Helicopter
+		- UNKNOWN SOURCE (BALOUS(?)). Sikorsky R-6 “Hoverfly II”: http://www.airwar.ru/enc/uh/r6.html
 ##### 3.7 ELECTRONICS FOLDER
 
 
@@ -219,6 +242,8 @@ If you have any questions on sources, either comment it on the steam workshop pa
 ##### 4.6 AIR FOLDER
 - Sabre Formation
 	- By Unknown author or not provided - U.S. National Archives and Records Administration, Public Domain, https://commons.wikimedia.org/w/index.php?curid=16524741
+- Helicopter Folder BG 0 (Changeling Vietnam)
+	- By RichMay, https://derpibooru.org/images/2068681
 
 ##### 4.7 ELECTRONICS FOLDER
 - Hiroshima Ruins
@@ -232,7 +257,7 @@ If you have any questions on sources, either comment it on the steam workshop pa
 - Undead Race BG
 	- By artguydis, https://derpibooru.org/images/2130240
 - Changeling Race BG
-	- By richmay, https://derpibooru.org/images/2416349
+	- By RichMay, https://derpibooru.org/images/2416349
 - Yak Race BG
 	- By Scott Wylie - Own work, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=158422320
 - Kirin Race BG

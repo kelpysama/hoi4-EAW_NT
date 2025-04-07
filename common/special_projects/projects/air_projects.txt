@@ -1887,7 +1887,10 @@ sp_air_helicopter = {
 				localization_key = SP_UNLOCK_TECH
 				TECH = sp_helicopter_med_evac_tech
 			}
-
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = helicopter_tech0
+			}
 		}
 
 		enable_equipments = {
@@ -2043,6 +2046,22 @@ sp_air_advanced_helicopter = {
 		country_effects = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
+				TECH = helicopter_tech3
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = scout_helicopter3
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = air_assault_company_tech
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
+				TECH = transport_helicopter3
+			}
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_TECH
 				TECH = attack_helicopter1
 			}
 			if = {
@@ -2054,10 +2073,6 @@ sp_air_advanced_helicopter = {
 					TECH = anti_sub_helicopter
 				}
 			}
-		}
-
-		enable_equipments = {
-			helicopter_equipment_2
 		}
 	}
 

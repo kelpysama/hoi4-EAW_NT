@@ -163,20 +163,16 @@ l_english:
     SUPPORT_TITLE_TRAINS_TT:0 "Large machines capable of traversing our vast railway networks."
 
   ## HELICOPTERS ##
-  scout_helicopter_equipment_1:0 "1017 Scout Helicopter"
-    scout_helicopter_equipment_1_short:0 "1017 Scout Heli"
+  helicopter_equipment_1:0 "1008 Helicopter"
+    helicopter_equipment_1_short:0 "1008 Heli"
+  scout_helicopter_equipment_1:0 "1011 Scout Helicopter"
+    scout_helicopter_equipment_1_short:0 "1011 Scout Heli"
     scout_helicopter_equipment_1_desc:0 "Traditional aerial observation was either conducted by flight-capable troops or through the use of costly planes and vulnerable blimps. The first helicopters developed were found to be more effective than earlier methods, and were quickly adopted for divisional reconnaissance."
-  scout_helicopter_equipment_2:0 "1025 Scout Helicopter"
-    scout_helicopter_equipment_2_short:0 "1025 Scout Heli"
-    scout_helicopter_equipment_2_desc:0 "Lighter-weight composite materials and new turbofan engines have led to the development of hyper-agile scout helicopters with integrated RADAR systems for maximized reconnaissance and minimized visibility."
-  transport_helicopter_equipment_1:0 "1018 Transport Helicopter"
-    transport_helicopter_equipment_1_short:0 "1018 Transport Heli"
+  transport_helicopter_equipment_1:0 "1012 Transport Helicopter"
+    transport_helicopter_equipment_1_short:0 "1012 Transport Heli"
     transport_helicopter_equipment_1_desc:0 "Upsizing early helicopter models and introducing internal storage space would lead to the development of helicopters dedicated to the transportation of soldiers and supplies."
-  transport_helicopter_equipment_2:0 "1025 Transport Helicopter"
-    transport_helicopter_equipment_2_short:0 "1025 Transport Heli"
-    transport_helicopter_equipment_2_desc:0 "Powerful turbofan engines enable larger designs with more space for soldiers and cargo. Along with this, more armor and dedicated weapon hardpoints can be added to improve survivability and allow transport helicopters to provide limited fire support for landed troops."
-  attack_helicopter_equipment_1:0 "1021 Attack Helicopter"
-    attack_helicopter_equipment_1_short:0 "1021 Attack Heli"
+  attack_helicopter_equipment_1:0 "1022 Attack Helicopter"
+    attack_helicopter_equipment_1_short:0 "1022 Attack Heli"
     attack_helicopter_equipment_1_desc:0 "A purpose-built attack helicopter developed after experiments with armed scout and transport helicopter models proved successful. These machines bring the firepower of close-air-support aircraft to individual divisions."
 
   ## TRAINS ##

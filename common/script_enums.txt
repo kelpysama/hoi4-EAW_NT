@@ -725,11 +725,11 @@ script_enum_equipment_bonus_type = {
 	guided_missile_equipment_5
 	attack_helicopter_equipment
 	attack_helicopter_equipment_1
-	# transport_helicopter_equipment
-	# transport_helicopter_equipment_1
+	transport_helicopter_equipment
+	transport_helicopter_equipment_1
 	# transport_helicopter_equipment_2
-	# scout_helicopter_equipment
-	# scout_helicopter_equipment_1
+	scout_helicopter_equipment
+	scout_helicopter_equipment_1
 	# scout_helicopter_equipment_2
 	melee_equipment_0
 	melee_equipment_1
