@@ -2862,7 +2862,7 @@ technologies = {
 		start_year = 1020
 		folder = {
 			name = electronics_folder
-			position = { x = @rocketry_1 y = @rockets_1020 }
+			position = { x = @rocketry_1 y = @1020 }
 		}
 
 		categories = {
