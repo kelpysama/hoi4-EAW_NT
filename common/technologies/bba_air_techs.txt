@@ -2362,6 +2362,12 @@ technologies = {
 		is_special_project_tech = yes
 
 		air_attack_factor = 0.1
+		attack_helicopter_company = {
+			air_attack = 2.0
+		}
+		air_assault_company = {
+			air_attack = 2.0
+		}
 
 		research_cost = 1.5
 		start_year = 1022
