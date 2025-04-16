@@ -6520,7 +6520,7 @@ guiTypes = {
 
 		}
 		# DIAMOND DOG FOLDER #
-		containerWindowType = {
+		containerWindowType = { #MODIFIED
 			name = "diamond_dog_folder"
 			position = { x=0 y=47 }
 			size = { width = 100%% height = 100%% }
@@ -6535,33 +6535,65 @@ guiTypes = {
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
 
+			## Main Background
 			containerWindowType = {
 				name = "techtree_stripes"
-				position = { x= 0 y= 0 }
+				position = { x= 195 y= 0 }
 				size = {
-					width = 2800 height = 1100
+					width = 900 height = 800
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
 
+				## Stripes
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
+				## Main Background
 				iconType = {
 					name ="diamond_dog_techtree_bg"
 					spriteType = "GFX_diamond_dog_techtree_bg"
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 800
+					min = { height = 100%% }
+				}
+				clipping = no
 
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_diamond_dog_bg_stripe"
+					spriteType = "GFX_racial_folder_diamond_dog_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_diamond_dog_icon"
+					spriteType = "GFX_racial_folder_diamond_dog_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "diamond_dog_race_trait_desc"
+				}
 			}
 
+			## Ironpaws
 			instantTextBoxType = {
 				name = "diamond_dog_ironpaws_subtitle"
-				position = { x = 100 y = 108 }
-				font = "hoi_33"
+				position = { x = 240 y = 50 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_DIAMOND_DOGS_IRONPAWS_SUBTITLE"
 				maxWidth = 600
@@ -6569,11 +6601,18 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
+			gridboxtype = {
+				name = "tech_ironpaws_tree"
+				position = { x = 240 y = 200 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			## Mining & Industry
 			instantTextBoxType = {
 				name = "diamond_dog_industry_subtitle"
-				position = { x = 100 y = 388 }
-				font = "hoi_33"
+				position = { x = 240 y = 330 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_DIAMOND_DOG_INDUSTRY_SUBTITLE"
 				maxWidth = 600
@@ -6581,11 +6620,18 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
+			gridboxtype = {
+				name = "tech_diamond_dog_misc_tree"
+				position = { x = 240 y = 200 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+			## Army
 			instantTextBoxType = {
 				name = "diamond_dog_army_subtitle"
-				position = { x = 100 y = 668 }
-				font = "hoi_33"
+				position = { x = 240 y = 610 }
+				font = "dacik_push_36_opaque"
 				borderSize = {x = 0 y = 4}
 				text = "TITLE_DIAMOND_DOG_ARMY_SUBTITLE"
 				maxWidth = 600
@@ -6593,26 +6639,9 @@ guiTypes = {
 				format = left
 				Orientation = "UPPER_LEFT"
 			}
-
-			gridboxtype = {
-				name = "tech_diamond_dog_misc_tree"
-				position = { x = 270 y = 200 }
-				#size = { width = 420 height = 500 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "tech_ironpaws_tree"
-				position = { x = 270 y = 200 }
-				#size = { width = 420 height = 500 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
 			gridboxtype = {
 				name = "tech_diamond_dog_army_tree"
-				position = { x = 270 y = 60 }
+				position = { x = 240 y = 60 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -7381,6 +7410,152 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 			}
 		}
+		# CAT FOLDER #
+		containerWindowType = { #MODIFIED
+			name = "cat_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			## Main Background
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 195 y= 0 }
+				size = {
+					width = 900 height = 800
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				## Stripes
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripes"
+				}
+				## Main Background
+				iconType = {
+					name ="cat_techtree_bg"
+					spriteType = "GFX_cat_techtree_bg"
+					position = { x=0 y=0 }
+					alwaystransparent = yes
+				}
+			}
+			## Racial Stripe
+			containerWindowType = {
+				name = "racial_stripe_bg"
+				position = { x = 0 y = 0 }
+				size = {
+					width = 199 height = 800
+					min = { height = 100%% }
+				}
+				clipping = no
+
+				## Single Stripe
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_techtree_stripe_vertical_small"
+				}
+				## Race Stripe BG
+				iconType = {
+					name = "racial_folder_cat_bg_stripe"
+					spriteType = "GFX_racial_folder_cat_bg"
+					position = { x = 0 y = 0 }
+					alwaystransparent = yes
+				}
+				## Race Icon
+				iconType = {
+					name = "racial_folder_cat_icon"
+					spriteType = "GFX_racial_folder_cat_icon"
+					position = { x = 65 y = 340 }
+					pdx_tooltip = "cat_race_trait_desc"
+				}
+			}
+
+			## Biology
+			instantTextBoxType = {
+				name = "tech_cat_biology_subtitle"
+				position = { x = 300 y = 50 }
+				font = "dacik_push_36_opaque"
+				borderSize = {x = 0 y = 4}
+				text = "TITLE_CAT_BIOLOGY_SUBTITLE"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+			gridboxtype = {
+				name = "tech_cat_biology1_tree"
+				position = { x = 380 y = 170 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			## Highlanders
+			instantTextBoxType = {
+				name = "tech_cat_highlander_subtitle"
+				position = { x = 570 y = 50 }
+				font = "dacik_push_36_opaque"
+				borderSize = {x = 0 y = 4}
+				text = "TITLE_CAT_HIGHLANDERS_SUBTITLE"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+			gridboxtype = {
+				name = "tech_cat_highlanders1_tree"
+				position = { x = 420 y = 170 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			## Culture
+			instantTextBoxType = {
+				name = "tech_cat_culture_subtitle"
+				position = { x = 930 y = 50 }
+				font = "dacik_push_36_opaque"
+				borderSize = {x = 0 y = 4}
+				text = "TITLE_CAT_CULTURE_SUBTITLE"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+			gridboxtype = {
+				name = "tech_cat_culture1_tree"
+				position = { x = 460 y = 170 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			## Navy
+			instantTextBoxType = {
+				name = "tech_cat_navy_subtitle"
+				position = { x = 1290 y = 50 }
+				font = "dacik_push_36_opaque"
+				borderSize = {x = 0 y = 4}
+				text = "TITLE_CAT_NAVY_SUBTITLE"
+				maxWidth = 600
+				maxHeight = 62
+				format = left
+				Orientation = "UPPER_LEFT"
+			}
+			gridboxtype = {
+				name = "tech_cat_navy1_tree"
+				position = { x = 500 y = 170 }
+				#size = { width = 420 height = 500 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+		}
 
 		# UNDEAD FOLDER #
 		# containerWindowType = {	#MODIFIED
@@ -7678,6 +7853,14 @@ guiTypes = {
 				position = { x = 1105 y = 0 }
 				name = "hippogriff_folder_tab"
 				quadTextureSprite = "GFX_hippogriff_folder_tab"
+				frame = 1
+				clicksound = magic_sound_ev
+			}
+			# Cat
+			buttonType = {
+				position = { x = 1105 y = 0 }
+				name = "cat_folder_tab"
+				quadTextureSprite = "GFX_cat_folder_tab" # TO FIX
 				frame = 1
 				clicksound = magic_sound_ev
 			}
@@ -9987,6 +10170,50 @@ guiTypes = {
 	}
 	containerWindowType = {	#Hippogriff
 		name = "techtree_hippogriff_folder_item"
+		position = { x=0 y=5 }
+		size = { width = 72 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+		gridboxtype = {
+			# contains special_project_specialization
+			name = "special_project_specialization_list"
+		}
+		iconType = {
+			name = "Icon"
+			position = { x=34 y=35 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "bonus_icon"
+			position = { x=-4 y=-19 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = -1 y = -19 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 80
+			maxHeight = 20
+			format = center
+		}
+		iconType = {
+			name = "can_assign_design_team_icon"
+			position = { x=0 y=42 }
+			spriteType = "GFX_design_team_icon"
+		}
+	}
+	containerWindowType = { #Cat
+		name = "techtree_cat_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 72 height = 72 }
 		clipping = no

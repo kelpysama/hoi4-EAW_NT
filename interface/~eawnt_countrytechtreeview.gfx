@@ -164,9 +164,13 @@ spriteTypes = {
 	}
 
 	#region Racial
+	spriteType = { name = "GFX_racial_folder_cat_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_cat_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_cat_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_cat_ico.dds" }
 	spriteType = { name = "GFX_racial_folder_changeling_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_changeling_bg.dds" }
 	spriteType = { name = "GFX_racial_folder_changeling_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_changeling_bg1.dds" }
 	spriteType = { name = "GFX_racial_folder_changeling_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_changeling_ico.dds" }
+	spriteType = { name = "GFX_racial_folder_diamond_dog_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_diamond_dog_bg.dds" }
+	spriteType = { name = "GFX_racial_folder_diamond_dog_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_diamond_dog_ico.dds" }
 	spriteType = { name = "GFX_racial_folder_griffon_bg" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_griffon_bg.dds" }
 	spriteType = { name = "GFX_racial_folder_griffon_bg1" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_griffon_bg1.dds" }
 	spriteType = { name = "GFX_racial_folder_griffon_icon" texturefile = "gfx/interface/techtree/racial_folder/racial_folder_griffon_ico.dds" }
@@ -518,6 +522,34 @@ spriteTypes = {
 	}
 	frameAnimatedSpriteType = {
 		name = "GFX_technology_hippogriff_folder_currently_researching_item_bg"
+		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
+		noOfFrames = 8
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 20
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	## Cat
+	spriteType = {
+		name = "GFX_technology_cat_folder_unavailable_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_unavailable.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_cat_folder_branch_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_excluded.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_cat_folder_available_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_available.dds"
+	}
+	spriteType = {
+		name = "GFX_technology_cat_folder_researched_item_bg"
+		textureFile = "gfx/interface/techtree/containers/tech_container_small_researched.dds"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_cat_folder_currently_researching_item_bg"
 		texturefile = "gfx/interface/techtree/containers/tech_container_small_research_anim.dds"
 		noOfFrames = 8
 		loadType = "INGAME"
