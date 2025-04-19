@@ -1958,7 +1958,7 @@ technologies = {
 		}
 		doctrine = yes
 
-		air_cas_efficiency = 2.05
+		air_cas_efficiency = 0.10
 		air_strategic_bomber_bombing_factor = 0.05
 
 		path = {
@@ -1991,7 +1991,7 @@ technologies = {
 		doctrine_name = "TACTICAL_FOCUS_LABEL"
 
 		# EFFECT ########
-		air_cas_efficiency = 2.2
+		air_cas_efficiency = 0.20
 		###########
 		allow = {
 			ROOT = {
@@ -2231,8 +2231,8 @@ technologies = {
 	ample_spectrum_ops = {
 
 		# EFFECT ########
-		air_cas_efficiency = 2.1
-		air_nav_efficiency = 2.1
+		air_cas_efficiency = 0.1
+		air_nav_efficiency = 0.1
 		###########
 
 		path = {
@@ -2428,7 +2428,7 @@ technologies = {
 
 		# EFFECT ########
 
-		air_nav_efficiency = 2.1
+		air_nav_efficiency = 0.1
 
 		###########
 
