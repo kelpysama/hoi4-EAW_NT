@@ -27,8 +27,7 @@ technologies = {
 	@scout_heli = 9
 		@scout_heli_company = 7
 
-    #region VanillaHelicopters
-    ## Experimental Helicopter
+    ## Multirole Helicopters
     helicopter_tech0 = {	#1008 Upgrade
 
 		allow_branch = { has_dlc = "Gotterdammerung" }
@@ -754,12 +753,4 @@ technologies = {
 			}
 		}
 	}
-
-
-    #region BBAHelicopters
-    ## Light Helicopter Chassis
-
-    ## Medium Helicopter Chassis
-
-    ## Heavy Helicopter Chassis
 }

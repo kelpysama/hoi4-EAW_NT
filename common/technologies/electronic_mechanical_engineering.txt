@@ -720,6 +720,42 @@ technologies = {
 
 
 	#region Radar
+	radio_detection = { #Unused, remains here for compatibility
+		allow = {
+			ROOT = {
+			   is_special_project_completed = sp:sp_air_radar
+		   }
+	   }
+
+		enable_building = {
+			building = radar_station
+			level = 1
+		}
+		coordination_bonus = 0.01
+		path = {
+			leads_to_tech = cavity_magnatron
+			research_cost_coeff = 1
+		}
+		#enable_equipment_modules = {
+		#	ship_radar_1
+		#	radio_navigation_1
+		#}
+		research_cost = 1.75
+
+		#folder = {
+		#	name = electronics_folder
+		#	position = { x = @radar y = 2 }
+		#}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		categories = {
+			electronics
+			radar_tech
+		}
+	}
 	cavity_magnatron = { #was decimetric radar
 
 		# can build radars/radar boost in air/sea combat depends on radar level

@@ -3264,7 +3264,6 @@ technologies = {
 			battalion_mult = {
 				category = category_all_armor
 				breakthrough = 0.01
-				add = yes
 			}
 		}
 
@@ -3322,7 +3321,6 @@ technologies = {
 			battalion_mult = {
 				category = category_all_armor
 				breakthrough = 0.01
-				add = yes
 			}
 		}
 

@@ -3,7 +3,7 @@
 
 equipments = {
 
-	#region Experimental
+	#region Multirole
 	helicopter_equipment = {
 		year = 1007
 
@@ -49,6 +49,12 @@ equipments = {
 
 		archetype = helicopter_equipment
 		priority = 15
+	}
+	helicopter_equipment_1_vanilla = {
+		year = 1007
+
+		archetype = helicopter_equipment
+		priority = 20
 	}
 	helicopter_equipment_2 = {
 		year = 1022
